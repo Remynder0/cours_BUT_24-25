@@ -10,9 +10,8 @@ Liste de courses
   * Lait
   * Fromage
 
-```
-[Info](#){.btn .btn-info}
-```
+
+Texte normal suivi d’un [color=#26B260]texte coloré en vert[/color] dans un paragraphe.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1ODY2NDc2MF19
+eyJoaXN0b3J5IjpbLTE4MjE1MTc5ODNdfQ==
 -->
