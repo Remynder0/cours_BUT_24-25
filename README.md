@@ -1,6 +1,18 @@
-# cours_BUT_24-25TD
--list
-     -item
+# TD
+
+Liste de courses
+----------
+* Fruits
+  * Pommes
+  * Oranges
+  * Raisins
+* Produits laitiers
+  * Lait
+  * Fromage
+
+```
+[Info](#){.btn .btn-info}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzk4NDAxMTNdfQ==
+eyJoaXN0b3J5IjpbLTI1ODY2NDc2MF19
 -->
