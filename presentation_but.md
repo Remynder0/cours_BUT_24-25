@@ -1,10 +1,10 @@
 # Merise
 
-|       |Nom                   |   Type   | Format    |
-|-------|----------------------|----------|-----------|
-|1      |Numéro réservation    | N        |
-|2      |   date               | date     |
-|3      |numéro client         |     |
+|       |Nom                   |  Type  | Format      |
+|-------|----------------------|--------|-------------|
+|1      |Numéro réservation    |   N    | 10          |
+|2      |   date               |  date  |XX/mois/XXXX |
+|3      |numéro client         |    N   |             |
 |4      |||
 |5      |||
 |6      |||
@@ -18,5 +18,5 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MTM2MDgyMSwtMzg5NDQ2MzI3XX0=
+eyJoaXN0b3J5IjpbMTQxNjE5ODYsLTM4OTQ0NjMyN119
 -->
