@@ -8,6 +8,7 @@
 ## Architecture PC (R1.03)
 
 ### CM 2 [10/09/24]
+
 ##### addition base 2
 - logique de retenue : 1 -> 10 -> 11 -> 100 -> ...
 - 
@@ -36,7 +37,7 @@
 - [TP1](./R1.11/TP1.odt)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Nzg2MTM4NSw1NTM3NTgxMTEsLTIxMz
+eyJoaXN0b3J5IjpbLTU0NDQ1MDMzMSw1NTM3NTgxMTEsLTIxMz
 I0NzE3NjIsLTE1MjY2MTY5MjEsMTgyNjE1NzcxMCwxNTgzMjc3
 Nzg2LDE2MjI5MzMwMzYsLTE2NzI5MTEzNzQsMTcyMzU3MTk4NC
 wtNzc1OTM2OTg0LC0zOTY1OTcwNTQsLTE0OTQ5NTAzOTIsMzEy
