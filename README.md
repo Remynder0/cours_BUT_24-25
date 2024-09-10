@@ -7,7 +7,7 @@
 
 ### TD 1 [05/09/24]
 
-[tableau merise](./merise/merise.)
+[tableau merise](./merise/merise.ods)
 
 
 ### CM 2
@@ -153,6 +153,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NTkzNjk4NCwtMzk2NTk3MDU0LC0xND
-k0OTUwMzkyLDMxMjg5OTg4NiwxMDE2NTU1NTk5XX0=
+eyJoaXN0b3J5IjpbMTcyMzU3MTk4NCwtNzc1OTM2OTg0LC0zOT
+Y1OTcwNTQsLTE0OTQ5NTAzOTIsMzEyODk5ODg2LDEwMTY1NTU1
+OTldfQ==
 -->
