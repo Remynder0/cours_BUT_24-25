@@ -37,7 +37,10 @@
 ## ~~algèbre linéaire (R1.07)~~
 *sur feuille*
 
-## ~~algèbre linéaire (R1.07)~~
+## ~~Math discrète (R1.08)~~
+*sur feuille*
+
+## ~~Anglais (R1.10)~~
 *sur feuille*
 
 ## Expression Com. (R1.11)
@@ -47,7 +50,7 @@
 - [TP1](./R1.11/TP1.odt)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNTU2OTkzMiwtNzQzMjk1MjE1LC01MT
+eyJoaXN0b3J5IjpbLTQ2OTE2OTA1NSwtNzQzMjk1MjE1LC01MT
 YzMzY4NjQsLTE2ODcyMTA2MDUsLTU0NDQ1MDMzMSw1NTM3NTgx
 MTEsLTIxMzI0NzE3NjIsLTE1MjY2MTY5MjEsMTgyNjE1NzcxMC
 wxNTgzMjc3Nzg2LDE2MjI5MzMwMzYsLTE2NzI5MTEzNzQsMTcy
