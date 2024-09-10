@@ -34,8 +34,8 @@
 
  - **Super clé** : contient/ donne accès à plusieurs clé
 
-## algèbre linéaire (R1.07)
-**
+## ~~algèbre linéaire (R1.07)~~
+*sur feuille*
 ## Expression Com. (R1.11)
  
 ### TP libre office
@@ -43,7 +43,7 @@
 - [TP1](./R1.11/TP1.odt)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk2MjE3Nzc3LC03NDMyOTUyMTUsLTUxNj
+eyJoaXN0b3J5IjpbNTU5ODUxMTQxLC03NDMyOTUyMTUsLTUxNj
 MzNjg2NCwtMTY4NzIxMDYwNSwtNTQ0NDUwMzMxLDU1Mzc1ODEx
 MSwtMjEzMjQ3MTc2MiwtMTUyNjYxNjkyMSwxODI2MTU3NzEwLD
 E1ODMyNzc3ODYsMTYyMjkzMzAzNiwtMTY3MjkxMTM3NCwxNzIz
