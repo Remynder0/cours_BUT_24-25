@@ -11,6 +11,9 @@
 ##### addition base 2
 - logique de retenue : 1 -> 10 -> 11 -> 100 -> ...
 - 
+##### addition base 16
+- transformation en decimal : F
+- 
 
 ## Intro C (R1.04)
 
@@ -33,9 +36,9 @@
 - [TP1](./R1.11/TP1.odt)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzI0NzE3NjIsLTE1MjY2MTY5MjEsMT
-gyNjE1NzcxMCwxNTgzMjc3Nzg2LDE2MjI5MzMwMzYsLTE2NzI5
-MTEzNzQsMTcyMzU3MTk4NCwtNzc1OTM2OTg0LC0zOTY1OTcwNT
-QsLTE0OTQ5NTAzOTIsMzEyODk5ODg2LDEwMTY1NTU1OTldfQ==
-
+eyJoaXN0b3J5IjpbOTc5OTY4Njc0LC0yMTMyNDcxNzYyLC0xNT
+I2NjE2OTIxLDE4MjYxNTc3MTAsMTU4MzI3Nzc4NiwxNjIyOTMz
+MDM2LC0xNjcyOTExMzc0LDE3MjM1NzE5ODQsLTc3NTkzNjk4NC
+wtMzk2NTk3MDU0LC0xNDk0OTUwMzkyLDMxMjg5OTg4NiwxMDE2
+NTU1NTk5XX0=
 -->
