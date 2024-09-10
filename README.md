@@ -13,7 +13,8 @@
  **additions**
 - logique de retenue : 1 -> 10 -> 11 -> 100 -> ...
 - 
-##### additiobase 16
+##### base 16
+**additions**
 - transformation en decimal : F + B *(10)=>* 15 +11 = 26 *(16)=>* 1A 
 - 
 
@@ -38,7 +39,7 @@
 - [TP1](./R1.11/TP1.odt)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTg5MjY4MTIsLTU0NDQ1MDMzMSw1NT
+eyJoaXN0b3J5IjpbLTE2ODcyMTA2MDUsLTU0NDQ1MDMzMSw1NT
 M3NTgxMTEsLTIxMzI0NzE3NjIsLTE1MjY2MTY5MjEsMTgyNjE1
 NzcxMCwxNTgzMjc3Nzg2LDE2MjI5MzMwMzYsLTE2NzI5MTEzNz
 QsMTcyMzU3MTk4NCwtNzc1OTM2OTg0LC0zOTY1OTcwNTQsLTE0
