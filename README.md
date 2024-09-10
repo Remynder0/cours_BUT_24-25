@@ -10,7 +10,7 @@
 [tableau merise](./presentation_but.md)
 ### CM 2
 
- - **Super clé** :
+ - **Super clé** : contient/ donne accès à plusieur clé
 
 # Files
 
@@ -151,6 +151,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzI3NTQ4MTUsLTM5NjU5NzA1NCwtMT
-Q5NDk1MDM5MiwzMTI4OTk4ODYsMTAxNjU1NTU5OV19
+eyJoaXN0b3J5IjpbMjE3ODYxNDQ5LC0zOTY1OTcwNTQsLTE0OT
+Q5NTAzOTIsMzEyODk5ODg2LDEwMTY1NTU1OTldfQ==
 -->
