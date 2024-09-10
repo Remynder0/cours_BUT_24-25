@@ -7,10 +7,12 @@
 
 ### TD 1 [05/09/24]
 
-[tableau merise](./presentation_but.md)
+[tableau merise](./merise/merise.)
+
+
 ### CM 2
 
- - **Super clé** : contient/ donne accès à plusieur clé
+ - **Super clé** : contient/ donne accès à plusieurs clé
 
 # Files
 
@@ -151,6 +153,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE3ODYxNDQ5LC0zOTY1OTcwNTQsLTE0OT
-Q5NTAzOTIsMzEyODk5ODg2LDEwMTY1NTU1OTldfQ==
+eyJoaXN0b3J5IjpbLTc3NTkzNjk4NCwtMzk2NTk3MDU0LC0xND
+k0OTUwMzkyLDMxMjg5OTg4NiwxMDE2NTU1NTk5XX0=
 -->
