@@ -15,7 +15,7 @@
 - 
 ##### base 16
 **additions**
-- transformation en decimal : F + B *(10)=>* 15 +11 = 26 *(16)=>* 1A 
+- transformation en décimal : F + B *(10)=>* 15 +11 = 26 *(16)=>* 1A 
 - 
 
 ## Intro C (R1.04)
@@ -39,9 +39,10 @@
 - [TP1](./R1.11/TP1.odt)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODcyMTA2MDUsLTU0NDQ1MDMzMSw1NT
-M3NTgxMTEsLTIxMzI0NzE3NjIsLTE1MjY2MTY5MjEsMTgyNjE1
-NzcxMCwxNTgzMjc3Nzg2LDE2MjI5MzMwMzYsLTE2NzI5MTEzNz
-QsMTcyMzU3MTk4NCwtNzc1OTM2OTg0LC0zOTY1OTcwNTQsLTE0
-OTQ5NTAzOTIsMzEyODk5ODg2LDEwMTY1NTU1OTldfQ==
+eyJoaXN0b3J5IjpbMTUxNzI3ODk5OSwtMTY4NzIxMDYwNSwtNT
+Q0NDUwMzMxLDU1Mzc1ODExMSwtMjEzMjQ3MTc2MiwtMTUyNjYx
+NjkyMSwxODI2MTU3NzEwLDE1ODMyNzc3ODYsMTYyMjkzMzAzNi
+wtMTY3MjkxMTM3NCwxNzIzNTcxOTg0LC03NzU5MzY5ODQsLTM5
+NjU5NzA1NCwtMTQ5NDk1MDM5MiwzMTI4OTk4ODYsMTAxNjU1NT
+U5OV19
 -->
