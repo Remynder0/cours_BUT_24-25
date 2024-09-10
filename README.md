@@ -1,16 +1,10 @@
 
 # BUT 2024-2025
 
-Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by openi
-|
+## I
 
-> Blockquote
+## Merise (R1.05)
 
- - [ ] List item
-
-|  |
-|--|--|
-|  |  |
 ng the **file explorer** on the left corner of the navigation bar.
 
 [presentation_but](./presentation_but.md)
@@ -153,6 +147,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NjU5NzA1NCwtMTQ5NDk1MDM5MiwzMT
-I4OTk4ODYsMTAxNjU1NTU5OV19
+eyJoaXN0b3J5IjpbLTIwOTQ2NTMzMiwtMzk2NTk3MDU0LC0xND
+k0OTUwMzkyLDMxMjg5OTg4NiwxMDE2NTU1NTk5XX0=
 -->
