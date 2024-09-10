@@ -1,11 +1,11 @@
 
 # BUT 2024-2025
 
-## I
+## Intro C (R1.01)
 
 ## Merise (R1.05)
 
-ng the **file explorer** on the left corner of the navigation bar.
+### TD 1 [
 
 [presentation_but](./presentation_but.md)
 # Files
@@ -147,6 +147,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTQ2NTMzMiwtMzk2NTk3MDU0LC0xND
+eyJoaXN0b3J5IjpbLTE2MzY5ODY2NCwtMzk2NTk3MDU0LC0xND
 k0OTUwMzkyLDMxMjg5OTg4NiwxMDE2NTU1NTk5XX0=
 -->
