@@ -1,7 +1,17 @@
 
-# BUT ann
+# BUT 2024-2025
 
-Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
+Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by openi
+|
+
+> Blockquote
+
+ - [ ] List item
+
+|  |
+|--|--|
+|  |  |
+ng the **file explorer** on the left corner of the navigation bar.
 
 [presentation_but](./presentation_but.md)
 # Files
@@ -143,6 +153,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MzA0MTEwMCwtMTQ5NDk1MDM5MiwzMT
+eyJoaXN0b3J5IjpbLTM5NjU5NzA1NCwtMTQ5NDk1MDM5MiwzMT
 I4OTk4ODYsMTAxNjU1NTU5OV19
 -->
