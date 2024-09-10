@@ -13,13 +13,11 @@
  **additions**
 - logique de retenue : 1 -> 10 -> 11 -> 100 -> ...
 - 
- **additions**
-- logique de retenue : 1 -> 10 -> 11 -> 100 -> ...
-- 
- **additions**
-- logique de retenue : 1 -> 10 -> 11 -> 100 -> ...
 ##### base 16
 **additions**
+- transformation en décimal : F + B *(10)=>* 15 +11 = 26 *(16)=>* 1A 
+- 
+**multiplications**
 - transformation en décimal : F + B *(10)=>* 15 +11 = 26 *(16)=>* 1A 
 - 
 
@@ -44,10 +42,10 @@
 - [TP1](./R1.11/TP1.odt)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNjMzNjg2NCwtMTY4NzIxMDYwNSwtNT
-Q0NDUwMzMxLDU1Mzc1ODExMSwtMjEzMjQ3MTc2MiwtMTUyNjYx
-NjkyMSwxODI2MTU3NzEwLDE1ODMyNzc3ODYsMTYyMjkzMzAzNi
-wtMTY3MjkxMTM3NCwxNzIzNTcxOTg0LC03NzU5MzY5ODQsLTM5
-NjU5NzA1NCwtMTQ5NDk1MDM5MiwzMTI4OTk4ODYsMTAxNjU1NT
-U5OV19
+eyJoaXN0b3J5IjpbLTE1OTExMjIxODIsLTUxNjMzNjg2NCwtMT
+Y4NzIxMDYwNSwtNTQ0NDUwMzMxLDU1Mzc1ODExMSwtMjEzMjQ3
+MTc2MiwtMTUyNjYxNjkyMSwxODI2MTU3NzEwLDE1ODMyNzc3OD
+YsMTYyMjkzMzAzNiwtMTY3MjkxMTM3NCwxNzIzNTcxOTg0LC03
+NzU5MzY5ODQsLTM5NjU5NzA1NCwtMTQ5NDk1MDM5MiwzMTI4OT
+k4ODYsMTAxNjU1NTU5OV19
 -->
