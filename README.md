@@ -10,7 +10,7 @@
 [tableau merise](./merise/merise.ods)
 
 
-### CM 2
+### CM 2 [10/09/24]
 
  - **Super clé** : contient/ donne accès à plusieurs clé
 
@@ -22,8 +22,8 @@
 - [TP1](./R1.11/TP1.odt)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MzI3Nzc4NiwxNjIyOTMzMDM2LC0xNj
-cyOTExMzc0LDE3MjM1NzE5ODQsLTc3NTkzNjk4NCwtMzk2NTk3
-MDU0LC0xNDk0OTUwMzkyLDMxMjg5OTg4NiwxMDE2NTU1NTk5XX
-0=
+eyJoaXN0b3J5IjpbMTgyNjE1NzcxMCwxNTgzMjc3Nzg2LDE2Mj
+I5MzMwMzYsLTE2NzI5MTEzNzQsMTcyMzU3MTk4NCwtNzc1OTM2
+OTg0LC0zOTY1OTcwNTQsLTE0OTQ5NTAzOTIsMzEyODk5ODg2LD
+EwMTY1NTU1OTldfQ==
 -->
