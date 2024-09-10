@@ -8,6 +8,10 @@
 ### TD 1 [05/09/24]
 
 [tableau merise](./presentation_but.md)
+### CM 2
+
+ - **Super clé** :
+
 # Files
 
 StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
@@ -147,6 +151,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMzMzI2NjIyLC0zOTY1OTcwNTQsLTE0OT
-Q5NTAzOTIsMzEyODk5ODg2LDEwMTY1NTU1OTldfQ==
+eyJoaXN0b3J5IjpbLTE2NzI3NTQ4MTUsLTM5NjU5NzA1NCwtMT
+Q5NDk1MDM5MiwzMTI4OTk4ODYsMTAxNjU1NTU5OV19
 -->
