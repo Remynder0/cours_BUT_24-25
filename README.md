@@ -18,7 +18,7 @@
 - transformation en décimal : F + B *(10)=>* 15 +11 = 26 *(16)=>* 1A 
 - 
 **multiplications**
-- transformation en décimal : F + B *(10)=>* 15 +11 = 26 *(16)=>* 1A 
+- table de multiplications fourni
 - 
 
 ## Intro C (R1.04)
@@ -42,10 +42,10 @@
 - [TP1](./R1.11/TP1.odt)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTExMjIxODIsLTUxNjMzNjg2NCwtMT
-Y4NzIxMDYwNSwtNTQ0NDUwMzMxLDU1Mzc1ODExMSwtMjEzMjQ3
-MTc2MiwtMTUyNjYxNjkyMSwxODI2MTU3NzEwLDE1ODMyNzc3OD
-YsMTYyMjkzMzAzNiwtMTY3MjkxMTM3NCwxNzIzNTcxOTg0LC03
-NzU5MzY5ODQsLTM5NjU5NzA1NCwtMTQ5NDk1MDM5MiwzMTI4OT
-k4ODYsMTAxNjU1NTU5OV19
+eyJoaXN0b3J5IjpbLTc0MzI5NTIxNSwtNTE2MzM2ODY0LC0xNj
+g3MjEwNjA1LC01NDQ0NTAzMzEsNTUzNzU4MTExLC0yMTMyNDcx
+NzYyLC0xNTI2NjE2OTIxLDE4MjYxNTc3MTAsMTU4MzI3Nzc4Ni
+wxNjIyOTMzMDM2LC0xNjcyOTExMzc0LDE3MjM1NzE5ODQsLTc3
+NTkzNjk4NCwtMzk2NTk3MDU0LC0xNDk0OTUwMzkyLDMxMjg5OT
+g4NiwxMDE2NTU1NTk5XX0=
 -->
