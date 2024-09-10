@@ -12,7 +12,7 @@
 - logique de retenue : 1 -> 10 -> 11 -> 100 -> ...
 - 
 ##### addition base 16
-- transformation en decimal : F
+- transformation en decimal : F + A = 
 - 
 
 ## Intro C (R1.04)
@@ -36,7 +36,7 @@
 - [TP1](./R1.11/TP1.odt)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc5OTY4Njc0LC0yMTMyNDcxNzYyLC0xNT
+eyJoaXN0b3J5IjpbNTUzNzU4MTExLC0yMTMyNDcxNzYyLC0xNT
 I2NjE2OTIxLDE4MjYxNTc3MTAsMTU4MzI3Nzc4NiwxNjIyOTMz
 MDM2LC0xNjcyOTExMzc0LDE3MjM1NzE5ODQsLTc3NTkzNjk4NC
 wtMzk2NTk3MDU0LC0xNDk0OTUwMzkyLDMxMjg5OTg4NiwxMDE2
