@@ -9,7 +9,8 @@
 
 ### CM 2 [10/09/24]
 ##### addition base 2
-- logique de retenue : 1 -> 10 -> 11 -> 100 -> 
+- logique de retenue : 1 -> 10 -> 11 -> 100 -> ...
+- 
 
 ## Intro C (R1.04)
 
@@ -32,8 +33,9 @@
 - [TP1](./R1.11/TP1.odt)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NTUwMjg0NywtMTUyNjYxNjkyMSwxOD
-I2MTU3NzEwLDE1ODMyNzc3ODYsMTYyMjkzMzAzNiwtMTY3Mjkx
-MTM3NCwxNzIzNTcxOTg0LC03NzU5MzY5ODQsLTM5NjU5NzA1NC
-wtMTQ5NDk1MDM5MiwzMTI4OTk4ODYsMTAxNjU1NTU5OV19
+eyJoaXN0b3J5IjpbLTIxMzI0NzE3NjIsLTE1MjY2MTY5MjEsMT
+gyNjE1NzcxMCwxNTgzMjc3Nzg2LDE2MjI5MzMwMzYsLTE2NzI5
+MTEzNzQsMTcyMzU3MTk4NCwtNzc1OTM2OTg0LC0zOTY1OTcwNT
+QsLTE0OTQ5NTAzOTIsMzEyODk5ODg2LDEwMTY1NTU1OTldfQ==
+
 -->
