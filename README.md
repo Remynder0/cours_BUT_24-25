@@ -55,10 +55,10 @@
 ### sensibilisation à l'ergonomie
 
 Définition : 
-- compréhension des intéraction entre humain et système
-- Améliorer le bien etre des hommmes et l'efficacité
+- compréhension des interaction entre humain et système
+- Améliorer le bien être des hommes et l'efficacité
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1ODI4MjAxOSwtNDY5MTY5MDU1LC03ND
+eyJoaXN0b3J5IjpbMTU5NTE1NDgxMSwtNDY5MTY5MDU1LC03ND
 MyOTUyMTUsLTUxNjMzNjg2NCwtMTY4NzIxMDYwNSwtNTQ0NDUw
 MzMxLDU1Mzc1ODExMSwtMjEzMjQ3MTc2MiwtMTUyNjYxNjkyMS
 wxODI2MTU3NzEwLDE1ODMyNzc3ODYsMTYyMjkzMzAzNiwtMTY3
