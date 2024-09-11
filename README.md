@@ -55,13 +55,14 @@
 ### sensibilisation à l'ergonomie
 
 Définition : 
-- compréhension des intéra
+- compréhension des intéraction entre humain et système
+- Améliorer le bien etre des hommmes et l'efficacité
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI2NzIzMjExLC00NjkxNjkwNTUsLTc0Mz
-I5NTIxNSwtNTE2MzM2ODY0LC0xNjg3MjEwNjA1LC01NDQ0NTAz
-MzEsNTUzNzU4MTExLC0yMTMyNDcxNzYyLC0xNTI2NjE2OTIxLD
-E4MjYxNTc3MTAsMTU4MzI3Nzc4NiwxNjIyOTMzMDM2LC0xNjcy
-OTExMzc0LDE3MjM1NzE5ODQsLTc3NTkzNjk4NCwtMzk2NTk3MD
-U0LC0xNDk0OTUwMzkyLDMxMjg5OTg4NiwxMDE2NTU1NTk5XX0=
+eyJoaXN0b3J5IjpbLTg1ODI4MjAxOSwtNDY5MTY5MDU1LC03ND
+MyOTUyMTUsLTUxNjMzNjg2NCwtMTY4NzIxMDYwNSwtNTQ0NDUw
+MzMxLDU1Mzc1ODExMSwtMjEzMjQ3MTc2MiwtMTUyNjYxNjkyMS
+wxODI2MTU3NzEwLDE1ODMyNzc3ODYsMTYyMjkzMzAzNiwtMTY3
+MjkxMTM3NCwxNzIzNTcxOTg0LC03NzU5MzY5ODQsLTM5NjU5Nz
+A1NCwtMTQ5NDk1MDM5MiwzMTI4OTk4ODYsMTAxNjU1NTU5OV19
 
 -->
