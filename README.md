@@ -62,8 +62,9 @@ On distingue :
 - **l’ergonomie physique** -> position du corps, posture et force, vision, audition, etc.
 - **l’ergonomie cognitive** -> perception, attention, langage, mémoire, traitement, etc.
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNzE4Nzg0NywtNDY5MTY5MDU1LC03ND
+eyJoaXN0b3J5IjpbLTcyMDY0ODIwMywtNDY5MTY5MDU1LC03ND
 MyOTUyMTUsLTUxNjMzNjg2NCwtMTY4NzIxMDYwNSwtNTQ0NDUw
 MzMxLDU1Mzc1ODExMSwtMjEzMjQ3MTc2MiwtMTUyNjYxNjkyMS
 wxODI2MTU3NzEwLDE1ODMyNzc3ODYsMTYyMjkzMzAzNiwtMTY3
