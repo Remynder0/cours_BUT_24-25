@@ -52,7 +52,7 @@
 
 - [TP1](./R1.11/TP1.odt)
 
-### sensibilisation à l'ergonomie
+### sensibilisation à l'ergonomie [11/09/24]
 
 Définition : 
 - compréhension des interaction entre humain et système
@@ -62,14 +62,30 @@ On distingue :
 - **l’ergonomie physique** -> position du corps, posture et force, vision, audition, etc.
 - **l’ergonomie cognitive** -> perception, attention, langage, mémoire, traitement, etc.
 
+> problématique: Comment l'informatique qui apparait a l’écran peut elle être compatible avec la pensée de l’utilisateur qui est nécessairement multiple ?
+
+**note**
+-importance de la démarche de conception
+
+**3 niveaux d'ergonomie**
+
+ 1. Utilité : réalisation de l’objectif de son utilisateur
+ 2. Utilisabilité
+	 - facilité : temps d’apprentissage, vitesse d’exécution de la tache, nombre d'erreur commises.
+3. Acceptabilité : satisfaction de l'utilisateur (contrainte, but,...
+
+**relations entre ces trois niveaux**
+- un site difficilement utilisable mais très utile sera très utilisé
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgwMzk3MjgzLC03MjA2NDgyMDMsLTQ2OT
-E2OTA1NSwtNzQzMjk1MjE1LC01MTYzMzY4NjQsLTE2ODcyMTA2
-MDUsLTU0NDQ1MDMzMSw1NTM3NTgxMTEsLTIxMzI0NzE3NjIsLT
-E1MjY2MTY5MjEsMTgyNjE1NzcxMCwxNTgzMjc3Nzg2LDE2MjI5
-MzMwMzYsLTE2NzI5MTEzNzQsMTcyMzU3MTk4NCwtNzc1OTM2OT
-g0LC0zOTY1OTcwNTQsLTE0OTQ5NTAzOTIsMzEyODk5ODg2LDEw
-MTY1NTU1OTldfQ==
+eyJoaXN0b3J5IjpbMjkzMTExMTcwLDk4MDM5NzI4MywtNzIwNj
+Q4MjAzLC00NjkxNjkwNTUsLTc0MzI5NTIxNSwtNTE2MzM2ODY0
+LC0xNjg3MjEwNjA1LC01NDQ0NTAzMzEsNTUzNzU4MTExLC0yMT
+MyNDcxNzYyLC0xNTI2NjE2OTIxLDE4MjYxNTc3MTAsMTU4MzI3
+Nzc4NiwxNjIyOTMzMDM2LC0xNjcyOTExMzc0LDE3MjM1NzE5OD
+QsLTc3NTkzNjk4NCwtMzk2NTk3MDU0LC0xNDk0OTUwMzkyLDMx
+Mjg5OTg4Nl19
 -->
