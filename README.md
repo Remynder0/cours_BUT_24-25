@@ -59,13 +59,15 @@ Définition :
 - Améliorer le bien être des hommes et l'efficacité
 
 On distingue :
--**l’ergonomie physique** -> position du corps,po
+-**l’ergonomie physique** -> position du corps, posture et force, vision, audition, etc.
+-**l’ergonomie cognitive** -> position du corps, posture et force, vision, audition, etc.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDA0ODczMzQsLTQ2OTE2OTA1NSwtNz
-QzMjk1MjE1LC01MTYzMzY4NjQsLTE2ODcyMTA2MDUsLTU0NDQ1
-MDMzMSw1NTM3NTgxMTEsLTIxMzI0NzE3NjIsLTE1MjY2MTY5Mj
-EsMTgyNjE1NzcxMCwxNTgzMjc3Nzg2LDE2MjI5MzMwMzYsLTE2
-NzI5MTEzNzQsMTcyMzU3MTk4NCwtNzc1OTM2OTg0LC0zOTY1OT
-cwNTQsLTE0OTQ5NTAzOTIsMzEyODk5ODg2LDEwMTY1NTU1OTld
-fQ==
+eyJoaXN0b3J5IjpbLTk5Njg1MTk0NiwtNDY5MTY5MDU1LC03ND
+MyOTUyMTUsLTUxNjMzNjg2NCwtMTY4NzIxMDYwNSwtNTQ0NDUw
+MzMxLDU1Mzc1ODExMSwtMjEzMjQ3MTc2MiwtMTUyNjYxNjkyMS
+wxODI2MTU3NzEwLDE1ODMyNzc3ODYsMTYyMjkzMzAzNiwtMTY3
+MjkxMTM3NCwxNzIzNTcxOTg0LC03NzU5MzY5ODQsLTM5NjU5Nz
+A1NCwtMTQ5NDk1MDM5MiwzMTI4OTk4ODYsMTAxNjU1NTU5OV19
+
 -->
