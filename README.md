@@ -18,6 +18,12 @@ void affiche_nombres_pairs(int n){
 		printf("%d",i);
 	}
 }
+
+void affiche_nombres_pairs(int n){
+	for(int =2; i<=n ;i+=2){
+		printf("%d",i);
+	}
+}
 ```
 
 ## Intro C (R1.02)
@@ -94,7 +100,7 @@ On distingue :
 **relations entre ces trois niveaux**
 - un site difficilement utilisable mais très utile sera très utilisé
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5ODIwOTEwMCwtMTM3NjE0MTU1LC00MT
+eyJoaXN0b3J5IjpbLTEyMTQ2NzI0NSwtMTM3NjE0MTU1LC00MT
 gwODQ3NCwyOTMxMTExNzAsOTgwMzk3MjgzLC03MjA2NDgyMDMs
 LTQ2OTE2OTA1NSwtNzQzMjk1MjE1LC01MTYzMzY4NjQsLTE2OD
 cyMTA2MDUsLTU0NDQ1MDMzMSw1NTM3NTgxMTEsLTIxMzI0NzE3
