@@ -29,13 +29,16 @@ void affiche_nombres_decroissants(int n){
 
 int somme_impairs(int n){
 	int somme=0;
-	for(int i=1; i<n ;i++){
+	for(int i=1; i<n ;i+=2){
 		somme+=i;
 	}
 	return somme;
 }
 
-int fact
+int factoriel(int n){
+	reu
+
+}
 
 
 
@@ -115,7 +118,7 @@ On distingue :
 **relations entre ces trois niveaux**
 - un site difficilement utilisable mais très utile sera très utilisé
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0Nzk3MzY0NiwtMTYzMDI4NTc5NCwtMT
+eyJoaXN0b3J5IjpbMTkyNzkzNTk3OSwtMTYzMDI4NTc5NCwtMT
 AxMzA0MTc4OSwxNjE0MjI2ODg0LC0xMjE0NjcyNDUsLTEzNzYx
 NDE1NSwtNDE4MDg0NzQsMjkzMTExMTcwLDk4MDM5NzI4MywtNz
 IwNjQ4MjAzLC00NjkxNjkwNTUsLTc0MzI5NTIxNSwtNTE2MzM2
