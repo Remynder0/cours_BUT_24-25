@@ -77,9 +77,11 @@ On distingue :
 **relations entre ces trois niveaux**
 - un site difficilement utilisable mais très utile sera très utilisé
 
-
+ Authors
+:  John
+:  Luke
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MzAyOTUwLDI5MzExMTE3MCw5ODAzOT
+eyJoaXN0b3J5IjpbLTQxODA4NDc0LDI5MzExMTE3MCw5ODAzOT
 cyODMsLTcyMDY0ODIwMywtNDY5MTY5MDU1LC03NDMyOTUyMTUs
 LTUxNjMzNjg2NCwtMTY4NzIxMDYwNSwtNTQ0NDUwMzMxLDU1Mz
 c1ODExMSwtMjEzMjQ3MTc2MiwtMTUyNjYxNjkyMSwxODI2MTU3
