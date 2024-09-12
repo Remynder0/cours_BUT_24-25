@@ -3,6 +3,8 @@
 
 ## Intro C (R1.01)
 
+### TD [12/09/2024]
+
 ## Intro C (R1.02)
 
 ## Architecture PC (R1.03)
@@ -76,16 +78,12 @@ On distingue :
 
 **relations entre ces trois niveaux**
 - un site difficilement utilisable mais très utile sera très utilisé
-
- Authors
-:  John
-:  Luke
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxODA4NDc0LDI5MzExMTE3MCw5ODAzOT
-cyODMsLTcyMDY0ODIwMywtNDY5MTY5MDU1LC03NDMyOTUyMTUs
-LTUxNjMzNjg2NCwtMTY4NzIxMDYwNSwtNTQ0NDUwMzMxLDU1Mz
-c1ODExMSwtMjEzMjQ3MTc2MiwtMTUyNjYxNjkyMSwxODI2MTU3
-NzEwLDE1ODMyNzc3ODYsMTYyMjkzMzAzNiwtMTY3MjkxMTM3NC
-wxNzIzNTcxOTg0LC03NzU5MzY5ODQsLTM5NjU5NzA1NCwtMTQ5
-NDk1MDM5Ml19
+eyJoaXN0b3J5IjpbLTE0MTgwNTMyODcsLTQxODA4NDc0LDI5Mz
+ExMTE3MCw5ODAzOTcyODMsLTcyMDY0ODIwMywtNDY5MTY5MDU1
+LC03NDMyOTUyMTUsLTUxNjMzNjg2NCwtMTY4NzIxMDYwNSwtNT
+Q0NDUwMzMxLDU1Mzc1ODExMSwtMjEzMjQ3MTc2MiwtMTUyNjYx
+NjkyMSwxODI2MTU3NzEwLDE1ODMyNzc3ODYsMTYyMjkzMzAzNi
+wtMTY3MjkxMTM3NCwxNzIzNTcxOTg0LC03NzU5MzY5ODQsLTM5
+NjU5NzA1NF19
 -->
