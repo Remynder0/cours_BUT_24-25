@@ -27,7 +27,12 @@ void affiche_nombres_decroissants(int n){
 
 //ex3
 
-int somme 
+int somme_impairs(int n){
+
+}
+
+
+
 ```
 
 ## Intro C (R1.02)
@@ -104,7 +109,7 @@ On distingue :
 **relations entre ces trois niveaux**
 - un site difficilement utilisable mais très utile sera très utilisé
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MTc2MjE1NCwtMTYzMDI4NTc5NCwtMT
+eyJoaXN0b3J5IjpbMTkwMDIwNTMwOCwtMTYzMDI4NTc5NCwtMT
 AxMzA0MTc4OSwxNjE0MjI2ODg0LC0xMjE0NjcyNDUsLTEzNzYx
 NDE1NSwtNDE4MDg0NzQsMjkzMTExMTcwLDk4MDM5NzI4MywtNz
 IwNjQ4MjAzLC00NjkxNjkwNTUsLTc0MzI5NTIxNSwtNTE2MzM2
