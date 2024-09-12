@@ -8,19 +8,19 @@
 ```c
 // ex2
 void affiche_nombres(int n){
-	for(int =1; i<=n ;i++){
+	for(int i=1; i<=n ;i++){
 		printf("%d",i);
 	}
 }
 
 void affiche_nombres_pairs(int n){
-	for(int =2; i<=n ;i+=2){
+	for(int i=2; i<=n ;i+=2){
 		printf("%d",i);
 	}
 }
 
 void affiche_nombres_decroissants(int n){
-	for(int =1; i<=n ;i--){
+	for(int i=n; i>0 ;i--){
 		printf("%d",i);
 	}
 }
@@ -100,11 +100,11 @@ On distingue :
 **relations entre ces trois niveaux**
 - un site difficilement utilisable mais très utile sera très utilisé
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTMwNDE3ODksMTYxNDIyNjg4NCwtMT
-IxNDY3MjQ1LC0xMzc2MTQxNTUsLTQxODA4NDc0LDI5MzExMTE3
-MCw5ODAzOTcyODMsLTcyMDY0ODIwMywtNDY5MTY5MDU1LC03ND
-MyOTUyMTUsLTUxNjMzNjg2NCwtMTY4NzIxMDYwNSwtNTQ0NDUw
-MzMxLDU1Mzc1ODExMSwtMjEzMjQ3MTc2MiwtMTUyNjYxNjkyMS
-wxODI2MTU3NzEwLDE1ODMyNzc3ODYsMTYyMjkzMzAzNiwtMTY3
-MjkxMTM3NF19
+eyJoaXN0b3J5IjpbLTE2MzAyODU3OTQsLTEwMTMwNDE3ODksMT
+YxNDIyNjg4NCwtMTIxNDY3MjQ1LC0xMzc2MTQxNTUsLTQxODA4
+NDc0LDI5MzExMTE3MCw5ODAzOTcyODMsLTcyMDY0ODIwMywtND
+Y5MTY5MDU1LC03NDMyOTUyMTUsLTUxNjMzNjg2NCwtMTY4NzIx
+MDYwNSwtNTQ0NDUwMzMxLDU1Mzc1ODExMSwtMjEzMjQ3MTc2Mi
+wtMTUyNjYxNjkyMSwxODI2MTU3NzEwLDE1ODMyNzc3ODYsMTYy
+MjkzMzAzNl19
 -->
