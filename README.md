@@ -36,7 +36,7 @@ int somme_impairs(int n){
 }
 
 int factoriel(int n){
-	reu
+	return n!;
 
 }
 
@@ -118,11 +118,11 @@ On distingue :
 **relations entre ces trois niveaux**
 - un site difficilement utilisable mais très utile sera très utilisé
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNzkzNTk3OSwtMTYzMDI4NTc5NCwtMT
-AxMzA0MTc4OSwxNjE0MjI2ODg0LC0xMjE0NjcyNDUsLTEzNzYx
-NDE1NSwtNDE4MDg0NzQsMjkzMTExMTcwLDk4MDM5NzI4MywtNz
-IwNjQ4MjAzLC00NjkxNjkwNTUsLTc0MzI5NTIxNSwtNTE2MzM2
-ODY0LC0xNjg3MjEwNjA1LC01NDQ0NTAzMzEsNTUzNzU4MTExLC
-0yMTMyNDcxNzYyLC0xNTI2NjE2OTIxLDE4MjYxNTc3MTAsMTU4
-MzI3Nzc4Nl19
+eyJoaXN0b3J5IjpbLTE1NDkyMDE2NzEsLTE2MzAyODU3OTQsLT
+EwMTMwNDE3ODksMTYxNDIyNjg4NCwtMTIxNDY3MjQ1LC0xMzc2
+MTQxNTUsLTQxODA4NDc0LDI5MzExMTE3MCw5ODAzOTcyODMsLT
+cyMDY0ODIwMywtNDY5MTY5MDU1LC03NDMyOTUyMTUsLTUxNjMz
+Njg2NCwtMTY4NzIxMDYwNSwtNTQ0NDUwMzMxLDU1Mzc1ODExMS
+wtMjEzMjQ3MTc2MiwtMTUyNjYxNjkyMSwxODI2MTU3NzEwLDE1
+ODMyNzc3ODZdfQ==
 -->
