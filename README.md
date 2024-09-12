@@ -24,6 +24,10 @@ void affiche_nombres_decroissants(int n){
 		printf("%d",i);
 	}
 }
+
+//ex3
+
+int somme 
 ```
 
 ## Intro C (R1.02)
@@ -100,11 +104,11 @@ On distingue :
 **relations entre ces trois niveaux**
 - un site difficilement utilisable mais très utile sera très utilisé
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzAyODU3OTQsLTEwMTMwNDE3ODksMT
-YxNDIyNjg4NCwtMTIxNDY3MjQ1LC0xMzc2MTQxNTUsLTQxODA4
-NDc0LDI5MzExMTE3MCw5ODAzOTcyODMsLTcyMDY0ODIwMywtND
-Y5MTY5MDU1LC03NDMyOTUyMTUsLTUxNjMzNjg2NCwtMTY4NzIx
-MDYwNSwtNTQ0NDUwMzMxLDU1Mzc1ODExMSwtMjEzMjQ3MTc2Mi
-wtMTUyNjYxNjkyMSwxODI2MTU3NzEwLDE1ODMyNzc3ODYsMTYy
-MjkzMzAzNl19
+eyJoaXN0b3J5IjpbMjE0MTc2MjE1NCwtMTYzMDI4NTc5NCwtMT
+AxMzA0MTc4OSwxNjE0MjI2ODg0LC0xMjE0NjcyNDUsLTEzNzYx
+NDE1NSwtNDE4MDg0NzQsMjkzMTExMTcwLDk4MDM5NzI4MywtNz
+IwNjQ4MjAzLC00NjkxNjkwNTUsLTc0MzI5NTIxNSwtNTE2MzM2
+ODY0LC0xNjg3MjEwNjA1LC01NDQ0NTAzMzEsNTUzNzU4MTExLC
+0yMTMyNDcxNzYyLC0xNTI2NjE2OTIxLDE4MjYxNTc3MTAsMTU4
+MzI3Nzc4Nl19
 -->
