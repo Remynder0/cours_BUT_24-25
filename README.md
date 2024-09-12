@@ -8,8 +8,9 @@
 ```c
 // ex2
 void affiche_nombres(int n){
-	for
-	printf("%d",n);
+	for(int =1; i=<n ;i++){
+		printf("%d",i);
+	}
 }
 ```
 
@@ -87,11 +88,11 @@ On distingue :
 **relations entre ces trois niveaux**
 - un site difficilement utilisable mais très utile sera très utilisé
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDI5MjM1MTEsLTEzNzYxNDE1NSwtND
-E4MDg0NzQsMjkzMTExMTcwLDk4MDM5NzI4MywtNzIwNjQ4MjAz
-LC00NjkxNjkwNTUsLTc0MzI5NTIxNSwtNTE2MzM2ODY0LC0xNj
-g3MjEwNjA1LC01NDQ0NTAzMzEsNTUzNzU4MTExLC0yMTMyNDcx
-NzYyLC0xNTI2NjE2OTIxLDE4MjYxNTc3MTAsMTU4MzI3Nzc4Ni
-wxNjIyOTMzMDM2LC0xNjcyOTExMzc0LDE3MjM1NzE5ODQsLTc3
-NTkzNjk4NF19
+eyJoaXN0b3J5IjpbMTExNDUwMTAxMywtMTM3NjE0MTU1LC00MT
+gwODQ3NCwyOTMxMTExNzAsOTgwMzk3MjgzLC03MjA2NDgyMDMs
+LTQ2OTE2OTA1NSwtNzQzMjk1MjE1LC01MTYzMzY4NjQsLTE2OD
+cyMTA2MDUsLTU0NDQ1MDMzMSw1NTM3NTgxMTEsLTIxMzI0NzE3
+NjIsLTE1MjY2MTY5MjEsMTgyNjE1NzcxMCwxNTgzMjc3Nzg2LD
+E2MjI5MzMwMzYsLTE2NzI5MTEzNzQsMTcyMzU3MTk4NCwtNzc1
+OTM2OTg0XX0=
 -->
