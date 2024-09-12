@@ -5,7 +5,10 @@
 
 ### TD [12/09/2024]
 
-
+```c
+// ex2
+void affiche_nombres(){
+```
 
 ## Intro C (R1.02)
 
@@ -81,11 +84,11 @@ On distingue :
 **relations entre ces trois niveaux**
 - un site difficilement utilisable mais très utile sera très utilisé
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzYxNDE1NSwtNDE4MDg0NzQsMjkzMT
-ExMTcwLDk4MDM5NzI4MywtNzIwNjQ4MjAzLC00NjkxNjkwNTUs
-LTc0MzI5NTIxNSwtNTE2MzM2ODY0LC0xNjg3MjEwNjA1LC01ND
-Q0NTAzMzEsNTUzNzU4MTExLC0yMTMyNDcxNzYyLC0xNTI2NjE2
-OTIxLDE4MjYxNTc3MTAsMTU4MzI3Nzc4NiwxNjIyOTMzMDM2LC
-0xNjcyOTExMzc0LDE3MjM1NzE5ODQsLTc3NTkzNjk4NCwtMzk2
-NTk3MDU0XX0=
+eyJoaXN0b3J5IjpbMTI4MTQ0MTg5MiwtMTM3NjE0MTU1LC00MT
+gwODQ3NCwyOTMxMTExNzAsOTgwMzk3MjgzLC03MjA2NDgyMDMs
+LTQ2OTE2OTA1NSwtNzQzMjk1MjE1LC01MTYzMzY4NjQsLTE2OD
+cyMTA2MDUsLTU0NDQ1MDMzMSw1NTM3NTgxMTEsLTIxMzI0NzE3
+NjIsLTE1MjY2MTY5MjEsMTgyNjE1NzcxMCwxNTgzMjc3Nzg2LD
+E2MjI5MzMwMzYsLTE2NzI5MTEzNzQsMTcyMzU3MTk4NCwtNzc1
+OTM2OTg0XX0=
 -->
