@@ -1,148 +1,128 @@
 
-# Welcome to StackEdit!
+# BUT 2024-2025 (R1)
 
-Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
+## Intro C (R1.01)
 
-[presentation_but](./presentation_but.md)
-# Files
+### TD [12/09/2024]
 
-StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
+```c
+// ex2
+void affiche_nombres(int n){
+	for(int i=1; i<=n ;i++){
+		printf("%d",i);
+	}
+}
 
-## Create files and folders
+void affiche_nombres_pairs(int n){
+	for(int i=2; i<=n ;i+=2){
+		printf("%d",i);
+	}
+}
 
-The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
+void affiche_nombres_decroissants(int n){
+	for(int i=n; i>0 ;i--){
+		printf("%d",i);
+	}
+}
 
-## Switch to another file
+//ex3
 
-All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
+int somme_impairs(int n){
+	int somme=0;
+	for(int i=1; i<n ;i+=2){
+		somme+=i;
+	}
+	return somme;
+}
 
-## Rename a file
+int factoriel(int n){
+	return n!;
 
-You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
-
-## Delete a file
-
-You can delete the current file by clicking the **Remove** button in the file explorer. The file will be moved into the **Trash** folder and automatically deleted after 7 days of inactivity.
-
-## Export a file
-
-You can export the current file by clicking **Export to disk** in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.
-
-
-# Synchronization
-
-Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your **Google Drive**, your **Dropbox** and your **GitHub** accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow... The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.
-
-There are two types of synchronization and they can complement each other:
-
-- The workspace synchronization will sync all your files, folders and settings automatically. This will allow you to fetch your workspace on any other device.
-	> To start syncing your workspace, just sign in with Google in the menu.
-
-- The file synchronization will keep one file of the workspace synced with one or multiple files in **Google Drive**, **Dropbox** or **GitHub**.
-	> Before starting to sync files, you must link an account in the **Synchronize** sub-menu.
-
-## Open a file
-
-You can open a file from **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Open from**. Once opened in the workspace, any modification in the file will be automatically synced.
-
-## Save a file
-
-You can save any file of the workspace to **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Save on**. Even if a file in the workspace is already synced, you can save it to another location. StackEdit can sync one file with multiple locations and accounts.
-
-## Synchronize a file
-
-Once your file is linked to a synchronized location, StackEdit will periodically synchronize it by downloading/uploading any modification. A merge will be performed if necessary and conflicts will be resolved.
-
-If you just have modified your file and you want to force syncing, click the **Synchronize now** button in the navigation bar.
-
-> **Note:** The **Synchronize now** button is disabled if you have no file to synchronize.
-
-## Manage file synchronization
-
-Since one file can be synced with multiple locations, you can list and manage synchronized locations by clicking **File synchronization** in the **Synchronize** sub-menu. This allows you to list and remove synchronized locations that are linked to your file.
+}
 
 
-# Publication
 
-Publishing in StackEdit makes it simple for you to publish online your files. Once you're happy with a file, you can publish it to different hosting platforms like **Blogger**, **Dropbox**, **Gist**, **GitHub**, **Google Drive**, **WordPress** and **Zendesk**. With [Handlebars templates](http://handlebarsjs.com/), you have full control over what you export.
-
-> Before starting to publish, you must link an account in the **Publish** sub-menu.
-
-## Publish a File
-
-You can publish your file by opening the **Publish** sub-menu and by clicking **Publish to**. For some locations, you can choose between the following formats:
-
-- Markdown: publish the Markdown text on a website that can interpret it (**GitHub** for instance),
-- HTML: publish the file converted to HTML via a Handlebars template (on a blog for example).
-
-## Update a publication
-
-After publishing, StackEdit keeps your file linked to that publication which makes it easy for you to re-publish it. Once you have modified your file and you want to update your publication, click on the **Publish now** button in the navigation bar.
-
-> **Note:** The **Publish now** button is disabled if your file has not been published yet.
-
-## Manage file publication
-
-Since one file can be published to multiple locations, you can list and manage publish locations by clicking **File publication** in the **Publish** sub-menu. This allows you to list and remove publication locations that are linked to your file.
-
-
-# Markdown extensions
-
-StackEdit extends the standard Markdown syntax by adding extra **Markdown extensions**, providing you with some nice features.
-
-> **ProTip:** You can disable any **Markdown extension** in the **File properties** dialog.
-
-
-## SmartyPants
-
-SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
-
-|                |ASCII                          |HTML                         |
-|----------------|-------------------------------|-----------------------------|
-|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
-|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
-|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
-
-
-## KaTeX
-
-You can render LaTeX mathematical expressions using [KaTeX](https://khan.github.io/KaTeX/):
-
-The *Gamma function* satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral
-
-$$
-\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
-$$
-
-> You can find more information about **LaTeX** mathematical expressions [here](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
-
-
-## UML diagrams
-
-You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
-
-```mermaid
-sequenceDiagram
-Alice ->> Bob: Hello Bob, how are you?
-Bob-->>John: How about you John?
-Bob--x Alice: I am good thanks!
-Bob-x John: I am good thanks!
-Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
-
-Bob-->Alice: Checking with John...
-Alice->John: Yes... John, how are you?
 ```
 
-And this will produce a flow chart:
+## Intro C (R1.02)
 
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
-```
+## Architecture PC (R1.03)
+
+### CM 2 [10/09/24]
+
+##### base 2
+ **additions**
+- logique de retenue : 1 -> 10 -> 11 -> 100 -> ...
+- 
+##### base 16
+**additions**
+- transformation en décimal : F + B *(10)=>* 15 +11 = 26 *(16)=>* 1A 
+- 
+**multiplications**
+- table de multiplications fourni
+- 
+
+## Intro système d'exploitation (R1.04)
+
+## Merise (R1.05)
+
+### TD 1 [05/09/24]
+
+[tableau merise](./merise/merise.ods)
+
+
+### CM 2 [10/09/24]
+
+ - **Super clé** : contient/ donne accès à plusieurs clé
+ 
+## ~~Math discrète (R1.06)~~
+*sur feuille*
+
+## ~~algèbre linéaire (R1.07)~~
+*sur feuille*
+
+## ~~Math discrète (R1.08)~~
+*sur feuille*
+
+## ~~Anglais (R1.10)~~
+*sur feuille*
+
+## Expression Com. (R1.11)
+ 
+### TP libre office
+
+- [TP1](./R1.11/TP1.odt)
+
+### sensibilisation à l'ergonomie [11/09/24]
+
+Définition : 
+- compréhension des interaction entre humain et système
+- Améliorer le bien être des hommes et l'efficacité
+
+On distingue :
+- **l’ergonomie physique** -> position du corps, posture et force, vision, audition, etc.
+- **l’ergonomie cognitive** -> perception, attention, langage, mémoire, traitement, etc.
+
+> problématique: Comment l'informatique qui apparait a l’écran peut elle être compatible avec la pensée de l’utilisateur qui est nécessairement multiple ?
+
+**note**
+-importance de la démarche de conception
+
+**3 niveaux d'ergonomie**
+
+ 1. Utilité : réalisation de l’objectif de son utilisateur
+ 2. Utilisabilité
+	 - facilité : temps d’apprentissage, vitesse d’exécution de la tache, nombre d'erreur commises.
+3. Acceptabilité : satisfaction de l'utilisateur (contrainte, but,...
+
+**relations entre ces trois niveaux**
+- un site difficilement utilisable mais très utile sera très utilisé
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTQ5NTAzOTIsMzEyODk5ODg2LDEwMT
-Y1NTU1OTldfQ==
+eyJoaXN0b3J5IjpbLTE1NDkyMDE2NzEsLTE2MzAyODU3OTQsLT
+EwMTMwNDE3ODksMTYxNDIyNjg4NCwtMTIxNDY3MjQ1LC0xMzc2
+MTQxNTUsLTQxODA4NDc0LDI5MzExMTE3MCw5ODAzOTcyODMsLT
+cyMDY0ODIwMywtNDY5MTY5MDU1LC03NDMyOTUyMTUsLTUxNjMz
+Njg2NCwtMTY4NzIxMDYwNSwtNTQ0NDUwMzMxLDU1Mzc1ODExMS
+wtMjEzMjQ3MTc2MiwtMTUyNjYxNjkyMSwxODI2MTU3NzEwLDE1
+ODMyNzc3ODZdfQ==
 -->
