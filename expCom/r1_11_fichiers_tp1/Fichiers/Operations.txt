@@ -1,0 +1,47 @@
+Opérations en binaire
+Le microprocesseur traite toutes les données en effectuant des opérations en langage binaire, voila les opérations qu'il effectue :
+
+Addition : C'est le même principe qu'en base décimale. On ajoute et on met des retenues selon cette table
+
+0+0 = 0 1+0 = 1 0+1 = 1 1+1 = 10
+
+Ex : 15+20 = 35
+
+
+retenues 1 1 1 00
+1 1 1 1
++ 1 0 1 0 0
+= 1 0 0 0 1 1
+
+
+2^5+2^1+2^0 = 32+2+1 = 35
+
+Soustraction : C'est encore le même principe qu'en base décimale. On soustrait selon la table suivante :
+
+0-0 = 0 1-0 = 1 1-1 = 0 0-1 = 1 (on retient)
+
+Ex : 50-20 = 30
+
+1 1 0 0 1 0
+- 0 (+1) 1 (+1) 0 (+1) 1 0 0
+= 0 1 1 1 1 0
+
+
+2^4+2^3+2^2+2^1 = 16+8+4+2 = 30
+
+Multiplication : On utilise toujours le même système qu'en base décimale
+
+0*0 = 0 0*1 = 0 1*0 = 0 1*1 = 1
+Ex : 10*5 = 50
+
+retenues 1
+1 0 1 0
+* 1 0 1
+= 1 0 1 0
++ 0 0 0 0 0
++ 1 0 1 0 0 0
+= 1 1 0 0 1 0
+
+2^5+2^4+2^1 = 32+16+2 = 50
+ 
+Il faut bien sur que les nombres soient alignés a  partir de la droite dans les opérations comme dans une opérations classique

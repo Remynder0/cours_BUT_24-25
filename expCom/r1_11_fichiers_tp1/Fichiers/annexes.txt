@@ -1,0 +1,39 @@
+ANNEXE DE LA PARTIE « HISTOIRE DE L'ORDINATEUR »
+Biographie des personnes ayant joué un rôle important dans le monde de l'ordinateur.
+ 
+turing.jpg
+
+Alan Mathison Turing
+http://www.histoire-informatique.org/portraits/z.html
+Alan Mathison Turing  (23 juin 1912 - 7 juin 1954) : mathématicien britannique, auteur de l'article fondateur de la science informatique qui allait donner le coup d'envoi à la création des calculateurs universels programmables (ordinateurs). Il y présenta sa machine de Turing capable de résoudre tous les problèmes que l'on peut formuler en termes d'algorithmes, le premier calculateur universel programmable, et inventa les concepts de programmation et de programme.
+ 
+zuse.gif
+ 
+Konrad Zuse
+http://www.histoire-informatique.org/portraits/z.html
+Konrad Zuse (juin 1910-1995) : cet ingénieur allemand est encore largement méconnu pourtant il fut l'un des pionniers du calcul programmable qui préfigure l'informatique. Il va mettre au point le Z1, le 1er calculateur à relais puis le Z3, le premier calculateur avec programme enregistré d'Europe que l'on peut considérer comme le véritable premier ordinateur.
+ 
+atanasoff.jpg 
+ 
+John Vincent Atanasoff
+http://www.histoire-informatique.org/portraits/z.html
+John Vincent Atanasoff (4 octobre 1903 – 15 juin 1995) : physicien, mathématicien et ingénieur américain d'origine bulgare. Il a été, avec son étudiant Clifford Berry, le concepteur du premier ordinateur, nommé ABC (Atanasoff-Berry Computer).
+Clifford Berry (19 avril 1918-30 octobre 1963) aida John Vincent Atanasoff à concevoir le premier ordinateur en 1937, le Atanasoff-Berry Computer (ABC).
+ 
+neumann.jpg 
+ 
+John Von Neumann
+http://www.histoire-informatique.org/portraits/n.html
+John Von Neumann (1903-1957), mathématicien et physicien américain d'origine hongroise, a apporté d'importantes contributions tant en mécanique quantique, qu'en analyse fonctionnelle, en théorie des ensembles, en informatique, en sciences économiques ainsi que dans beaucoup d'autres domaines des mathématiques et de la physique. Il a de plus participé aux programmes militaires américains comme la création du Colossus pour décrypter les messages cryptés allemands.
+ 
+wilkes.jpg 
+
+Sir Maurice Vincent Wilkes
+http://www.histoire-informatique.org/portraits/w.html
+Sir Maurice Vincent Wilkes ( 26 juin 1913- 29 novembre 2010) était un professeur, chercheur, pionnier britannique de l'informatique. Il a été à la tête du Laboratoire d'Informatique de l'Université de Cambridge de 1945 à 1980 et est à l'origine de l'EDSAC.
+ 
+eckert.gif
+ 
+John Presper Eckert
+http://www.histoire-informatique.org/portraits/e.html
+John Presper Eckert (9 avril 1919-3 juin 1995) était un ingénieur et un pionnier américain de l'informatique. Avec John William Mauchly, il a inventé le premier ordinateur électronique numérique multi-usage, l'ENIAC, fondé la première société commerciale d'informatique, la Eckert-Mauchly Computer Corporation, et conçu le premier ordinateur américain, l'UNIVAC qui comportait l'une de ses inventions, la mémoire à ligne de délai à mercure.
