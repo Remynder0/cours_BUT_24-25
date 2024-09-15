@@ -81,8 +81,8 @@ int factoriel(int n){
 ## ~~algèbre linéaire (R1.07)~~
 *sur feuille*
 
-## ~~Math discrète (R1.08)~~
-*sur feuille*
+## Gestion  (R1.08)
+
 
 ## ~~Anglais (R1.10)~~
 *sur feuille*
@@ -117,12 +117,14 @@ On distingue :
 
 **relations entre ces trois niveaux**
 - un site difficilement utilisable mais très utile sera très utilisé
+
+## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTE0MDI0MTIsLTE1NDkyMDE2NzEsLT
-E2MzAyODU3OTQsLTEwMTMwNDE3ODksMTYxNDIyNjg4NCwtMTIx
-NDY3MjQ1LC0xMzc2MTQxNTUsLTQxODA4NDc0LDI5MzExMTE3MC
-w5ODAzOTcyODMsLTcyMDY0ODIwMywtNDY5MTY5MDU1LC03NDMy
-OTUyMTUsLTUxNjMzNjg2NCwtMTY4NzIxMDYwNSwtNTQ0NDUwMz
-MxLDU1Mzc1ODExMSwtMjEzMjQ3MTc2MiwtMTUyNjYxNjkyMSwx
-ODI2MTU3NzEwXX0=
+eyJoaXN0b3J5IjpbMTc1OTk1MDM4MiwtMTU0OTIwMTY3MSwtMT
+YzMDI4NTc5NCwtMTAxMzA0MTc4OSwxNjE0MjI2ODg0LC0xMjE0
+NjcyNDUsLTEzNzYxNDE1NSwtNDE4MDg0NzQsMjkzMTExMTcwLD
+k4MDM5NzI4MywtNzIwNjQ4MjAzLC00NjkxNjkwNTUsLTc0MzI5
+NTIxNSwtNTE2MzM2ODY0LC0xNjg3MjEwNjA1LC01NDQ0NTAzMz
+EsNTUzNzU4MTExLC0yMTMyNDcxNzYyLC0xNTI2NjE2OTIxLDE4
+MjYxNTc3MTBdfQ==
 -->
