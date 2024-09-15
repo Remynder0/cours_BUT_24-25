@@ -1,0 +1,18 @@
+#layout{
+    background-color: black;
+    width: 500px;
+    padding: 5px;
+    text-align: center;
+}
+.gauche{
+    text-align: left;
+}
+.droite{
+    text-align: right;
+}
+h2,p{
+    color: white;
+}
+button{
+    background-color: blue;
+}
