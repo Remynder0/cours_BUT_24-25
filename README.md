@@ -44,7 +44,7 @@ int factoriel(int n){
 
 ```
 
-## Intro C (R1.02)
+## Web (R1.02)
 
 ## Architecture PC (R1.03)
 
@@ -81,8 +81,9 @@ int factoriel(int n){
 ## ~~algèbre linéaire (R1.07)~~
 *sur feuille*
 
-## ~~Math discrète (R1.08)~~
-*sur feuille*
+## Gestion  (R1.08)
+
+## Economie (R1.09)
 
 ## ~~Anglais (R1.10)~~
 *sur feuille*
@@ -117,12 +118,14 @@ On distingue :
 
 **relations entre ces trois niveaux**
 - un site difficilement utilisable mais très utile sera très utilisé
+
+## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDkyMDE2NzEsLTE2MzAyODU3OTQsLT
-EwMTMwNDE3ODksMTYxNDIyNjg4NCwtMTIxNDY3MjQ1LC0xMzc2
-MTQxNTUsLTQxODA4NDc0LDI5MzExMTE3MCw5ODAzOTcyODMsLT
-cyMDY0ODIwMywtNDY5MTY5MDU1LC03NDMyOTUyMTUsLTUxNjMz
-Njg2NCwtMTY4NzIxMDYwNSwtNTQ0NDUwMzMxLDU1Mzc1ODExMS
-wtMjEzMjQ3MTc2MiwtMTUyNjYxNjkyMSwxODI2MTU3NzEwLDE1
-ODMyNzc3ODZdfQ==
+eyJoaXN0b3J5IjpbLTEwNTk4MTg4MjAsMTc1OTk1MDM4MiwtMT
+U0OTIwMTY3MSwtMTYzMDI4NTc5NCwtMTAxMzA0MTc4OSwxNjE0
+MjI2ODg0LC0xMjE0NjcyNDUsLTEzNzYxNDE1NSwtNDE4MDg0Nz
+QsMjkzMTExMTcwLDk4MDM5NzI4MywtNzIwNjQ4MjAzLC00Njkx
+NjkwNTUsLTc0MzI5NTIxNSwtNTE2MzM2ODY0LC0xNjg3MjEwNj
+A1LC01NDQ0NTAzMzEsNTUzNzU4MTExLC0yMTMyNDcxNzYyLC0x
+NTI2NjE2OTIxXX0=
 -->
