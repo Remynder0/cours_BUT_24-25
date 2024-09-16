@@ -94,6 +94,7 @@ int factoriel(int n){
 
 - [TP1](./R1.11/TP1.odt)
 
+___
 ### sensibilisation à l'ergonomie [11/09/24]
 
 Définition : 
@@ -114,18 +115,43 @@ On distingue :
  1. Utilité : réalisation de l’objectif de son utilisateur
  2. Utilisabilité
 	 - facilité : temps d’apprentissage, vitesse d’exécution de la tache, nombre d'erreur commises.
-3. Acceptabilité : satisfaction de l'utilisateur (contrainte, but,...
+3. Acceptabilité : satisfaction de l'utilisateur (contrainte, but,...)
 
 **relations entre ces trois niveaux**
 - un site difficilement utilisable mais très utile sera très utilisé
+___
+### sensibilisation à l'ergonomie [16/09/24]
+
+**Elements a prendre en compte dans la demarche d'analyse**
+- **Utilisateur** : la personne réelle qui va utiliser l'application.
+- **Contexte** : les conditions d'utilisation de l'application.
+- **Tache** : ce que l'utiliqateur veut/doit faire.
+- **Activité** : les actions physique/mentale à executer
+
+**Utilisateur**
+- Ses objectif, ses besoins : qu'attend-il de l'application ?
+- Ses connaisances : dans le domaine de la tache, en informatique
+- Ses caractéristiques démographique : age, sexe, etc.
+- Ses caractéristiques physique : handicap ?
+- Ses caractéristiques psychologiques : Visuel/Auditif, logique/intuitif
+- Ses caractéristiques socio-culturelles : sens d'ecriture, format des dates
+
+**Contexte**
+- Où ? Dans quel environement ?
+- L' *a priori* lors de l'utilisation ?
+- L'impact de l'erreur ?
+- Le temps de realisation ?
+- Les interactions eventuelles avec les autres ?
+
+
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTk4MTg4MjAsMTc1OTk1MDM4MiwtMT
-U0OTIwMTY3MSwtMTYzMDI4NTc5NCwtMTAxMzA0MTc4OSwxNjE0
-MjI2ODg0LC0xMjE0NjcyNDUsLTEzNzYxNDE1NSwtNDE4MDg0Nz
-QsMjkzMTExMTcwLDk4MDM5NzI4MywtNzIwNjQ4MjAzLC00Njkx
-NjkwNTUsLTc0MzI5NTIxNSwtNTE2MzM2ODY0LC0xNjg3MjEwNj
-A1LC01NDQ0NTAzMzEsNTUzNzU4MTExLC0yMTMyNDcxNzYyLC0x
-NTI2NjE2OTIxXX0=
+eyJoaXN0b3J5IjpbLTE2NTg2MDMwMTgsLTEwNTk4MTg4MjAsMT
+c1OTk1MDM4MiwtMTU0OTIwMTY3MSwtMTYzMDI4NTc5NCwtMTAx
+MzA0MTc4OSwxNjE0MjI2ODg0LC0xMjE0NjcyNDUsLTEzNzYxND
+E1NSwtNDE4MDg0NzQsMjkzMTExMTcwLDk4MDM5NzI4MywtNzIw
+NjQ4MjAzLC00NjkxNjkwNTUsLTc0MzI5NTIxNSwtNTE2MzM2OD
+Y0LC0xNjg3MjEwNjA1LC01NDQ0NTAzMzEsNTUzNzU4MTExLC0y
+MTMyNDcxNzYyXX0=
 -->
