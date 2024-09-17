@@ -40,9 +40,62 @@ int factoriel(int n){
 
 }
 
-
-
 ```
+### TD [12/09/2024]
+```c
+#include <stdlib.h>
+
+int lance_un_de(){
+	return (rand()%6)+1;
+}
+
+void lance_1000(){
+	int n1,n2,n3,n4,n5,n6;
+	n1=n2=n3=n4=n5=n6;
+	
+	for (int i=0; i < 1000 ;i++){
+		int tmp=lance_un_de();
+		if (tmp == 1) n1++;
+		if (tmp == 2) n2++;
+		if (tmp == 3) n3++;
+		if (tmp == 4) n4++;
+		if (tmp == 5) n5++;
+		if (tmp == 6) n6++;
+	}
+	
+	printf("1000 tirages : \n1 : %d \n2 : %d \n3 : %d \n4 : %d \n5 : %d \n6 : %d",n1,n2,n3,n4,n5,n6);
+}
+
+void lance_x_fois(){
+	int n1,n2,n3,n4,n5,n6;
+	n1=n2=n3=n4=n5=n6;
+	
+	int fois;
+	printf("entrer un nombre")
+	scanf("%d",&fois);
+	
+	for (int i=0; i < fois ;i++){
+		int tmp=lance_un_de();
+		if (tmp == 1) n1++;
+		if (tmp == 2) n2++;
+		if (tmp == 3) n3++;
+		if (tmp == 4) n4++;
+		if (tmp == 5) n5++;
+		if (tmp == 6) n6++;
+	}
+	
+	printf("%d tirages : \n1 : %d \n2 : %d \n3 : %d \n4 : %d \n5 : %d \n6 : %d",fois,n1,n2,n3,n4,n5,n6);
+}
+
+
+int main(){
+	srand(2);
+	lance_1000();
+	return 0;
+}
+```
+
+
 
 ## Web (R1.02)
 
@@ -69,6 +122,90 @@ int factoriel(int n){
 ### TD 1 [05/09/24]
 
 [tableau merise](./merise/merise.ods)
+
+### TD 1 [05/09/24]
+
+N|  |Etudiant  |ordinateur|achat|club-sport
+   |--|--|--|--|--|--|
+0|  | 1 |4|7|10|
+1 |**num-etudiant**|*||||
+2|nom-etudiant|1||||
+3|num-etudiant|1||||
+4|num-serie||*|||
+5|taille||1|||
+6|memoire||1|||
+7|num-etudiant|||*||
+8|date_achat|||1||
+9|magasin|||1||
+10|num_club|(1)|||*|
+11|taille||||1|
+12|num-etudiant||||1|
+---
+
+N|Données|Reservation|Client|appartement|
+|--|--|:--:|:--:|:--:|
+0 | | 1 | 8 | 7 | 10 |
+1 |numero_reservation|*|||
+2 |date_reservation|1|||
+3 |reference_client|(1)|*||
+4 |nom_client||1||
+5 |prenom_client||1||
+6 |rue_client||1||
+7 |cp_client||1||
+8 |ville_client||1||
+9 |||1||
+10 |||1||
+11 |num-etudiant|||1|
+12 |ville_appartement|||1|
+13 |tarif|||1|
+14 |num-etudiant||||
+15 |nb_semaine|1|||
+16 |nb_personne|1|||
+
+---
+
+N|Données|Voyage|Salarie|Categorie|insciption|
+|--|--|:--:|:--:|:--:|:--:|
+0 | | 1 | 9 | 10 | 16 |
+1 |==num_voyage==|*|||
+2 |type_voyage|1|||
+3 |destination_voyage|1|||
+4|date_depart_voyage|1||
+5 |duree_voyage|1|||
+6 |prix_base_adulte|1|||
+7 |prix_base_enfant|1|||
+8 |date_inscription_voyage||||1
+9 |==matricule_salarie==||*||
+10 |==csp_salarie==||(1)|*|
+11 |coef_multiplicateur|||1|
+12 |nom_salarie||1||
+13 |prenom_salarie||1||
+14 |nb_adultes_inscrit||||1|
+15 |nb_enfants_inscrits||||1|
+16 |==1+9==||||*|
+
+---
+
+N|Données|Ligne|Reseaux|Station|Zone|Coupon|Classe|acheter
+|--|--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+0 | | 1 | 6 | 3 | 8 | 11 | 13 | 14 |
+1 |==num_ligne==|*|||
+2 |nom_ligne|1|||
+3 |==code_type_reseaux==|(1)|*||
+4 |longueur_ligne|1||
+5 |libelle_reseaux||1||
+6 |==num_station==|||*|
+7 |nom_station|||1|
+8 |==num_zone==|||(1)|*|
+9 |heure_ouverture|||1|
+10 |heure_fermeture|||1|
+11 |code_type_coupon|||||*
+12 |==libelle_type_coupon==|||||1
+13 |==num_classe==||||||*
+14 |==13+8+11==|||||||*
+15 |prix_coupon|||||||1
+16 ||||||
+
 
 
 ### CM 2 [10/09/24]
@@ -147,11 +284,11 @@ ___
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTg2MDMwMTgsLTEwNTk4MTg4MjAsMT
-c1OTk1MDM4MiwtMTU0OTIwMTY3MSwtMTYzMDI4NTc5NCwtMTAx
-MzA0MTc4OSwxNjE0MjI2ODg0LC0xMjE0NjcyNDUsLTEzNzYxND
-E1NSwtNDE4MDg0NzQsMjkzMTExMTcwLDk4MDM5NzI4MywtNzIw
-NjQ4MjAzLC00NjkxNjkwNTUsLTc0MzI5NTIxNSwtNTE2MzM2OD
-Y0LC0xNjg3MjEwNjA1LC01NDQ0NTAzMzEsNTUzNzU4MTExLC0y
-MTMyNDcxNzYyXX0=
+eyJoaXN0b3J5IjpbNzc1NjgyMjc1LC0xNjU4NjAzMDE4LC0xMD
+U5ODE4ODIwLDE3NTk5NTAzODIsLTE1NDkyMDE2NzEsLTE2MzAy
+ODU3OTQsLTEwMTMwNDE3ODksMTYxNDIyNjg4NCwtMTIxNDY3Mj
+Q1LC0xMzc2MTQxNTUsLTQxODA4NDc0LDI5MzExMTE3MCw5ODAz
+OTcyODMsLTcyMDY0ODIwMywtNDY5MTY5MDU1LC03NDMyOTUyMT
+UsLTUxNjMzNjg2NCwtMTY4NzIxMDYwNSwtNTQ0NDUwMzMxLDU1
+Mzc1ODExMV19
 -->
