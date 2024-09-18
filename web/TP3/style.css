@@ -1,0 +1,13 @@
+table{
+    border: solid 1px magenta;
+    border-collapse: collapse;
+
+}
+td, th{
+    border: solid 2px;
+}
+tfoot{
+    color: blue;
+    border-color: black;
+
+}

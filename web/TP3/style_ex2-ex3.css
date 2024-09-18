@@ -1,0 +1,29 @@
+
+table{
+    margin: 3em;
+}
+
+#ex2{
+    border: solid black;
+    border-spacing: 1px;
+    width: 500px;
+    text-align: center;
+}
+
+#ex2 td, th{
+    border: double 2px;
+}
+
+
+#ex3{
+    border: solid black;
+    border-collapse: collapse;
+    width: 500px;
+    text-align: center;
+}
+
+#ex3 td, th{
+    border: double 2px;
+}
+
+
