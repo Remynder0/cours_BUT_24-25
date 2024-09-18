@@ -1,0 +1,22 @@
+Première génération d'ordinateur (1945-1951)
+Le mathématicien Alan Mathison Turing, en 1936 publie l'article fondateur de la science informatique "On Computable Numbers, with an Application to the Entscheidungsproblem". Il donne le coup d'envoi à la création de l'ordinateur programmable. Il résolvait des problèmes mathématiques en utilisant une sorte d'ordinateur logique très simple appelé depuis Machine de Turing : il s'agissait d'une bande de papier comportant des cases, des pions à mettre sur ces cases, un trombone pointant sur la case courante et un tableau d'instructions conditionnelles à réaliser. Sa machine fut le premier calculateur universel programmable.
+Ce que l'on peut considérer comme l'ère des ordinateurs modernes commença avec les grands développements de la Seconde Guerre Mondiale. Les circuits électroniques, les tubes à vide, les condensateurs et relais remplacèrent leurs équivalents mécaniques et le calcul numérique remplaça le calcul analogique. Les ordinateurs conçus à cette époque et qui par conséquent utilisèrent ces innovations forment la première génération d'ordinateur. Cette période est aussi caractérisée par le fait que chaque ordinateur possédait un codage binaire qui lui était propre.
+Premiers calculateurs programmables :
+Konrad Zuse, à partir de 1938 commence la construction des premières séries-Z, il s'agissait de calculateurs électromécaniques comportant une mémoire et une programmation limitée. Zuse fut soutenu par la Wehrmacht qui utilisa ces systèmes pour des missiles guidés. Les séries-Z furent les précurseurs de nombreuses avancées technologiques telles que l'arithmétique binaire et les nombres en virgule flottante.
+Image 1
+Konrad Zuse devant le Versuchmodell 1 ou Z1
+Source :http://histoire.info.online.fr/prehistoire.html
+Image2
+Le prototype du Z1 à Berlin
+Source : http://svr225.stepx.com:3388/history-of-computing- hardware
+En 1938 Konrad Zuse met au point le Versuchmodell 1ou Z1. Il le construisit dans le salon de ses parents à Berlin. Cette machine est un ordinateur binaire programmable mais mécanique. Il ne fonctionna jamais vraiment correctement. C'est le premier calculateur à relais.
+J.Atanasoff et Clifford Berry mettent au point le calculateur binaire ABC en 1939. Ce calculateur, a été le premier à utiliser le système binaire et était capable de résoudre des équations à 29 variables (29 solutions). Ce n'était pas une machine programmable mais il était basé sur trois idées propres aux ordinateurs modernes : l'utilisation du système binaire qui se montrait plus fiable et plus simple à mettre au point que le système décimal, la séparation entre le calcul et la mémoire et l'utilisation de composants électroniques plutôt que des éléments mécaniques pour réaliser les calculs.
+En 1940, le circuit imprimé apparaît. Il eut pour conséquence de réduire la taille imposante des ordinateurs.
+Image3
+Konrad Zuse devant le Versuchmodell 3 ou Z3
+Source :http://www.google.fr/imgres?imgurl=http://portail.jacquenod.net/Web/Histoire/coursunix_html765fe096.gif&imgrefurl=
+Suite à la création du Z1, en 1941, Konrad Zuse, mobilisé dans les usines d'aviation Henschel, met au point avec une équipe de 15 personnes le Z3, le premier calculateur avec programme enregistré d'Europe. A cause de cette caractéristique, on peut considérer qu'il s'agit du premier véritable ordinateur. Cette machine pouvait réaliser 4 additions par seconde et une multiplication en 4 secondes. Elle fut détruite dans un bombardement allié en avril 1945. Sa mémoire pouvait contenir 64 nombres de 22 chiffres exprimés en virgule flottante. C'est le premier calculateur à programme d'Europe et le premier calculateur à utiliser avec succès la virgule flottante.
+Image4
+Le logo de Texas Instruments
+Source : http://fr.wikipedia.org/wiki/Fichier:TI.svg
+ 

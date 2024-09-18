@@ -1,0 +1,39 @@
+Glossaire
+Tube électronique :
+Un tube électronique connu aussi sous le nom de tube à vide, est un composant électronique actif qui principalement utilisé comme amplificateur de signal.
+Condensateur :
+Un condensateur est un composant électronique qui stocke des charges électriques opposées sur ses armatures conductrices appelées électrodes.
+Relais :
+Un relais électromécanique est un organe électrotechnique qui composé principalement d'un électroaimant. Lorsque celui-ci est alimenté, il transmet une force à un système de commutation électrique, les contacts, qui permettent le passage du courant électrique.
+Arthmétique binaire :
+L'arithmétique binaire (L'arithmétique binaire est la manière dont on mène les calculs en base 2 (système binaire).) utilise les calculs en base 2 (système binaire). C'est un concept essentiel de l'informatique car les processeurs des ordinateurs sont composés de transistors qui ne gèrent que des bits 0 (« le courant ne passe pas ») et 1 (« le courant passe »). Un calcul informatique (L'informatique désigne l'automatisation du traitement de l'information par un système, concret (machine) ou abstrait. Dans son acception courante, l'informatique désigne l'ensemble des sciences et techniques en rapport avec le traitement de l'information. Dans...) n'est donc qu'une suite d'opération sur des paquets de 0 et de 1, appelés octets (constitué de 8 chiffres binaires).
+Virgule flottante :
+La virgule flottante correspond à l'écriture scientifique (avec les puissances de 10). Le Z3 est le premier calculateur à utiliser ce système avec succès.
+Turing-complet :
+L'adjectif Turing-complet s'applique en informatique et en logique à un système où on peut coder les machines de Turing. De plus, si ce système peut être codé par celui des machines de Turing, on dit qu'il est équivalent aux machines de Turing. Un langage de programmation est dit Turing-complet s'il permet de représenter toutes les fonctions calculables au sens de Turing. La plupart des langages usuels de programmation (C, Java, ...) sont Turing-complets.
+Mémoire à tubes cathodiques :
+Mémoire composée de tubes cathodiques : pour stocker un bit d'information, un rayon cathodique allumait un point sur le tube qui restait alors allumé.
+Mémoire à tubes Williams :
+Les Mémoire à tubes Williams sont développées par F. C. Williams, ce type de mémoire utilise les charges résiduelles laissées sur l'écran d'un tube cathodique après qu'il ait été frappé par le faisceau d'électron.
+Mémoire vive
+Mémoire vive à tores de ferrite : pendant une petite vingtaine d'année, ce principe de mémoire sera le plus utilisé avant d'être remplacé par la mémoire à semi-conducteurs en 1968.
+Architecture Von Neumann
+L'architecture Von Neumann est un modèle pour un ordinateur qui utilise une structure de stockage unique pour conserver à la fois les instructions et les données requises ou générées par le calcul.
+Transistor
+Le transistor est le composant électronique actif fondamental en électronique utilisé principalement comme interrupteur commandé et pour l'amplification, mais aussi pour stabiliser une tension, moduler un signal ainsi que de nombreuses autres utilisations.
+Un transistor est un dispositif semi-conducteur à trois électrodes actives, qui permet de contrôler un courant (ou une tension) grâce à une électrode d'entrée.
+Circuit intégré
+Le circuit intégré ou CI, aussi appelé puce électronique, est un composant électronique reproduisant une ou plusieurs fonctions électroniques plus ou moins complexes, intégrant souvent plusieurs types de composants électroniques de base dans un volume réduit, rendant le circuit facile à mettre en œuvre.
+Mémoire virtuelle
+La mémoire virtuelle, basé sur l'utilisation d'une mémoire de masse (dispositif qui sert à stocker à long terme des grandes quantités d'informations comme le disque dur), dans le but, permet à des programmes de pouvoir s'exécuter dans un environnement matériel possédant moins de mémoire centrale que nécessaire. On peut définir la mémoire virtuelle comme permettant de faire tourner plus de programmes que la mémoire centrale ne peut en contenir.
+Mémoire informatique
+La mémoire informatique sert à stocker des informations. C'est un composant essentiel, présent dans tous les ordinateurs.
+Mémoire vive
+La mémoire vive ou RAM (Random Access Memory) désigne une mémoire où chaque information stockée peut en tout temps être consultée, ou modifiée. Il s'agit d'une mémoire volatile c'est-à-dire une mémoire où les informations sont perdues lors de la mise en arrêt de l'appareil.
+Mémoire morte
+La mémoire morte ou ROM (Read Only Memory) est une mémoire où les informations ne peuvent pas être modifiées.
+Disque dur
+Un disque dur est une mémoire de masse magnétique.
+Rotor
+Le rotor est la partie rotative d'une machine.
+ 
