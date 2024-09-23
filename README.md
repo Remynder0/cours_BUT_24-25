@@ -283,15 +283,31 @@ ___
 - Le temps de realisation ?
 - Les interactions eventuelles avec les autres ?
 
+----
+### sensibilisation à l'ergonomie [23/09/24]
+
+
+- *norme iso 1307*
+- *norme iso 9241-210*
+
+- **Les utilisateurs s'expriment :**
+	1. Entretien sur les incidents critiques
+	2. Verbalisations
+	3. Enquête : questionnaire, entretien 
+	4. groupe de discussion
+- **On obversve les utilisateurs :**
+	1. observation 
+	2. Expérimentation
+
 
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzMyNzk5NTksNzc1NjgyMjc1LC0xNj
-U4NjAzMDE4LC0xMDU5ODE4ODIwLDE3NTk5NTAzODIsLTE1NDky
-MDE2NzEsLTE2MzAyODU3OTQsLTEwMTMwNDE3ODksMTYxNDIyNj
-g4NCwtMTIxNDY3MjQ1LC0xMzc2MTQxNTUsLTQxODA4NDc0LDI5
-MzExMTE3MCw5ODAzOTcyODMsLTcyMDY0ODIwMywtNDY5MTY5MD
-U1LC03NDMyOTUyMTUsLTUxNjMzNjg2NCwtMTY4NzIxMDYwNSwt
-NTQ0NDUwMzMxXX0=
+eyJoaXN0b3J5IjpbLTIwNjg2NzczNjEsLTEwNzMyNzk5NTksNz
+c1NjgyMjc1LC0xNjU4NjAzMDE4LC0xMDU5ODE4ODIwLDE3NTk5
+NTAzODIsLTE1NDkyMDE2NzEsLTE2MzAyODU3OTQsLTEwMTMwND
+E3ODksMTYxNDIyNjg4NCwtMTIxNDY3MjQ1LC0xMzc2MTQxNTUs
+LTQxODA4NDc0LDI5MzExMTE3MCw5ODAzOTcyODMsLTcyMDY0OD
+IwMywtNDY5MTY5MDU1LC03NDMyOTUyMTUsLTUxNjMzNjg2NCwt
+MTY4NzIxMDYwNV19
 -->
