@@ -126,7 +126,7 @@ int main(){
 
 [tableau merise](./merise/merise.ods)
 
-### TD 1 [05/09/24]
+### TD1 [05/09/24]
 
 N|  |Etudiant  |ordinateur|achat|club-sport
    |--|--|--|--|--|--|
@@ -207,9 +207,87 @@ N|Données|Ligne|Reseaux|Station|Zone|Coupon|Classe|acheter
 13 |==num_classe==||||||*
 14 |==13+8+11==|||||||*
 15 |prix_coupon|||||||1
-16 ||||||
+
+### TD2  [24/09/24]
+
+```mermaid
+graph LR
+A[LIGNE<br/> Num_ligne<br/> nom_ligne] --1,1--> B(Appartenir )
+B --0,n--> C[Type_reseaux<br/> Code_type_reseaux<br/> libelle_reseaux]
+D[Classe<br/> num_classe] --0,n--> E( Tarifier<br/> prix)
+E --0,n--> J
+E --0,n--> F
+A --1,n--> G( Desservir ) --0,n--> H --1,1--> I( EtreSituée) --0,n-->
+F[ZONE<br/> NumZone]
+H[STATION<br/> NumStation<br/> nomStation<br/> heureOuv<br/> heurFermeture]
+J[TYPE_COUPON<br/> Code_type_coupon<br/> libelle_type_coupon]
+```
+---
+N|Nom|Format|Type|Contrainte d'integrité|
+|--|--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+1 |num_stand||E||
+2 |num_allée||E||
+3 |place||||
+4 |code_type_stand|||
+5 |libellé_type_stand||||
+6 |code_type_exposant||||
+7 |num_exposant||||
+8 |nom_exp|||
+9 |rue_exp||||
+10 |cp_exp||||
+11 |desc_type_exp||||
+12 |ville_exp||||
+13 |année|||||
+14 |montant|||||
 
 
+
+---
+N|Données|Stand|Type_stand|Type_exposant|Exposant|Tarifer|Année|
+|--|--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+0 | | 1 | 4 | 6 | 8 | 15 | 13 |  |
+1 |==num_stand==|*|||
+2 |num_allée|1|||
+3 |place|1|||
+4 |==code_type_stand==|(1)|*|
+5 |libellé_type_stand||1||
+6 |==code_type_exposant==|||*|(1)
+7 |==num_exposant==||||*
+8 |nom_exp||||1
+9 |rue_exp||||1
+10 |cp_exp||||1
+11 |desc_type_exp|||1|
+12 |ville_exp||||1
+13 |==année==||||||*
+14 |montant|||||1
+15 |==4+6+13==|||||*
+
+```mermaid
+graph LR
+
+A[STAND<br/> Num_stand<br/> num_allée<br/> place]
+B(Appartenir )
+C[TYPE_STAND<br/> Code_type_stand<br/> libellé_type_stand]
+D[TYPE_EXPOSANT<br/> Code_type_exposant<br/> desc_type_exp] 
+E( Tarifier<br/> montant) 
+F[EXPOSANT<br/> NumExp<br/> nomExp<br/> rueExp<br/> cpExp<br/> villeExp]
+G(Louer<br/> ) 
+H[ANNEE<br/> Année<br/> ] 
+I(Correspondance)
+
+A --1,1--> B
+A --0,n--> G
+B --0,1--> C
+C --0,n--> E
+D --0,n--> E
+D --0,n--> I
+E --0,n--> F
+E --0,n--> H
+G --0,n--> F
+H --0,n--> G
+I --1,1--> F
+
+```
 
 ### CM 2 [10/09/24]
 
@@ -303,11 +381,11 @@ ___
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjg2NzczNjEsLTEwNzMyNzk5NTksNz
-c1NjgyMjc1LC0xNjU4NjAzMDE4LC0xMDU5ODE4ODIwLDE3NTk5
-NTAzODIsLTE1NDkyMDE2NzEsLTE2MzAyODU3OTQsLTEwMTMwND
-E3ODksMTYxNDIyNjg4NCwtMTIxNDY3MjQ1LC0xMzc2MTQxNTUs
-LTQxODA4NDc0LDI5MzExMTE3MCw5ODAzOTcyODMsLTcyMDY0OD
-IwMywtNDY5MTY5MDU1LC03NDMyOTUyMTUsLTUxNjMzNjg2NCwt
-MTY4NzIxMDYwNV19
+eyJoaXN0b3J5IjpbLTY1MzE5NzY1MywtMTA3MzI3OTk1OSw3Nz
+U2ODIyNzUsLTE2NTg2MDMwMTgsLTEwNTk4MTg4MjAsMTc1OTk1
+MDM4MiwtMTU0OTIwMTY3MSwtMTYzMDI4NTc5NCwtMTAxMzA0MT
+c4OSwxNjE0MjI2ODg0LC0xMjE0NjcyNDUsLTEzNzYxNDE1NSwt
+NDE4MDg0NzQsMjkzMTExMTcwLDk4MDM5NzI4MywtNzIwNjQ4Mj
+AzLC00NjkxNjkwNTUsLTc0MzI5NTIxNSwtNTE2MzM2ODY0LC0x
+Njg3MjEwNjA1XX0=
 -->
