@@ -97,10 +97,15 @@ int main(){
 
 ### TD [12/09/2024]
 ```c
-void echange_int(int* a, int* b){
+void echange_int(int *a, int *b){
 	int tmp=&a
 	*a=&b
 	*b=tmp
+}
+
+double solve2d(double a, double b, double c, double x1, double x2,){
+	double delta = b*b - 4*a*c;
+	
 }
 ```
 
@@ -389,7 +394,7 @@ ___
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MTcwMzQxNCwtNjUzMTk3NjUzLC0xMD
+eyJoaXN0b3J5IjpbLTYzNzE4MjAwNywtNjUzMTk3NjUzLC0xMD
 czMjc5OTU5LDc3NTY4MjI3NSwtMTY1ODYwMzAxOCwtMTA1OTgx
 ODgyMCwxNzU5OTUwMzgyLC0xNTQ5MjAxNjcxLC0xNjMwMjg1Nz
 k0LC0xMDEzMDQxNzg5LDE2MTQyMjY4ODQsLTEyMTQ2NzI0NSwt
