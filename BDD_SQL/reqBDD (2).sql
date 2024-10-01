@@ -1,5 +1,5 @@
--- Saisir la requête suivante : select nom from vt_equipe; Exécuter et commenter
---le résultat
+-- Saisir la requï¿½te suivante : select nom from vt_equipe; Exï¿½cuter et commenter
+--le rï¿½sultat
 select Nom from prof.vt_sponsor;
 
 select nom from vt_sponsor;
@@ -37,11 +37,11 @@ select sysdate-date_etape from prof.vt_etape;
 desc prof.vt_coureur; 
 
 ----------------------------------------------------------------------------------------
--- La projection et la restriction (lire le cours de 1.1 à 1.2 et tester les exemples)
+-- La projection et la restriction (lire le cours de 1.1 ï¿½ 1.2 et tester les exemples)
 ----------------------------------------------------------------------------------------
 
-/* 1) Établir la liste des étapes dont le n° est compris entre 5 et 10. Afficher le n° de l'étape, 
-la ville départ, la ville arrivée et la distance. */
+/* 1) ï¿½tablir la liste des ï¿½tapes dont le nï¿½ est compris entre 5 et 10. Afficher le nï¿½ de l'ï¿½tape, 
+la ville dï¿½part, la ville arrivï¿½e et la distance. */
 select * from prof.vt_etape;
 
 select * from prof.vt_etape 
@@ -50,27 +50,27 @@ where N_ETAPE > 5 and N_ETAPE < 10 ;
 select N_ETAPE , VILLE_D , VILLE_A , DISTANCE from prof.vt_etape 
 where N_ETAPE >= 5 and N_ETAPE <= 10 ;
 
-/* 2) Même requête que précédemment mais pour l'année 2024. */
+/* 2) Mï¿½me requï¿½te que prï¿½cï¿½demment mais pour l'annï¿½e 2024. */
 select N_ETAPE , VILLE_D , VILLE_A , DISTANCE from prof.vt_etape 
 where N_ETAPE >= 5 and N_ETAPE <= 10 
 and ANNEE = 2024;
 
 
-/* 3) Afficher la liste des étapes dont le n° est inférieur à 5 ou supérieur à 10 pour l'année 2024 (2 solutions). */
+/* 3) Afficher la liste des ï¿½tapes dont le nï¿½ est infï¿½rieur ï¿½ 5 ou supï¿½rieur ï¿½ 10 pour l'annï¿½e 2024 (2 solutions). */
 select * from prof.vt_etape 
 where (N_Etape<5 or n_etape>10) and annee=2024; 
 
 
-/* 4) Établir la liste des étapes "prologue" (relire 1_Pres_TDF.pdf). Afficher le code pays départ, 
-le code pays arrivée, la ville départ, la ville arrivée, la distance, la vitesse moyenne, année et le type d'étape.
- La liste affichée sera présentée par ordre croissant de la distance. */
+/* 4) ï¿½tablir la liste des ï¿½tapes "prologue" (relire 1_Pres_TDF.pdf). Afficher le code pays dï¿½part, 
+le code pays arrivï¿½e, la ville dï¿½part, la ville arrivï¿½e, la distance, la vitesse moyenne, annï¿½e et le type d'ï¿½tape.
+ La liste affichï¿½e sera prï¿½sentï¿½e par ordre croissant de la distance. */
  select code_cio_d , code_cio_a , ville_d , ville_a , distance , moyenne , annee , cat_code from prof.vt_etape
  where n_etape = 0
  order by distance ;
-/* 5) Projeter les étapes répondant à l'une ou l'autre des restrictions suivantes (une seule requête) :
-    • le premier caractère de la ville de départ est un 'B', 
-    • le dernier caractère de la ville de départ est un 'A',
-    • la ville de départ contient un 'U'.
+/* 5) Projeter les ï¿½tapes rï¿½pondant ï¿½ l'une ou l'autre des restrictions suivantes (une seule requï¿½te)ï¿½:
+    ï¿½ le premier caractï¿½re de la ville de dï¿½part est un 'B', 
+    ï¿½ le dernier caractï¿½re de la ville de dï¿½part est un 'A',
+    ï¿½ la ville de dï¿½part contient un 'U'.
 */
 select * from prof.vt_etape
 where ville_d like 'B%'
@@ -82,7 +82,7 @@ where lower(ville_d) like 'b%'
 or upper(ville_d) like '%A'
 or upper(ville_d) like '%U%';
 
-/* 6) Projeter l'étape courue le 14 juillet 2024 */
+/* 6) Projeter l'ï¿½tape courue le 14 juillet 2024 */
 select * from prof.vt_etape
 where (date_etape) = '14/07/24';
 
@@ -90,22 +90,22 @@ select * from prof.vt_etape
 where to_char(date_etape,'dd/mm/yyyy')='14/07/2024';
 
 
-/* 7) Projeter le prénom, le nom et l’âge des coureurs ayant participé à leur premier tour en 2024. */
+/* 7) Projeter le prï¿½nom, le nom et lï¿½ï¿½ge des coureurs ayant participï¿½ ï¿½ leur premier tour en 2024. */
 
 select nom,prenom,2024-annee_naissance as age 
 from prof.vt_coureur where annee_prem=2024;
 
-/* 8) Donner la liste des sponsors dont le nom abrégé est vide avant 1986. */
+/* 8) Donner la liste des sponsors dont le nom abrï¿½gï¿½ est vide avant 1986. */
 select * from prof.vt_sponsor
 where na_sponsor is null and annee_sponsor<1986;
-/* 9) Projeter par ordre alphabétique croissant des prénoms et par nom des coureurs décroissant, 
+/* 9) Projeter par ordre alphabï¿½tique croissant des prï¿½noms et par nom des coureurs dï¿½croissant, 
 la liste des coureurs dont le nom commence par un 'V'. */
 select * from prof.vt_coureur
 where nom like 'V%'
 order by prenom, nom desc;
 
 /* 10) Projeter la liste des nations des coureurs (app_nation) dont le pays d'origine
- a pour code : "SUI", "JAP" ou "POL". */
+ a pour codeï¿½: "SUI", "JAP" ou "POL". */
  select* from prof.vt_app_nation
  where code_cio ='SUI'or code_cio ='JAP'or code_cio ='POL';
 
@@ -113,9 +113,9 @@ order by prenom, nom desc;
 ----------------------------------------------------------------------------------------
 -- La jointure (lire le cours chap 1.3.1 et 1.3.5 et tester aide_jointures.pdf)
 ----------------------------------------------------------------------------------------
-/* 11) Donner la liste des coureurs ayant participé au Tour 2024. Afficher le nom, le prénom, 
-le numéro de dossard  le n°de l'équipe et le numéro de coureur. 
-Utiliser au moins 2 méthodes pour effectuer la jointure. */
+/* 11) Donner la liste des coureurs ayant participï¿½ au Tour 2024. Afficher le nom, le prï¿½nom, 
+le numï¿½ro de dossard  le nï¿½de l'ï¿½quipe et le numï¿½ro de coureur. 
+Utiliser au moins 2 mï¿½thodes pour effectuer la jointure. */
 select*from prof.vt_parti_coureur;
 select*from prof.vt_coureur;
 
@@ -131,7 +131,7 @@ join prof.vt_parti_coureur
 using (n_coureur)
 where annee=2024;
 
-/*11bis) Même requête que précédemment mais pour les dossards compris entre 1 et 9. Justifier le nombre de réponses.*/
+/*11bis) Mï¿½me requï¿½te que prï¿½cï¿½demment mais pour les dossards compris entre 1 et 9. Justifier le nombre de rï¿½ponses.*/
 select nom,prenom,n_equipe,n_dossard,n_coureur
 from prof.vt_coureur
 join prof.vt_parti_coureur
@@ -141,7 +141,7 @@ and n_dossard<10 ;
 
 
 
-/*11ter) (un peu difficile). Même requête que précédemment mais en projetant en complément le nom du sponsor.*/
+/*11ter) (un peu difficile). Mï¿½me requï¿½te que prï¿½cï¿½demment mais en projetant en complï¿½ment le nom du sponsor.*/
 
 
 
@@ -155,8 +155,8 @@ Drop table Exoplus1A;
 Drop table Exoplus1B;
 create table Exoplus1A(numVille int, nom char(10));
 create table Exoplus1B(numVille int, ville char(10));
-insert into Exoplus1A values (1,'Léa');
-insert into Exoplus1A values (1,'Léon');
+insert into Exoplus1A values (1,'Lï¿½a');
+insert into Exoplus1A values (1,'Lï¿½on');
 insert into Exoplus1A values (10,'Bernard');
 insert into Exoplus1A values (100,'Jacques');
 insert into Exoplus1A values (999,'Sylvie');
@@ -206,9 +206,9 @@ from Exoplus1A
 full join Exoplus1B on exoplus1A.numville=exoplus1b.numville;
 
 
-/*12) Donner la liste des coureurs dont les numéros de dossard sont compris entre 25 et 27 et dont le nom contient soit
-‘OR’, soit ‘RO’. Afficher le nom, le prénom, le n° d’équipe, le n° de sponsor et l’année du Tour de France. Le résultat
-sera classé sur l’année du Tour.*/
+/*12) Donner la liste des coureurs dont les numï¿½ros de dossard sont compris entre 25 et 27 et dont le nom contient soit
+ï¿½ORï¿½, soit ï¿½ROï¿½. Afficher le nom, le prï¿½nom, le nï¿½ dï¿½ï¿½quipe, le nï¿½ de sponsor et lï¿½annï¿½e du Tour de France. Le rï¿½sultat
+sera classï¿½ sur lï¿½annï¿½e du Tour.*/
 
 select nom, prenom, n_equipe, n_sponsor, annee, n_dossard
 from prof.vt_coureur
@@ -224,8 +224,8 @@ and(n_dossard >= 25 and n_dossard<=27);
 
 
 
-/*13) Donner la liste des coureurs considérés comme jeunes (voir 1-Pres_TDF) pour le Tour 2024. Afficher le nom, le
-prénom, le numéro du sponsor et d'équipe, classés par ordre alphabétique sur le nom du coureur.*/
+/*13) Donner la liste des coureurs considï¿½rï¿½s comme jeunes (voir 1-Pres_TDF) pour le Tour 2024. Afficher le nom, le
+prï¿½nom, le numï¿½ro du sponsor et d'ï¿½quipe, classï¿½s par ordre alphabï¿½tique sur le nom du coureur.*/
 
 select nom,prenom,n_sponsor,n_equipe
 from prof.vt_coureur
@@ -237,8 +237,8 @@ order by nom;
 
 
 
-/*13 bis) Donner la liste des coureurs considérés comme jeunes (voir 1-Pres_TDF) pour le Tour 2024. Afficher le nom, le
-prénom et le nom du sponsor, classés par ordre alphabétique sur le nom du sponsor et sur le nom du coureur.*/
+/*13 bis) Donner la liste des coureurs considï¿½rï¿½s comme jeunes (voir 1-Pres_TDF) pour le Tour 2024. Afficher le nom, le
+prï¿½nom et le nom du sponsor, classï¿½s par ordre alphabï¿½tique sur le nom du sponsor et sur le nom du coureur.*/
 
 select  prof.vt_coureur.nom,prof.vt_sponsor.nom,prenom
 from prof.vt_coureur
@@ -247,8 +247,8 @@ join prof.vt_sponsor on prof.vt_sponsor.n_sponsor=prof.vt_parti_coureur.n_sponso
 where annee = 2024 and jeune = 'o'
 order by prof.vt_sponsor.nom, prof.vt_coureur.nom;
 
-/*14) : Donner la liste des coureurs (prénom et nom) ayant participé au tour 2024 et pour ceux ayant abandonné, le type
-d’abandon. Attention, les coureurs n’ayant pas abandonné doivent être également projetés.*/
+/*14) : Donner la liste des coureurs (prï¿½nom et nom) ayant participï¿½ au tour 2024 et pour ceux ayant abandonnï¿½, le type
+dï¿½abandon. Attention, les coureurs nï¿½ayant pas abandonnï¿½ doivent ï¿½tre ï¿½galement projetï¿½s.*/
 
 select prenom,nom,c_typeaban
 from prof.vt_coureur
@@ -291,13 +291,13 @@ from exoplus2 e1
 join exoplus2 e2 using (nom)
 where e1.num<>e2.num;
 
-/*15) Donner la liste alphabétique, classée sur le nom et le prénom, des coureurs ayant des homonymes (même nom).*/
+/*15) Donner la liste alphabï¿½tique, classï¿½e sur le nom et le prï¿½nom, des coureurs ayant des homonymes (mï¿½me nom).*/
 select distinct c1.nom,c1.prenom
 from prof.vt_coureur c1
 join prof.vt_coureur c2 on c1.nom=c2.nom
 where c1.n_coureur<>c2.n_coureur;
-/*16) Donner la liste des villes ayant été plusieurs fois ville d’arrivée (ville_a). Afficher le n° étape, le n° comp, la ville
-départ, la ville arrivée et l'année du Tour de France.*/
+/*16) Donner la liste des villes ayant ï¿½tï¿½ plusieurs fois ville dï¿½arrivï¿½e (ville_a). Afficher le nï¿½ ï¿½tape, le nï¿½ comp, la ville
+dï¿½part, la ville arrivï¿½e et l'annï¿½e du Tour de France.*/
 select distinct e1.n_etape, e1.n_comp, e1.ville_d, e1.ville_a, e1.annee
 from prof.vt_etape e1
 join prof.vt_etape e2 on e1.ville_a=e2.ville_a
@@ -307,7 +307,7 @@ or e1.n_comp<>e2.n_comp;
 
 
 
-/*16bis) Même question mais sans afficher l'année.
+/*16bis) Mï¿½me question mais sans afficher l'annï¿½e.
 Pourquoi perd-on des lignes ?*/
 select distinct e1.n_etape, e1.n_comp, e1.ville_d, e1.ville_a
 from prof.vt_etape e1
@@ -316,20 +316,98 @@ where e1.n_etape<>e2.n_etape
 or e1.annee<>e2.annee
 or e1.n_comp<>e2.n_comp;
 
-/*17) Donner la liste des différents types d'abandon, même les types pour lesquels il n'existe aucun abandon. Ne pas
-utiliser join using. Afficher type_aban de vt_abandon et de vt_typeaban ainsi que le libellé de vt_typeaban.*/
+/*17) Donner la liste des diffï¿½rents types d'abandon, mï¿½me les types pour lesquels il n'existe aucun abandon. Ne pas
+utiliser join using. Afficher type_aban de vt_abandon et de vt_typeaban ainsi que le libellï¿½ de vt_typeaban.*/
 select distinct t1.c_typeaban,libelle,t2.c_typeaban
 from prof.vt_typeaban t1
 left join prof.vt_abandon t2 on t1.c_typeaban=t2.c_typeaban
 ;
 
-/*18) Difficile : Donner la liste des coureurs des équipes "Astana", "Cofidis" et " Movistar" (vérifier les noms exacts) ayant
-abandonné dans le Tour 2024. Afficher le nom, le prénom, le type d'abandon et les directeurs d'équipe.
-Attention : Chercher le nom exact des équipes.*/
+/*18) Difficile : Donner la liste des coureurs des ?quipes "Astana", "Cofidis" et " Movistar" (v?rifier les noms exacts) ayant
+abandonn? dans le Tour 2024. Afficher le nom, le pr?nom, le type d'abandon et les directeurs d'?quipe.
+Attention : Chercher le nom exact des ?quipes.*/
 
-select nom from prof.vt_sponsor
-where lower(nom)  like '%astana%'or lower(nom) like 'cofidis%'or lower(nom)like 'movistar%';
+sur l ent la correction
+/*aide ensemble*/
 
-select*from prof.vt_parti_coureur
+select to_char(nom) as nom from prof.vt_coureur 
+intersect
+select to_char(prenom) from prof.vt_coureur
+order by nom;
 
--- Continuer à faire des copier-coller des questions avant d'y répondre	
+select to_char(nom) from prof.vt_coureur
+intersect
+select upper(to_char(prenom)) from prof.vt_coureur;
+
+
+select ville_d from prof.vt_etape
+intersect
+select n_etape from prof.vt_etape;
+
+select to_char(ville_d) from prof.vt_etape
+intersect
+select to_char(n_etape) from prof.vt_etape;
+
+select to_char(date_etape,'DD') as lejour from prof.vt_etape
+intersect
+select to_char(n_etape) as lejour from prof.vt_etape
+order by 1;
+
+select * from prof.vt_typeaban
+minus
+select * from prof.vt_abandon;
+
+select nom from prof.vt_coureur
+intersect
+select date_etape from prof.vt_etape;
+
+select nom,prenom from prof.vt_coureur
+intersect
+select nom from prof.vt_directeur;
+
+select nom,prenom from prof.vt_coureur
+intersect
+select nom,prenom from prof.vt_directeur;
+
+select nom,prenom from prof.vt_coureur
+minus
+select nom,prenom from prof.vt_directeur;
+
+/*exo19*/
+
+select c_typeaban from prof.vt_typeaban
+minus
+select c_typeaban  from prof.vt_abandon  ;
+/*19 bis */
+select c_typeaban, libelle  from prof.vt_typeaban 
+minus
+select distinct c_typeaban,libelle from prof.vt_abandon
+join prof.vt_typeaban ab using(c_typeaban);
+;
+
+/*20*/
+select ville_d from prof.vt_etape
+intersect
+select ville_a from prof.vt_etape;
+
+/*21*/
+select n_coureur from
+
+
+
+/*22*/
+
+select n_coureur from prof.vt_coureur where annee =2015 intersect
+select n_coureur from prof.vt_coureur where annee =2016 intersect
+select n_coureur from prof.vt_coureur where annee =2017 intersect
+select n_coureur from prof.vt_coureur where annee =2018 intersect
+select n_coureur from prof.vt_coureur where annee =2019 intersect
+select n_coureur from prof.vt_coureur where annee =2020 intersect
+select n_coureur from prof.vt_coureur where annee =2021 intersect
+select n_coureur from prof.vt_coureur where annee =2022 intersect
+select n_coureur from prof.vt_coureur where annee =2023 intersect
+select n_coureur from prof.vt_coureur where annee =2024;
+
+/*23*/
+select numero_ordre from prof.vt_ordrequi
+where numero_ordre <10;
