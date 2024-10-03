@@ -121,18 +121,20 @@ double solve2d(double a, double b, double c, double *x1, double *x2){
 graph LR
 
 A[Accueil]
-B[Visualiser la description]
+B[Film]
 C[Rechercher un film]
 D[Liste Film] 
 E[Menu]
-J[visualiser la fiche d'un comedien]
+J[Comedien]
 F(ajouter un film)
 G(ajouter un genre) 
 H(ajouter un comedien) 
 I(ajouter un réalisateur)
 K[connexion]
+L[Realisateur]
 
 A --> E --> C --> D --> B --> J
+B --> L
 D --> C
 E --> F
 E --> G
@@ -140,6 +142,7 @@ E --> H
 E --> I
 E --> K
 K --> E
+
 ```
 
 
@@ -425,11 +428,11 @@ ___
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNTA2ODczOCwtNDQ1MTY2MjAwLDEzMT
-c1Njc3NjMsLTExNzM2MDQzOTYsNTc0MTA1NTksMTYwOTE1MzEx
-NiwxOTY5MTU3MjI2LC02NTMxOTc2NTMsLTEwNzMyNzk5NTksNz
-c1NjgyMjc1LC0xNjU4NjAzMDE4LC0xMDU5ODE4ODIwLDE3NTk5
-NTAzODIsLTE1NDkyMDE2NzEsLTE2MzAyODU3OTQsLTEwMTMwND
-E3ODksMTYxNDIyNjg4NCwtMTIxNDY3MjQ1LC0xMzc2MTQxNTUs
-LTQxODA4NDc0XX0=
+eyJoaXN0b3J5IjpbLTE0Mzc4NjM1ODgsLTQ0NTE2NjIwMCwxMz
+E3NTY3NzYzLC0xMTczNjA0Mzk2LDU3NDEwNTU5LDE2MDkxNTMx
+MTYsMTk2OTE1NzIyNiwtNjUzMTk3NjUzLC0xMDczMjc5OTU5LD
+c3NTY4MjI3NSwtMTY1ODYwMzAxOCwtMTA1OTgxODgyMCwxNzU5
+OTUwMzgyLC0xNTQ5MjAxNjcxLC0xNjMwMjg1Nzk0LC0xMDEzMD
+QxNzg5LDE2MTQyMjY4ODQsLTEyMTQ2NzI0NSwtMTM3NjE0MTU1
+LC00MTgwODQ3NF19
 -->
