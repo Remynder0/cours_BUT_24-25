@@ -125,6 +125,7 @@ B[Film]
 C[Rechercher un film]
 D[Liste Film] 
 E[Menu]
+M[Genre]
 J[Comedien]
 F(ajouter un film)
 G(ajouter un genre) 
@@ -132,11 +133,9 @@ H(ajouter un comedien)
 I(ajouter un réalisateur)
 K[connexion]
 L[Realisateur]
-M[Genre]
 
 A --> E --> C --> D --> B --> J
 B --> L
-D --> C
 E --> F
 E --> G
 E --> H
@@ -432,11 +431,11 @@ ___
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2OTI3NjU1LC00NDUxNjYyMDAsMTMxNz
-U2Nzc2MywtMTE3MzYwNDM5Niw1NzQxMDU1OSwxNjA5MTUzMTE2
-LDE5NjkxNTcyMjYsLTY1MzE5NzY1MywtMTA3MzI3OTk1OSw3Nz
-U2ODIyNzUsLTE2NTg2MDMwMTgsLTEwNTk4MTg4MjAsMTc1OTk1
-MDM4MiwtMTU0OTIwMTY3MSwtMTYzMDI4NTc5NCwtMTAxMzA0MT
-c4OSwxNjE0MjI2ODg0LC0xMjE0NjcyNDUsLTEzNzYxNDE1NSwt
-NDE4MDg0NzRdfQ==
+eyJoaXN0b3J5IjpbMTAwODg4MjQ0OCwtNDQ1MTY2MjAwLDEzMT
+c1Njc3NjMsLTExNzM2MDQzOTYsNTc0MTA1NTksMTYwOTE1MzEx
+NiwxOTY5MTU3MjI2LC02NTMxOTc2NTMsLTEwNzMyNzk5NTksNz
+c1NjgyMjc1LC0xNjU4NjAzMDE4LC0xMDU5ODE4ODIwLDE3NTk5
+NTAzODIsLTE1NDkyMDE2NzEsLTE2MzAyODU3OTQsLTEwMTMwND
+E3ODksMTYxNDIyNjg4NCwtMTIxNDY3MjQ1LC0xMzc2MTQxNTUs
+LTQxODA4NDc0XX0=
 -->
