@@ -121,26 +121,14 @@ double solve2d(double a, double b, double c, double *x1, double *x2){
 graph LR
 
 A[Accueil]
-B(Appartenir )
-C[TYPE_STAND<br/> Code_type_stand<br/> libellé_type_stand]
-D[TYPE_EXPOSANT<br/> Code_type_exposant<br/> desc_type_exp] 
-E( Tarifier<br/> montant) 
-F[EXPOSANT<br/> NumExp<br/> nomExp<br/> rueExp<br/> cpExp<br/> villeExp]
-G(Louer<br/> ) 
-H[ANNEE<br/> Année<br/> ] 
-I(Correspondance)
-
-A --1,1--> B
-A --0,n--> G
-B --0,1--> C
-C --0,n--> E
-D --0,n--> E
-D --0,n--> I
-E --0,n--> F
-E --0,n--> H
-G --0,n--> F
-H --0,n--> G
-I --1,1--> F
+B[]
+C[]
+D[] 
+E[] 
+F[]
+G[] 
+H[] 
+I[]
 
 ```
 
@@ -427,11 +415,11 @@ ___
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzQ0OTI5NDcsMTYwOTE1MzExNiwxOT
-Y5MTU3MjI2LC02NTMxOTc2NTMsLTEwNzMyNzk5NTksNzc1Njgy
-Mjc1LC0xNjU4NjAzMDE4LC0xMDU5ODE4ODIwLDE3NTk5NTAzOD
-IsLTE1NDkyMDE2NzEsLTE2MzAyODU3OTQsLTEwMTMwNDE3ODks
-MTYxNDIyNjg4NCwtMTIxNDY3MjQ1LC0xMzc2MTQxNTUsLTQxOD
-A4NDc0LDI5MzExMTE3MCw5ODAzOTcyODMsLTcyMDY0ODIwMywt
-NDY5MTY5MDU1XX0=
+eyJoaXN0b3J5IjpbMTA3NzEyMzM0MywxNjA5MTUzMTE2LDE5Nj
+kxNTcyMjYsLTY1MzE5NzY1MywtMTA3MzI3OTk1OSw3NzU2ODIy
+NzUsLTE2NTg2MDMwMTgsLTEwNTk4MTg4MjAsMTc1OTk1MDM4Mi
+wtMTU0OTIwMTY3MSwtMTYzMDI4NTc5NCwtMTAxMzA0MTc4OSwx
+NjE0MjI2ODg0LC0xMjE0NjcyNDUsLTEzNzYxNDE1NSwtNDE4MD
+g0NzQsMjkzMTExMTcwLDk4MDM5NzI4MywtNzIwNjQ4MjAzLC00
+NjkxNjkwNTVdfQ==
 -->
