@@ -131,8 +131,7 @@ G(ajouter un genre)
 H(ajouter un comedien) 
 I(ajouter un réalisateur)
 
-A --> E --> C --> D --> B
-
+A --> E --> C --> D --> B --> J
 D --> C
 E --> F
 E --> G
@@ -423,7 +422,7 @@ ___
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3Nzc5NDA4MiwxMzE3NTY3NzYzLC0xMT
+eyJoaXN0b3J5IjpbLTQ0NTE2NjIwMCwxMzE3NTY3NzYzLC0xMT
 czNjA0Mzk2LDU3NDEwNTU5LDE2MDkxNTMxMTYsMTk2OTE1NzIy
 NiwtNjUzMTk3NjUzLC0xMDczMjc5OTU5LDc3NTY4MjI3NSwtMT
 Y1ODYwMzAxOCwtMTA1OTgxODgyMCwxNzU5OTUwMzgyLC0xNTQ5
