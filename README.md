@@ -120,17 +120,17 @@ double solve2d(double a, double b, double c, double *x1, double *x2){
 ```mermaid
 graph LR
 
-A[Liste Film]
+A[Accueil]
 B[Visualiser la description]
 C[Rechercher un film]
-D[g] 
-E[g] 
+D[Liste Film] 
+E[Menu] 
 F[g]
 G[g] 
 H[g] 
 I[g]
 
-C --> B
+A --> E
 A --> C
 
 ```
@@ -418,7 +418,7 @@ ___
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMTQ1MDY1LDU3NDEwNTU5LDE2MDkxNT
+eyJoaXN0b3J5IjpbLTMzMjcyMjcxLDU3NDEwNTU5LDE2MDkxNT
 MxMTYsMTk2OTE1NzIyNiwtNjUzMTk3NjUzLC0xMDczMjc5OTU5
 LDc3NTY4MjI3NSwtMTY1ODYwMzAxOCwtMTA1OTgxODgyMCwxNz
 U5OTUwMzgyLC0xNTQ5MjAxNjcxLC0xNjMwMjg1Nzk0LC0xMDEz
