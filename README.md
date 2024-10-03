@@ -117,6 +117,32 @@ double solve2d(double a, double b, double c, double *x1, double *x2){
 
 ### TD [03/10/24]
 
+```mermaid
+graph LR
+
+A[STAND<br/> Num_stand<br/> num_allée<br/> place]
+B(Appartenir )
+C[TYPE_STAND<br/> Code_type_stand<br/> libellé_type_stand]
+D[TYPE_EXPOSANT<br/> Code_type_exposant<br/> desc_type_exp] 
+E( Tarifier<br/> montant) 
+F[EXPOSANT<br/> NumExp<br/> nomExp<br/> rueExp<br/> cpExp<br/> villeExp]
+G(Louer<br/> ) 
+H[ANNEE<br/> Année<br/> ] 
+I(Correspondance)
+
+A --1,1--> B
+A --0,n--> G
+B --0,1--> C
+C --0,n--> E
+D --0,n--> E
+D --0,n--> I
+E --0,n--> F
+E --0,n--> H
+G --0,n--> F
+H --0,n--> G
+I --1,1--> F
+
+```
 
 
 ## Architecture PC (R1.03)
@@ -401,7 +427,7 @@ ___
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MDEwMjk3MSwxOTY5MTU3MjI2LC02NT
+eyJoaXN0b3J5IjpbMTYwOTE1MzExNiwxOTY5MTU3MjI2LC02NT
 MxOTc2NTMsLTEwNzMyNzk5NTksNzc1NjgyMjc1LC0xNjU4NjAz
 MDE4LC0xMDU5ODE4ODIwLDE3NTk5NTAzODIsLTE1NDkyMDE2Nz
 EsLTE2MzAyODU3OTQsLTEwMTMwNDE3ODksMTYxNDIyNjg4NCwt
