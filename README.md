@@ -113,16 +113,31 @@ double solve2d(double a, double b, double c, double *x1, double *x2){
 ```
 ### TD [12/09/2024]
 ```c
-int nombre_de_chiffre(int nb){
-	 int n=0;
-	 while(nb>0){
-		 nb=nb/10;
-		 n++;
+int nombre_de_chiffre(int n){
+	 int i=0;
+	 while(n>0){
+		 n=n/10;
+		 i++;
 	 }
 }
 
-plus_
+int plus_grand_chiffre(int n){
+	int max=0;
+	while(n>0){
+		if(n%10>max){
+			max=n%10;
+		}
+		n=n/10;
+	}
+}
 
+struct date {
+	int jour;
+	int mois;
+	int annee;
+}
+
+struct date today = {4,10,2024};
 ```
 
 ## Web (R1.02)
@@ -448,11 +463,11 @@ ___
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NzM3NDE5Nyw2MTIxNDE3ODYsMTcxNj
-gxNTUyNCwtMTIzMTYxNzI2NCwtNDQ1MTY2MjAwLDEzMTc1Njc3
-NjMsLTExNzM2MDQzOTYsNTc0MTA1NTksMTYwOTE1MzExNiwxOT
-Y5MTU3MjI2LC02NTMxOTc2NTMsLTEwNzMyNzk5NTksNzc1Njgy
-Mjc1LC0xNjU4NjAzMDE4LC0xMDU5ODE4ODIwLDE3NTk5NTAzOD
-IsLTE1NDkyMDE2NzEsLTE2MzAyODU3OTQsLTEwMTMwNDE3ODks
-MTYxNDIyNjg4NF19
+eyJoaXN0b3J5IjpbMzYwNjg3NzIwLDYxMjE0MTc4NiwxNzE2OD
+E1NTI0LC0xMjMxNjE3MjY0LC00NDUxNjYyMDAsMTMxNzU2Nzc2
+MywtMTE3MzYwNDM5Niw1NzQxMDU1OSwxNjA5MTUzMTE2LDE5Nj
+kxNTcyMjYsLTY1MzE5NzY1MywtMTA3MzI3OTk1OSw3NzU2ODIy
+NzUsLTE2NTg2MDMwMTgsLTEwNTk4MTg4MjAsMTc1OTk1MDM4Mi
+wtMTU0OTIwMTY3MSwtMTYzMDI4NTc5NCwtMTAxMzA0MTc4OSwx
+NjE0MjI2ODg0XX0=
 -->
