@@ -168,8 +168,9 @@ int croissant(int tab[], int taille]{
 int* inverse(int tab[], int taille){
 	tab_inverse[taille];
 	for(int i=taille; i>0 ;i--){
-		tab_inve
+		tab_inverse[i]=tab[i];
 	}
+	return tab_inverse;
 }
 
 ## Fibonnacci
@@ -502,11 +503,11 @@ ___
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcxNzAwNDgyLC0xMjgyNjQ0NTg2LDM2MD
-Y4NzcyMCw2MTIxNDE3ODYsMTcxNjgxNTUyNCwtMTIzMTYxNzI2
-NCwtNDQ1MTY2MjAwLDEzMTc1Njc3NjMsLTExNzM2MDQzOTYsNT
-c0MTA1NTksMTYwOTE1MzExNiwxOTY5MTU3MjI2LC02NTMxOTc2
-NTMsLTEwNzMyNzk5NTksNzc1NjgyMjc1LC0xNjU4NjAzMDE4LC
-0xMDU5ODE4ODIwLDE3NTk5NTAzODIsLTE1NDkyMDE2NzEsLTE2
-MzAyODU3OTRdfQ==
+eyJoaXN0b3J5IjpbLTE4NTM5NjUwODAsLTEyODI2NDQ1ODYsMz
+YwNjg3NzIwLDYxMjE0MTc4NiwxNzE2ODE1NTI0LC0xMjMxNjE3
+MjY0LC00NDUxNjYyMDAsMTMxNzU2Nzc2MywtMTE3MzYwNDM5Ni
+w1NzQxMDU1OSwxNjA5MTUzMTE2LDE5NjkxNTcyMjYsLTY1MzE5
+NzY1MywtMTA3MzI3OTk1OSw3NzU2ODIyNzUsLTE2NTg2MDMwMT
+gsLTEwNTk4MTg4MjAsMTc1OTk1MDM4MiwtMTU0OTIwMTY3MSwt
+MTYzMDI4NTc5NF19
 -->
