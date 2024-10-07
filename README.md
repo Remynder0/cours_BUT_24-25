@@ -166,6 +166,9 @@ int croissant(int tab[], int taille]{
 }
 
 int* inverse(int tab[], int taille){
+	tab_inverse[taille];
+	for(int i=0
+}
 
 ## Fibonnacci
 int fibonnacci(int n){
@@ -497,7 +500,7 @@ ___
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU0NjA4NDUxLC0xMjgyNjQ0NTg2LDM2MD
+eyJoaXN0b3J5IjpbOTY5ODkzNzQ2LC0xMjgyNjQ0NTg2LDM2MD
 Y4NzcyMCw2MTIxNDE3ODYsMTcxNjgxNTUyNCwtMTIzMTYxNzI2
 NCwtNDQ1MTY2MjAwLDEzMTc1Njc3NjMsLTExNzM2MDQzOTYsNT
 c0MTA1NTksMTYwOTE1MzExNiwxOTY5MTU3MjI2LC02NTMxOTc2
