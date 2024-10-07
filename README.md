@@ -111,7 +111,7 @@ double solve2d(double a, double b, double c, double *x1, double *x2){
 	}
 }
 ```
-### TD [12/09/2024]
+### TD [04/10/2024]
 ```c
 int nombre_de_chiffre(int n){
 	 int i=0;
@@ -138,6 +138,38 @@ struct date {
 }
 
 struct date today = {4,10,2024};
+```
+### TD [12/10/24]
+```c
+int recherche(int* tab, int taille, int rech){
+	for (int i=0; i<taille ;i++){
+		if(tab[i]==rech) return 1;
+	}
+	return 0;
+}
+
+int sup_10(int tab[], int taille){
+	int max=0;
+	for(int i=0; i<taille ;i++){
+		if (tab[i]>=10){
+			max++;
+		}
+	}
+	return max;
+}
+
+int croissant(int tab[], int taille]{
+	for(int i=1; i<taille ;i++){
+		if(tab[i-1]>tab[i]) return 0;
+	}
+	return 1;
+}
+
+## Fibonnacci
+int fibonnacci(int n){
+
+
+}
 ```
 
 ## Web (R1.02)
@@ -463,11 +495,11 @@ ___
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYwNjg3NzIwLDYxMjE0MTc4NiwxNzE2OD
-E1NTI0LC0xMjMxNjE3MjY0LC00NDUxNjYyMDAsMTMxNzU2Nzc2
-MywtMTE3MzYwNDM5Niw1NzQxMDU1OSwxNjA5MTUzMTE2LDE5Nj
-kxNTcyMjYsLTY1MzE5NzY1MywtMTA3MzI3OTk1OSw3NzU2ODIy
-NzUsLTE2NTg2MDMwMTgsLTEwNTk4MTg4MjAsMTc1OTk1MDM4Mi
-wtMTU0OTIwMTY3MSwtMTYzMDI4NTc5NCwtMTAxMzA0MTc4OSwx
-NjE0MjI2ODg0XX0=
+eyJoaXN0b3J5IjpbLTEyODI2NDQ1ODYsMzYwNjg3NzIwLDYxMj
+E0MTc4NiwxNzE2ODE1NTI0LC0xMjMxNjE3MjY0LC00NDUxNjYy
+MDAsMTMxNzU2Nzc2MywtMTE3MzYwNDM5Niw1NzQxMDU1OSwxNj
+A5MTUzMTE2LDE5NjkxNTcyMjYsLTY1MzE5NzY1MywtMTA3MzI3
+OTk1OSw3NzU2ODIyNzUsLTE2NTg2MDMwMTgsLTEwNTk4MTg4Mj
+AsMTc1OTk1MDM4MiwtMTU0OTIwMTY3MSwtMTYzMDI4NTc5NCwt
+MTAxMzA0MTc4OV19
 -->
