@@ -111,9 +111,115 @@ double solve2d(double a, double b, double c, double *x1, double *x2){
 	}
 }
 ```
+### TD [04/10/2024]
+```c
+int nombre_de_chiffre(int n){
+	 int i=0;
+	 while(n>0){
+		 n=n/10;
+		 i++;
+	 }
+}
 
+int plus_grand_chiffre(int n){
+	int max=0;
+	while(n>0){
+		if(n%10>max){
+			max=n%10;
+		}
+		n=n/10;
+	}
+}
+
+struct date {
+	int jour;
+	int mois;
+	int annee;
+}
+
+struct date today = {4,10,2024};
+```
+### TD [12/10/24]
+```c
+int recherche(int* tab, int taille, int rech){
+	for (int i=0; i<taille ;i++){
+		if(tab[i]==rech) return 1;
+	}
+	return 0;
+}
+
+int sup_10(int tab[], int taille){
+	int max=0;
+	for(int i=0; i<taille ;i++){
+		if (tab[i]>=10){
+			max++;
+		}
+	}
+	return max;
+}
+
+int croissant(int tab[], int taille]{
+	for(int i=1; i<taille ;i++){
+		if(tab[i-1]>tab[i]) return 0;
+	}
+	return 1;
+}
+
+int* inverse(int tab[], int taille){
+	tab_inverse[taille];
+	for(int i=taille; i>0 ;i--){
+		tab_inverse[i]=tab[i];
+	}
+	return tab_inverse;
+}
+
+## Fibonnacci
+int fibonnacci(int n){
+
+
+}
+```
 
 ## Web (R1.02)
+
+### TD [03/10/24]
+
+```mermaid
+graph LR
+
+A[Accueil]
+E[Menu]
+C[Rechercher un film]
+D[Liste Film] 
+B[Film]
+N(modifier Film)
+M[Genre]
+J[Comedien]
+O(modifier comedien)
+L[Realisateur]
+P(modifier realisateur)
+F(ajouter un film)
+G(ajouter un genre) 
+H(ajouter un comedien) 
+I(ajouter un réalisateur)
+K[connexion]
+
+
+A --> E --> C --> D --> B --> J
+B --> L --> P --> L
+B --> N --> B
+E --> F
+E --> G
+E --> H
+E --> I
+E --> K --> E
+E --> M --> D
+
+
+
+
+```
+
 
 ## Architecture PC (R1.03)
 
@@ -397,11 +503,11 @@ ___
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2OTE1NzIyNiwtNjUzMTk3NjUzLC0xMD
-czMjc5OTU5LDc3NTY4MjI3NSwtMTY1ODYwMzAxOCwtMTA1OTgx
-ODgyMCwxNzU5OTUwMzgyLC0xNTQ5MjAxNjcxLC0xNjMwMjg1Nz
-k0LC0xMDEzMDQxNzg5LDE2MTQyMjY4ODQsLTEyMTQ2NzI0NSwt
-MTM3NjE0MTU1LC00MTgwODQ3NCwyOTMxMTExNzAsOTgwMzk3Mj
-gzLC03MjA2NDgyMDMsLTQ2OTE2OTA1NSwtNzQzMjk1MjE1LC01
-MTYzMzY4NjRdfQ==
+eyJoaXN0b3J5IjpbLTE4NTM5NjUwODAsLTEyODI2NDQ1ODYsMz
+YwNjg3NzIwLDYxMjE0MTc4NiwxNzE2ODE1NTI0LC0xMjMxNjE3
+MjY0LC00NDUxNjYyMDAsMTMxNzU2Nzc2MywtMTE3MzYwNDM5Ni
+w1NzQxMDU1OSwxNjA5MTUzMTE2LDE5NjkxNTcyMjYsLTY1MzE5
+NzY1MywtMTA3MzI3OTk1OSw3NzU2ODIyNzUsLTE2NTg2MDMwMT
+gsLTEwNTk4MTg4MjAsMTc1OTk1MDM4MiwtMTU0OTIwMTY3MSwt
+MTYzMDI4NTc5NF19
 -->
