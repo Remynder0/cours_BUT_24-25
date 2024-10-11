@@ -501,18 +501,28 @@ ___
 
 ### sensibilisation à l'ergonomie [11/10/24]
 
-**La perception**
+**La varibilité inter et intra-individuelle**
+1. il y a des lois generales de fonctionnement de l'homme
+2. chaque personne est differente et presente une maniere specifique de se conduire
 
+- Variabilité intra-individuelle :
+	chacun d'entre nous nous n'a pas les meme capacite en fonction du temps.
+- Variabilité inter-individuelle :
+	Nous sommes tous differents et nos conduites sont differentes
 
+**Conclusion**
+Des lois générales ont été del*montrees par les travaux de la psychologie cognitive.
+
+Malgré ces lois, le comportement varie en fonction de la situation dans laquellle est l'individu
 
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzODU0MjIwLC0xODUzOTY1MDgwLC0xMj
-gyNjQ0NTg2LDM2MDY4NzcyMCw2MTIxNDE3ODYsMTcxNjgxNTUy
-NCwtMTIzMTYxNzI2NCwtNDQ1MTY2MjAwLDEzMTc1Njc3NjMsLT
-ExNzM2MDQzOTYsNTc0MTA1NTksMTYwOTE1MzExNiwxOTY5MTU3
-MjI2LC02NTMxOTc2NTMsLTEwNzMyNzk5NTksNzc1NjgyMjc1LC
-0xNjU4NjAzMDE4LC0xMDU5ODE4ODIwLDE3NTk5NTAzODIsLTE1
-NDkyMDE2NzFdfQ==
+eyJoaXN0b3J5IjpbLTcwMDkzODU5NywxMTM4NTQyMjAsLTE4NT
+M5NjUwODAsLTEyODI2NDQ1ODYsMzYwNjg3NzIwLDYxMjE0MTc4
+NiwxNzE2ODE1NTI0LC0xMjMxNjE3MjY0LC00NDUxNjYyMDAsMT
+MxNzU2Nzc2MywtMTE3MzYwNDM5Niw1NzQxMDU1OSwxNjA5MTUz
+MTE2LDE5NjkxNTcyMjYsLTY1MzE5NzY1MywtMTA3MzI3OTk1OS
+w3NzU2ODIyNzUsLTE2NTg2MDMwMTgsLTEwNTk4MTg4MjAsMTc1
+OTk1MDM4Ml19
 -->
