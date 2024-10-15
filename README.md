@@ -183,14 +183,14 @@ int fibonnacci(int n){
 ```c
 #include <stdio.h>
 
-void bubbleSort(int arr[], int n) {
+void bubbleSort(int tab[], int n) {
     int temp;
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - 1 - i; j++) {
-            if (arr[j] > arr[j + 1]) {
+            if (tab[j] > tab[j + 1]) {
                 temp = arr[j];
-                arr[j] = arr[j + 1];
-                arr[j + 1] = temp;
+                tab[j] = tab[j + 1];
+                tab[j + 1] = temp;
             }
         }
     }
@@ -535,7 +535,7 @@ Malgré ces lois, le comportement varie en fonction de la situation dans laquell
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMyNzA4MzczLC0xMzE4MDE3MTQ4LC03MD
+eyJoaXN0b3J5IjpbMzEyNDc1ODIxLC0xMzE4MDE3MTQ4LC03MD
 A5Mzg1OTcsMTEzODU0MjIwLC0xODUzOTY1MDgwLC0xMjgyNjQ0
 NTg2LDM2MDY4NzcyMCw2MTIxNDE3ODYsMTcxNjgxNTUyNCwtMT
 IzMTYxNzI2NCwtNDQ1MTY2MjAwLDEzMTc1Njc3NjMsLTExNzM2
