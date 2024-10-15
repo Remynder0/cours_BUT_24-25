@@ -179,6 +179,12 @@ int fibonnacci(int n){
 
 }
 ```
+### TD [15/10/24]
+```c
+
+
+```
+
 
 ## Web (R1.02)
 
@@ -214,11 +220,9 @@ E --> H
 E --> I
 E --> K --> E
 E --> M --> D
-
-
-
-
 ```
+
+
 
 
 ## Architecture PC (R1.03)
@@ -518,11 +522,11 @@ Malgré ces lois, le comportement varie en fonction de la situation dans laquell
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMDkzODU5NywxMTM4NTQyMjAsLTE4NT
-M5NjUwODAsLTEyODI2NDQ1ODYsMzYwNjg3NzIwLDYxMjE0MTc4
-NiwxNzE2ODE1NTI0LC0xMjMxNjE3MjY0LC00NDUxNjYyMDAsMT
-MxNzU2Nzc2MywtMTE3MzYwNDM5Niw1NzQxMDU1OSwxNjA5MTUz
-MTE2LDE5NjkxNTcyMjYsLTY1MzE5NzY1MywtMTA3MzI3OTk1OS
-w3NzU2ODIyNzUsLTE2NTg2MDMwMTgsLTEwNTk4MTg4MjAsMTc1
-OTk1MDM4Ml19
+eyJoaXN0b3J5IjpbLTEzMTgwMTcxNDgsLTcwMDkzODU5NywxMT
+M4NTQyMjAsLTE4NTM5NjUwODAsLTEyODI2NDQ1ODYsMzYwNjg3
+NzIwLDYxMjE0MTc4NiwxNzE2ODE1NTI0LC0xMjMxNjE3MjY0LC
+00NDUxNjYyMDAsMTMxNzU2Nzc2MywtMTE3MzYwNDM5Niw1NzQx
+MDU1OSwxNjA5MTUzMTE2LDE5NjkxNTcyMjYsLTY1MzE5NzY1My
+wtMTA3MzI3OTk1OSw3NzU2ODIyNzUsLTE2NTg2MDMwMTgsLTEw
+NTk4MTg4MjBdfQ==
 -->
