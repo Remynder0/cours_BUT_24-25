@@ -181,7 +181,20 @@ int fibonnacci(int n){
 ```
 ### TD [15/10/24]
 ```c
+#include <stdio.h>
 
+void bubbleSort(int arr[], int n) {
+    int temp;
+    for (int i = 0; i < n - 1; i++) {
+        for (int j = 0; j < n - 1 - i; j++) {
+            if (arr[j] > arr[j + 1]) {
+                temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+            }
+        }
+    }
+}
 
 ```
 
@@ -522,11 +535,11 @@ Malgré ces lois, le comportement varie en fonction de la situation dans laquell
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTgwMTcxNDgsLTcwMDkzODU5NywxMT
-M4NTQyMjAsLTE4NTM5NjUwODAsLTEyODI2NDQ1ODYsMzYwNjg3
-NzIwLDYxMjE0MTc4NiwxNzE2ODE1NTI0LC0xMjMxNjE3MjY0LC
-00NDUxNjYyMDAsMTMxNzU2Nzc2MywtMTE3MzYwNDM5Niw1NzQx
-MDU1OSwxNjA5MTUzMTE2LDE5NjkxNTcyMjYsLTY1MzE5NzY1My
-wtMTA3MzI3OTk1OSw3NzU2ODIyNzUsLTE2NTg2MDMwMTgsLTEw
-NTk4MTg4MjBdfQ==
+eyJoaXN0b3J5IjpbMjMyNzA4MzczLC0xMzE4MDE3MTQ4LC03MD
+A5Mzg1OTcsMTEzODU0MjIwLC0xODUzOTY1MDgwLC0xMjgyNjQ0
+NTg2LDM2MDY4NzcyMCw2MTIxNDE3ODYsMTcxNjgxNTUyNCwtMT
+IzMTYxNzI2NCwtNDQ1MTY2MjAwLDEzMTc1Njc3NjMsLTExNzM2
+MDQzOTYsNTc0MTA1NTksMTYwOTE1MzExNiwxOTY5MTU3MjI2LC
+02NTMxOTc2NTMsLTEwNzMyNzk5NTksNzc1NjgyMjc1LC0xNjU4
+NjAzMDE4XX0=
 -->
