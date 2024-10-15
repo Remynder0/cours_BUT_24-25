@@ -183,16 +183,14 @@ int fibonnacci(int n){
 ```c
 #include <stdio.h>
 
-void bubbleSort(int tab[], int n) {
+void passage_bulle(int tab[], int n) {
     int temp;
-    for (int i = 0; i < n - 1; i++) {
-        for (int j = 0; j < n - 1 - i; j++) {
-            if (tab[j] > tab[j + 1]) {
-                temp = arr[j];
-                tab[j] = tab[j + 1];
-                tab[j + 1] = temp;
-            }
-        }
+    for (int i = 0; i < n - 1; i++){
+	    if (tab[i]>tab[i+1]){
+		    temp = tab[i]
+		    tab[i]=tab[i+1]
+		    tab[i+1]=temp
+	    }        
     }
 }
 
@@ -535,11 +533,11 @@ Malgré ces lois, le comportement varie en fonction de la situation dans laquell
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEyNDc1ODIxLC0xMzE4MDE3MTQ4LC03MD
-A5Mzg1OTcsMTEzODU0MjIwLC0xODUzOTY1MDgwLC0xMjgyNjQ0
-NTg2LDM2MDY4NzcyMCw2MTIxNDE3ODYsMTcxNjgxNTUyNCwtMT
-IzMTYxNzI2NCwtNDQ1MTY2MjAwLDEzMTc1Njc3NjMsLTExNzM2
-MDQzOTYsNTc0MTA1NTksMTYwOTE1MzExNiwxOTY5MTU3MjI2LC
-02NTMxOTc2NTMsLTEwNzMyNzk5NTksNzc1NjgyMjc1LC0xNjU4
-NjAzMDE4XX0=
+eyJoaXN0b3J5IjpbMjEwNDU4MTE1MSwtMTMxODAxNzE0OCwtNz
+AwOTM4NTk3LDExMzg1NDIyMCwtMTg1Mzk2NTA4MCwtMTI4MjY0
+NDU4NiwzNjA2ODc3MjAsNjEyMTQxNzg2LDE3MTY4MTU1MjQsLT
+EyMzE2MTcyNjQsLTQ0NTE2NjIwMCwxMzE3NTY3NzYzLC0xMTcz
+NjA0Mzk2LDU3NDEwNTU5LDE2MDkxNTMxMTYsMTk2OTE1NzIyNi
+wtNjUzMTk3NjUzLC0xMDczMjc5OTU5LDc3NTY4MjI3NSwtMTY1
+ODYwMzAxOF19
 -->
