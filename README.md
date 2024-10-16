@@ -179,6 +179,23 @@ int fibonnacci(int n){
 
 }
 ```
+### TD [15/10/24]
+```c
+#include <stdio.h>
+
+void passage_bulle(int tab[], int n) {
+    int temp;
+    for (int i = 0; i < n - 1; i++){
+	    if (tab[i]>tab[i+1]){
+		    temp = tab[i]
+		    tab[i]=tab[i+1]
+		    tab[i+1]=temp
+	    }        
+    }
+}
+
+```
+
 
 ## Web (R1.02)
 
@@ -214,11 +231,9 @@ E --> H
 E --> I
 E --> K --> E
 E --> M --> D
-
-
-
-
 ```
+
+
 
 
 ## Architecture PC (R1.03)
@@ -499,15 +514,30 @@ ___
 	1. observation 
 	2. Expérimentation
 
+### sensibilisation à l'ergonomie [11/10/24]
+
+**La varibilité inter et intra-individuelle**
+1. il y a des lois generales de fonctionnement de l'homme
+2. chaque personne est differente et presente une maniere specifique de se conduire
+
+- Variabilité intra-individuelle :
+	chacun d'entre nous nous n'a pas les meme capacite en fonction du temps.
+- Variabilité inter-individuelle :
+	Nous sommes tous differents et nos conduites sont differentes
+
+**Conclusion**
+Des lois générales ont été del*montrees par les travaux de la psychologie cognitive.
+
+Malgré ces lois, le comportement varie en fonction de la situation dans laquellle est l'individu
 
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTM5NjUwODAsLTEyODI2NDQ1ODYsMz
-YwNjg3NzIwLDYxMjE0MTc4NiwxNzE2ODE1NTI0LC0xMjMxNjE3
-MjY0LC00NDUxNjYyMDAsMTMxNzU2Nzc2MywtMTE3MzYwNDM5Ni
-w1NzQxMDU1OSwxNjA5MTUzMTE2LDE5NjkxNTcyMjYsLTY1MzE5
-NzY1MywtMTA3MzI3OTk1OSw3NzU2ODIyNzUsLTE2NTg2MDMwMT
-gsLTEwNTk4MTg4MjAsMTc1OTk1MDM4MiwtMTU0OTIwMTY3MSwt
-MTYzMDI4NTc5NF19
+eyJoaXN0b3J5IjpbMjEwNDU4MTE1MSwtMTMxODAxNzE0OCwtNz
+AwOTM4NTk3LDExMzg1NDIyMCwtMTg1Mzk2NTA4MCwtMTI4MjY0
+NDU4NiwzNjA2ODc3MjAsNjEyMTQxNzg2LDE3MTY4MTU1MjQsLT
+EyMzE2MTcyNjQsLTQ0NTE2NjIwMCwxMzE3NTY3NzYzLC0xMTcz
+NjA0Mzk2LDU3NDEwNTU5LDE2MDkxNTMxMTYsMTk2OTE1NzIyNi
+wtNjUzMTk3NjUzLC0xMDczMjc5OTU5LDc3NTY4MjI3NSwtMTY1
+ODYwMzAxOF19
 -->
