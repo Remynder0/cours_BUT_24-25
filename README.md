@@ -449,7 +449,8 @@ EX2_Categorie(==CodeCateg==, nomCateg)
 EX2_Rouleau(==Numrouleau==, designation, #NumMatiere)
 EX2_Matiere(==numMatiere==, nomMatiere)
 
-EX2_Vendre(
+EX2_Vendre(==#NumMagasin, #NumRouleau==)
+EX2_Tarifier
  
 ## ~~Math discrète (R1.06)~~
 *sur feuille*
@@ -554,7 +555,7 @@ Malgré ces lois, le comportement varie en fonction de la situation dans laquell
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzODc1MzA3OSwyMTA0NTgxMTUxLC0xMz
+eyJoaXN0b3J5IjpbLTkwMTY5NjE2MSwyMTA0NTgxMTUxLC0xMz
 E4MDE3MTQ4LC03MDA5Mzg1OTcsMTEzODU0MjIwLC0xODUzOTY1
 MDgwLC0xMjgyNjQ0NTg2LDM2MDY4NzcyMCw2MTIxNDE3ODYsMT
 cxNjgxNTUyNCwtMTIzMTYxNzI2NCwtNDQ1MTY2MjAwLDEzMTc1
