@@ -215,7 +215,7 @@ void fusion_2tableaux_tries(int tab1[], int taille1, int tab2[], int taille2, in
 				n++;
 				//break;
 			}
-		}p
+		}
 	}
 }
 
@@ -584,11 +584,11 @@ Malgré ces lois, le comportement varie en fonction de la situation dans laquell
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjM1NjA5NjMsLTEzMjc2NTI5MDEsLT
-MyNDcwNjUyLC0yMDIyNTE2MzUzLDIxMDQ1ODExNTEsLTEzMTgw
-MTcxNDgsLTcwMDkzODU5NywxMTM4NTQyMjAsLTE4NTM5NjUwOD
-AsLTEyODI2NDQ1ODYsMzYwNjg3NzIwLDYxMjE0MTc4NiwxNzE2
-ODE1NTI0LC0xMjMxNjE3MjY0LC00NDUxNjYyMDAsMTMxNzU2Nz
-c2MywtMTE3MzYwNDM5Niw1NzQxMDU1OSwxNjA5MTUzMTE2LDE5
-NjkxNTcyMjZdfQ==
+eyJoaXN0b3J5IjpbLTEzMjc2NTI5MDEsLTEwNjM1NjA5NjMsLT
+EzMjc2NTI5MDEsLTMyNDcwNjUyLC0yMDIyNTE2MzUzLDIxMDQ1
+ODExNTEsLTEzMTgwMTcxNDgsLTcwMDkzODU5NywxMTM4NTQyMj
+AsLTE4NTM5NjUwODAsLTEyODI2NDQ1ODYsMzYwNjg3NzIwLDYx
+MjE0MTc4NiwxNzE2ODE1NTI0LC0xMjMxNjE3MjY0LC00NDUxNj
+YyMDAsMTMxNzU2Nzc2MywtMTE3MzYwNDM5Niw1NzQxMDU1OSwx
+NjA5MTUzMTE2XX0=
 -->
