@@ -442,14 +442,14 @@ EX1_zone(==numZone==)
 EX1 Deservir(==#numLigne, #NumStation==)
 EX1_tarifier(==#numClasse, #CodeTCoupon, #numZone==, Prix)
 
-
+----------
 
 EX2_magasin(==numMagasin==, nomMagasin, adr1, adr2, cpMag, VilleMag, #codeTcoupon)
 EX2_Categorie(==CodeCateg==, nomCateg)
 EX2_Rouleau(==Numrouleau==, designation, #NumMatiere)
 EX2_Matiere(==numMatiere==, nomMatiere)
 
-EX2
+EX2_Vendre(
  
 ## ~~Math discrète (R1.06)~~
 *sur feuille*
@@ -554,11 +554,11 @@ Malgré ces lois, le comportement varie en fonction de la situation dans laquell
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUyNTU0NjQsMjEwNDU4MTE1MSwtMTMxOD
-AxNzE0OCwtNzAwOTM4NTk3LDExMzg1NDIyMCwtMTg1Mzk2NTA4
-MCwtMTI4MjY0NDU4NiwzNjA2ODc3MjAsNjEyMTQxNzg2LDE3MT
-Y4MTU1MjQsLTEyMzE2MTcyNjQsLTQ0NTE2NjIwMCwxMzE3NTY3
-NzYzLC0xMTczNjA0Mzk2LDU3NDEwNTU5LDE2MDkxNTMxMTYsMT
-k2OTE1NzIyNiwtNjUzMTk3NjUzLC0xMDczMjc5OTU5LDc3NTY4
-MjI3NV19
+eyJoaXN0b3J5IjpbMjAzODc1MzA3OSwyMTA0NTgxMTUxLC0xMz
+E4MDE3MTQ4LC03MDA5Mzg1OTcsMTEzODU0MjIwLC0xODUzOTY1
+MDgwLC0xMjgyNjQ0NTg2LDM2MDY4NzcyMCw2MTIxNDE3ODYsMT
+cxNjgxNTUyNCwtMTIzMTYxNzI2NCwtNDQ1MTY2MjAwLDEzMTc1
+Njc3NjMsLTExNzM2MDQzOTYsNTc0MTA1NTksMTYwOTE1MzExNi
+wxOTY5MTU3MjI2LC02NTMxOTc2NTMsLTEwNzMyNzk5NTksNzc1
+NjgyMjc1XX0=
 -->
