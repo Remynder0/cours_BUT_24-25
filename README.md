@@ -196,15 +196,15 @@ void passage_bulle(int tab[], int n) {
 
 ```
 
-**on cherche 6*
+**on cherche 6**
 | 0 |1 | 2| 3 | 4 | 5| 6 | 7 | 8 | 9 
 |--|--|--|--|--|--|--|--|--|--|
-| 3 | 4 | 6 | 8 | 10 | 11 | 12 | 15 | 17 | 19
+| 3 | 4 | 6 | 8 | ==10== | 11 | 12 | 15 | 17 | 19
 
 ->
-| 0 |1 | 2 | 3 | 4 | 5| 6 | 7 | 8 | 9 
+| 0 |1 | 2 | 3 | 4  
 |--|--|--|--|--|--|--|--|--|--|
-| 3 | 4 | 6 | 8 | 10 | 11 | 12 | 15 | 17 | 19
+| 3 | ==4== | 6 | 8 | 10 
 ----
 ### TD [22/10/24]
 ```c
@@ -594,7 +594,7 @@ Malgré ces lois, le comportement varie en fonction de la situation dans laquell
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MzgyOTMxOSwtMTMyNzY1MjkwMSwtMT
+eyJoaXN0b3J5IjpbLTcwMjgzNjY0NSwtMTMyNzY1MjkwMSwtMT
 A2MzU2MDk2MywtMTMyNzY1MjkwMSwtMzI0NzA2NTIsLTIwMjI1
 MTYzNTMsMjEwNDU4MTE1MSwtMTMxODAxNzE0OCwtNzAwOTM4NT
 k3LDExMzg1NDIyMCwtMTg1Mzk2NTA4MCwtMTI4MjY0NDU4Niwz
