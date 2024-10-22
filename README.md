@@ -198,18 +198,22 @@ void passage_bulle(int tab[], int n) {
 ----
 ### TD [22/10/24]
 ```c
-void fusion_2tableaux_tries(int tab1[], int taille1, int tab2[], int taille2, int tab3[]){
-	int n=0;
+
+void fusion_2tableaux_tries(int tab1[], int taille1, int tab2[], int taille2, int tab3[], int taille){
+	int n=1;
+	tab3[0]=0;
 	for(int i=0; i<taille1 ;i++){
 		for(int j=0; j<taille2 ;j++){
-			if(tab1[i]>tab2[j]){
+		    
+		    printf("%d %d %d\n",tab1[i],tab2[j],tab3[n-1]);
+			if(tab1[i]>tab2[j] && tab3[n-1]<tab2[j]){
 				tab3[n]=tab2[j];
 				n++;
 			}
-			else{
+			else if(tab3[n-1]<tab1[i]){
 				tab3[n]=tab1[i];
 				n++;
-				break;
+				//break;
 			}
 		}
 	}
@@ -580,11 +584,11 @@ Malgré ces lois, le comportement varie en fonction de la situation dans laquell
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNDcwNjUyLC0yMDIyNTE2MzUzLDIxMD
-Q1ODExNTEsLTEzMTgwMTcxNDgsLTcwMDkzODU5NywxMTM4NTQy
-MjAsLTE4NTM5NjUwODAsLTEyODI2NDQ1ODYsMzYwNjg3NzIwLD
-YxMjE0MTc4NiwxNzE2ODE1NTI0LC0xMjMxNjE3MjY0LC00NDUx
-NjYyMDAsMTMxNzU2Nzc2MywtMTE3MzYwNDM5Niw1NzQxMDU1OS
-wxNjA5MTUzMTE2LDE5NjkxNTcyMjYsLTY1MzE5NzY1MywtMTA3
-MzI3OTk1OV19
+eyJoaXN0b3J5IjpbLTEzMjc2NTI5MDEsLTMyNDcwNjUyLC0yMD
+IyNTE2MzUzLDIxMDQ1ODExNTEsLTEzMTgwMTcxNDgsLTcwMDkz
+ODU5NywxMTM4NTQyMjAsLTE4NTM5NjUwODAsLTEyODI2NDQ1OD
+YsMzYwNjg3NzIwLDYxMjE0MTc4NiwxNzE2ODE1NTI0LC0xMjMx
+NjE3MjY0LC00NDUxNjYyMDAsMTMxNzU2Nzc2MywtMTE3MzYwND
+M5Niw1NzQxMDU1OSwxNjA5MTUzMTE2LDE5NjkxNTcyMjYsLTY1
+MzE5NzY1M119
 -->
