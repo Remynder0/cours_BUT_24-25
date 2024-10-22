@@ -450,7 +450,7 @@ EX2_Rouleau(==Numrouleau==, designation, #NumMatiere)
 EX2_Matiere(==numMatiere==, nomMatiere)
 
 EX2_Vendre(==#NumMagasin, #NumRouleau==)
-EX2_Tarifier
+EX2_Tarifer(==#codeCategorie, #NumRouleau==, prixvente)
  
 ## ~~Math discrète (R1.06)~~
 *sur feuille*
@@ -555,11 +555,11 @@ Malgré ces lois, le comportement varie en fonction de la situation dans laquell
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMTY5NjE2MSwyMTA0NTgxMTUxLC0xMz
-E4MDE3MTQ4LC03MDA5Mzg1OTcsMTEzODU0MjIwLC0xODUzOTY1
-MDgwLC0xMjgyNjQ0NTg2LDM2MDY4NzcyMCw2MTIxNDE3ODYsMT
-cxNjgxNTUyNCwtMTIzMTYxNzI2NCwtNDQ1MTY2MjAwLDEzMTc1
-Njc3NjMsLTExNzM2MDQzOTYsNTc0MTA1NTksMTYwOTE1MzExNi
-wxOTY5MTU3MjI2LC02NTMxOTc2NTMsLTEwNzMyNzk5NTksNzc1
-NjgyMjc1XX0=
+eyJoaXN0b3J5IjpbLTIwMjI1MTYzNTMsMjEwNDU4MTE1MSwtMT
+MxODAxNzE0OCwtNzAwOTM4NTk3LDExMzg1NDIyMCwtMTg1Mzk2
+NTA4MCwtMTI4MjY0NDU4NiwzNjA2ODc3MjAsNjEyMTQxNzg2LD
+E3MTY4MTU1MjQsLTEyMzE2MTcyNjQsLTQ0NTE2NjIwMCwxMzE3
+NTY3NzYzLC0xMTczNjA0Mzk2LDU3NDEwNTU5LDE2MDkxNTMxMT
+YsMTk2OTE1NzIyNiwtNjUzMTk3NjUzLC0xMDczMjc5OTU5LDc3
+NTY4MjI3NV19
 -->
