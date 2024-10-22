@@ -195,6 +195,27 @@ void passage_bulle(int tab[], int n) {
 }
 
 ```
+----
+### TD [22/10/24]
+```c
+void fusion_2tableaux_tries(int tab1[], int taille1, int tab2[], int taille2, int tab3[]){
+	int n=0;
+	for(int i=0; i<taille1 ;i++){
+		for(int j=0; j<taille2 ;j++){
+			if(tab1[i]>tab2[j]){
+				tab3[n]=tab2[j];
+				n++;
+			}
+			else{
+				tab3[n]=tab1[i];
+				n++;
+				break;
+			}
+		}
+	}
+}
+
+```
 
 
 ## Web (R1.02)
@@ -451,6 +472,10 @@ EX2_Matiere(==numMatiere==, nomMatiere)
 
 EX2_Vendre(==#NumMagasin, #NumRouleau==)
 EX2_Tarifer(==#codeCategorie, #NumRouleau==, prixvente)
+
+-----
+
+
  
 ## ~~Math discrète (R1.06)~~
 *sur feuille*
@@ -555,11 +580,11 @@ Malgré ces lois, le comportement varie en fonction de la situation dans laquell
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjI1MTYzNTMsMjEwNDU4MTE1MSwtMT
-MxODAxNzE0OCwtNzAwOTM4NTk3LDExMzg1NDIyMCwtMTg1Mzk2
-NTA4MCwtMTI4MjY0NDU4NiwzNjA2ODc3MjAsNjEyMTQxNzg2LD
-E3MTY4MTU1MjQsLTEyMzE2MTcyNjQsLTQ0NTE2NjIwMCwxMzE3
-NTY3NzYzLC0xMTczNjA0Mzk2LDU3NDEwNTU5LDE2MDkxNTMxMT
-YsMTk2OTE1NzIyNiwtNjUzMTk3NjUzLC0xMDczMjc5OTU5LDc3
-NTY4MjI3NV19
+eyJoaXN0b3J5IjpbLTMyNDcwNjUyLC0yMDIyNTE2MzUzLDIxMD
+Q1ODExNTEsLTEzMTgwMTcxNDgsLTcwMDkzODU5NywxMTM4NTQy
+MjAsLTE4NTM5NjUwODAsLTEyODI2NDQ1ODYsMzYwNjg3NzIwLD
+YxMjE0MTc4NiwxNzE2ODE1NTI0LC0xMjMxNjE3MjY0LC00NDUx
+NjYyMDAsMTMxNzU2Nzc2MywtMTE3MzYwNDM5Niw1NzQxMDU1OS
+wxNjA5MTUzMTE2LDE5NjkxNTcyMjYsLTY1MzE5NzY1MywtMTA3
+MzI3OTk1OV19
 -->
