@@ -196,11 +196,15 @@ void passage_bulle(int tab[], int n) {
 
 ```
 
+**on cherche 6*
 | 0 |1 | 2| 3 | 4 | 5| 6 | 7 | 8 | 9 
 |--|--|--|--|--|--|--|--|--|--|
 | 3 | 4 | 6 | 8 | 10 | 11 | 12 | 15 | 17 | 19
 
-
+->
+| 0 |1 | 2 | 3 | 4 | 5| 6 | 7 | 8 | 9 
+|--|--|--|--|--|--|--|--|--|--|
+| 3 | 4 | 6 | 8 | 10 | 11 | 12 | 15 | 17 | 19
 ----
 ### TD [22/10/24]
 ```c
@@ -590,11 +594,11 @@ Malgré ces lois, le comportement varie en fonction de la situation dans laquell
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MTAxNDY3LC0xMzI3NjUyOTAxLC0xMD
-YzNTYwOTYzLC0xMzI3NjUyOTAxLC0zMjQ3MDY1MiwtMjAyMjUx
-NjM1MywyMTA0NTgxMTUxLC0xMzE4MDE3MTQ4LC03MDA5Mzg1OT
-csMTEzODU0MjIwLC0xODUzOTY1MDgwLC0xMjgyNjQ0NTg2LDM2
-MDY4NzcyMCw2MTIxNDE3ODYsMTcxNjgxNTUyNCwtMTIzMTYxNz
-I2NCwtNDQ1MTY2MjAwLDEzMTc1Njc3NjMsLTExNzM2MDQzOTYs
-NTc0MTA1NTldfQ==
+eyJoaXN0b3J5IjpbMTM1MzgyOTMxOSwtMTMyNzY1MjkwMSwtMT
+A2MzU2MDk2MywtMTMyNzY1MjkwMSwtMzI0NzA2NTIsLTIwMjI1
+MTYzNTMsMjEwNDU4MTE1MSwtMTMxODAxNzE0OCwtNzAwOTM4NT
+k3LDExMzg1NDIyMCwtMTg1Mzk2NTA4MCwtMTI4MjY0NDU4Niwz
+NjA2ODc3MjAsNjEyMTQxNzg2LDE3MTY4MTU1MjQsLTEyMzE2MT
+cyNjQsLTQ0NTE2NjIwMCwxMzE3NTY3NzYzLC0xMTczNjA0Mzk2
+LDU3NDEwNTU5XX0=
 -->
