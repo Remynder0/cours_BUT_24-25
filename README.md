@@ -432,6 +432,21 @@ I --1,1--> F
 
 ### TD4 [21/10/24]
 
+EX1_Ligne(==numLigne==, nomLigne, longueur, #CodeTreseau)
+EX1_Type_reseau(==codeTreseau==, LibTreseau)
+EX1_classe(==numClasse==)
+EX1_station(==NumStation==, nomSattion ,Houverture, Hfermeture, #numZone)
+EX1_type_coupon(==CodeTCoupon==, LibCoupon)
+EX1_zone(==numZone==)
+
+EX1 Deservir(==#numLigne, #NumStation==)
+EX1_tarifier(==#numClasse, #CodeTCoupon, #numZone==, Prix)
+
+
+EX2_magasin(==numMagasin==, nomMagasin, adr1, adr2, cpMag, VilleMag, #codeTcoupon)
+EX2_Categorie(==CodeCateg==, nomCateg)
+EX2_Rouleau(==Numrouleau==, designation, #NumMatiere)
+EX2_
  
 ## ~~Math discrète (R1.06)~~
 *sur feuille*
@@ -536,11 +551,11 @@ Malgré ces lois, le comportement varie en fonction de la situation dans laquell
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5OTQzNzQ2MCwyMTA0NTgxMTUxLC0xMz
-E4MDE3MTQ4LC03MDA5Mzg1OTcsMTEzODU0MjIwLC0xODUzOTY1
-MDgwLC0xMjgyNjQ0NTg2LDM2MDY4NzcyMCw2MTIxNDE3ODYsMT
-cxNjgxNTUyNCwtMTIzMTYxNzI2NCwtNDQ1MTY2MjAwLDEzMTc1
-Njc3NjMsLTExNzM2MDQzOTYsNTc0MTA1NTksMTYwOTE1MzExNi
-wxOTY5MTU3MjI2LC02NTMxOTc2NTMsLTEwNzMyNzk5NTksNzc1
-NjgyMjc1XX0=
+eyJoaXN0b3J5IjpbLTExNDI5Njg4NjMsMjEwNDU4MTE1MSwtMT
+MxODAxNzE0OCwtNzAwOTM4NTk3LDExMzg1NDIyMCwtMTg1Mzk2
+NTA4MCwtMTI4MjY0NDU4NiwzNjA2ODc3MjAsNjEyMTQxNzg2LD
+E3MTY4MTU1MjQsLTEyMzE2MTcyNjQsLTQ0NTE2NjIwMCwxMzE3
+NTY3NzYzLC0xMTczNjA0Mzk2LDU3NDEwNTU5LDE2MDkxNTMxMT
+YsMTk2OTE1NzIyNiwtNjUzMTk3NjUzLC0xMDczMjc5OTU5LDc3
+NTY4MjI3NV19
 -->
