@@ -426,9 +426,12 @@ I --1,1--> F
 
 ```
 
-### CM 2 [10/09/24]
 
+### CM 2 [10/09/24]
  - **Super clé** : contient/ donne accès à plusieurs clé
+
+### TD4 [21/10/24]
+
  
 ## ~~Math discrète (R1.06)~~
 *sur feuille*
@@ -533,11 +536,11 @@ Malgré ces lois, le comportement varie en fonction de la situation dans laquell
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNDU4MTE1MSwtMTMxODAxNzE0OCwtNz
-AwOTM4NTk3LDExMzg1NDIyMCwtMTg1Mzk2NTA4MCwtMTI4MjY0
-NDU4NiwzNjA2ODc3MjAsNjEyMTQxNzg2LDE3MTY4MTU1MjQsLT
-EyMzE2MTcyNjQsLTQ0NTE2NjIwMCwxMzE3NTY3NzYzLC0xMTcz
-NjA0Mzk2LDU3NDEwNTU5LDE2MDkxNTMxMTYsMTk2OTE1NzIyNi
-wtNjUzMTk3NjUzLC0xMDczMjc5OTU5LDc3NTY4MjI3NSwtMTY1
-ODYwMzAxOF19
+eyJoaXN0b3J5IjpbMTc5OTQzNzQ2MCwyMTA0NTgxMTUxLC0xMz
+E4MDE3MTQ4LC03MDA5Mzg1OTcsMTEzODU0MjIwLC0xODUzOTY1
+MDgwLC0xMjgyNjQ0NTg2LDM2MDY4NzcyMCw2MTIxNDE3ODYsMT
+cxNjgxNTUyNCwtMTIzMTYxNzI2NCwtNDQ1MTY2MjAwLDEzMTc1
+Njc3NjMsLTExNzM2MDQzOTYsNTc0MTA1NTksMTYwOTE1MzExNi
+wxOTY5MTU3MjI2LC02NTMxOTc2NTMsLTEwNzMyNzk5NTksNzc1
+NjgyMjc1XX0=
 -->
