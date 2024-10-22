@@ -197,7 +197,9 @@ void passage_bulle(int tab[], int n) {
 ```
 
 | 0 |1 | 2| 3 | 4 | 5| 6 | 7 | 8 | 9 
-|--|--|--|--|--|--|--|--
+|--|--|--|--|--|--|--|--|
+| 3 | 4 | 6 | 8 | 10 |
+
 ----
 ### TD [22/10/24]
 ```c
@@ -587,7 +589,7 @@ Malgré ces lois, le comportement varie en fonction de la situation dans laquell
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYyNTA5NzY2LC0xMzI3NjUyOTAxLC0xMD
+eyJoaXN0b3J5IjpbMzc5ODE1MDM0LC0xMzI3NjUyOTAxLC0xMD
 YzNTYwOTYzLC0xMzI3NjUyOTAxLC0zMjQ3MDY1MiwtMjAyMjUx
 NjM1MywyMTA0NTgxMTUxLC0xMzE4MDE3MTQ4LC03MDA5Mzg1OT
 csMTEzODU0MjIwLC0xODUzOTY1MDgwLC0xMjgyNjQ0NTg2LDM2
