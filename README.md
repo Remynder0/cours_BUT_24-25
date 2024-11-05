@@ -244,8 +244,9 @@ void invertstring(char chaine[]){
 	while(chaine[taille]=!'\0') taille++;
 	
 	for (int i=0; i<taille/2 ;i++){
-		int temp =chaine[i]
-		c=chaine[taille-i-1];
+		int temp =chaine[i];
+		chaine[i]=chaine[taille-i-1];
+		chaine[taille-i-1]=temp;
 	}
 }
 
@@ -621,7 +622,7 @@ Malgré ces lois, le comportement varie en fonction de la situation dans laquell
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNzEzNTg2OSwtMTEyODgyMjQ0MSwtMT
+eyJoaXN0b3J5IjpbMTg1NTI0NTI0OSwtMTEyODgyMjQ0MSwtMT
 c1NzIyNjU1MiwtMTMyNzY1MjkwMSwtMTA2MzU2MDk2MywtMTMy
 NzY1MjkwMSwtMzI0NzA2NTIsLTIwMjI1MTYzNTMsMjEwNDU4MT
 E1MSwtMTMxODAxNzE0OCwtNzAwOTM4NTk3LDExMzg1NDIyMCwt
