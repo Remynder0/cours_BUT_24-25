@@ -236,6 +236,10 @@ void fusion_2tableaux_tries(int tab1[], int taille1, int tab2[], int taille2, in
 |--|--|--|--|--|--|--|--|--|--|
 | 1 | ==6== | 8 | 10 
 
+-----
+### TD [05/11/24]
+
+
 ## Web (R1.02)
 
 ### TD [03/10/24]
@@ -598,11 +602,11 @@ Malgré ces lois, le comportement varie en fonction de la situation dans laquell
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTcyMjY1NTIsLTEzMjc2NTI5MDEsLT
-EwNjM1NjA5NjMsLTEzMjc2NTI5MDEsLTMyNDcwNjUyLC0yMDIy
-NTE2MzUzLDIxMDQ1ODExNTEsLTEzMTgwMTcxNDgsLTcwMDkzOD
-U5NywxMTM4NTQyMjAsLTE4NTM5NjUwODAsLTEyODI2NDQ1ODYs
-MzYwNjg3NzIwLDYxMjE0MTc4NiwxNzE2ODE1NTI0LC0xMjMxNj
-E3MjY0LC00NDUxNjYyMDAsMTMxNzU2Nzc2MywtMTE3MzYwNDM5
-Niw1NzQxMDU1OV19
+eyJoaXN0b3J5IjpbNzA2Njk5MzA5LC0xNzU3MjI2NTUyLC0xMz
+I3NjUyOTAxLC0xMDYzNTYwOTYzLC0xMzI3NjUyOTAxLC0zMjQ3
+MDY1MiwtMjAyMjUxNjM1MywyMTA0NTgxMTUxLC0xMzE4MDE3MT
+Q4LC03MDA5Mzg1OTcsMTEzODU0MjIwLC0xODUzOTY1MDgwLC0x
+MjgyNjQ0NTg2LDM2MDY4NzcyMCw2MTIxNDE3ODYsMTcxNjgxNT
+UyNCwtMTIzMTYxNzI2NCwtNDQ1MTY2MjAwLDEzMTc1Njc3NjMs
+LTExNzM2MDQzOTZdfQ==
 -->
