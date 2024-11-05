@@ -239,7 +239,7 @@ void fusion_2tableaux_tries(int tab1[], int taille1, int tab2[], int taille2, in
 -----
 ### TD [05/11/24]
 ```c
-void invertstring(int chaine[]){
+void invertstring(char chaine[]){
 	int taille=0;
 	while(chaine[taille]=!'\0') taille++;
 	
@@ -247,6 +247,8 @@ void invertstring(int chaine[]){
 		chaine[i]=chaine[taille-i-1];
 	}
 }
+
+int substring(char chaine[]
 ```
 
 ## Web (R1.02)
@@ -611,11 +613,11 @@ Malgré ces lois, le comportement varie en fonction de la situation dans laquell
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjg4MjI0NDEsLTE3NTcyMjY1NTIsLT
-EzMjc2NTI5MDEsLTEwNjM1NjA5NjMsLTEzMjc2NTI5MDEsLTMy
-NDcwNjUyLC0yMDIyNTE2MzUzLDIxMDQ1ODExNTEsLTEzMTgwMT
-cxNDgsLTcwMDkzODU5NywxMTM4NTQyMjAsLTE4NTM5NjUwODAs
-LTEyODI2NDQ1ODYsMzYwNjg3NzIwLDYxMjE0MTc4NiwxNzE2OD
-E1NTI0LC0xMjMxNjE3MjY0LC00NDUxNjYyMDAsMTMxNzU2Nzc2
-MywtMTE3MzYwNDM5Nl19
+eyJoaXN0b3J5IjpbLTE1OTQ0NDY1MDYsLTExMjg4MjI0NDEsLT
+E3NTcyMjY1NTIsLTEzMjc2NTI5MDEsLTEwNjM1NjA5NjMsLTEz
+Mjc2NTI5MDEsLTMyNDcwNjUyLC0yMDIyNTE2MzUzLDIxMDQ1OD
+ExNTEsLTEzMTgwMTcxNDgsLTcwMDkzODU5NywxMTM4NTQyMjAs
+LTE4NTM5NjUwODAsLTEyODI2NDQ1ODYsMzYwNjg3NzIwLDYxMj
+E0MTc4NiwxNzE2ODE1NTI0LC0xMjMxNjE3MjY0LC00NDUxNjYy
+MDAsMTMxNzU2Nzc2M119
 -->
