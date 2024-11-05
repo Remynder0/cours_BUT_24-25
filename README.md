@@ -248,7 +248,9 @@ void invertstring(char chaine[]){
 	}
 }
 
-int substring(char chaine[])
+int substring(char chaine[]){
+	
+}
 ```
 
 ## Web (R1.02)
@@ -613,7 +615,7 @@ Malgré ces lois, le comportement varie en fonction de la situation dans laquell
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MjE0NzM5OSwtMTEyODgyMjQ0MSwtMT
+eyJoaXN0b3J5IjpbMTY5MzI3MjQ2NywtMTEyODgyMjQ0MSwtMT
 c1NzIyNjU1MiwtMTMyNzY1MjkwMSwtMTA2MzU2MDk2MywtMTMy
 NzY1MjkwMSwtMzI0NzA2NTIsLTIwMjI1MTYzNTMsMjEwNDU4MT
 E1MSwtMTMxODAxNzE0OCwtNzAwOTM4NTk3LDExMzg1NDIyMCwt
