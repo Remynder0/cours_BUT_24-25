@@ -250,7 +250,9 @@ void invertstring(char chaine[]){
 
 int substring(char src[], char dest[], int d, int f){
 	int n=0;
-	for i in	
+	for ( int i=d; i<f ;i++){
+	
+	}	
 }
 ```
 
@@ -616,7 +618,7 @@ Malgré ces lois, le comportement varie en fonction de la situation dans laquell
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMzM5MDk3MywtMTEyODgyMjQ0MSwtMT
+eyJoaXN0b3J5IjpbMTIzNzAyNTkxMSwtMTEyODgyMjQ0MSwtMT
 c1NzIyNjU1MiwtMTMyNzY1MjkwMSwtMTA2MzU2MDk2MywtMTMy
 NzY1MjkwMSwtMzI0NzA2NTIsLTIwMjI1MTYzNTMsMjEwNDU4MT
 E1MSwtMTMxODAxNzE0OCwtNzAwOTM4NTk3LDExMzg1NDIyMCwt
