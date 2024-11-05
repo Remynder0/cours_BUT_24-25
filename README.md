@@ -256,7 +256,7 @@ int substring(char src[], char dest[], int d, int f){
 		dest[n]=src[i];
 		n++;
 	}
-	dest[n]='\0'
+	dest[n]='\0';
 	return n;	
 }
 ```
@@ -623,7 +623,7 @@ Malgré ces lois, le comportement varie en fonction de la situation dans laquell
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNDc5MDEyMCwxODU1MjQ1MjQ5LC0xMT
+eyJoaXN0b3J5IjpbMTU5ODIwODk5NywxODU1MjQ1MjQ5LC0xMT
 I4ODIyNDQxLC0xNzU3MjI2NTUyLC0xMzI3NjUyOTAxLC0xMDYz
 NTYwOTYzLC0xMzI3NjUyOTAxLC0zMjQ3MDY1MiwtMjAyMjUxNj
 M1MywyMTA0NTgxMTUxLC0xMzE4MDE3MTQ4LC03MDA5Mzg1OTcs
