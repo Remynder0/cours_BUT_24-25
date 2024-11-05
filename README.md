@@ -240,9 +240,12 @@ void fusion_2tableaux_tries(int tab1[], int taille1, int tab2[], int taille2, in
 ### TD [05/11/24]
 ```c
 void invertstring(int chaine[]){
-	int n=0;
-	while(chaine[n]=!'\0'){
-	n++;}
+	int taille=0;
+	while(chaine[taille]=!'\0') taille++;
+	
+	for (int i=0; i<taille/2 ;i++){
+		
+	}
 }
 ```
 
@@ -608,7 +611,7 @@ Malgré ces lois, le comportement varie en fonction de la situation dans laquell
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY2MzQ2MjE3LC0xNzU3MjI2NTUyLC0xMz
+eyJoaXN0b3J5IjpbNDk2NjY2NzU3LC0xNzU3MjI2NTUyLC0xMz
 I3NjUyOTAxLC0xMDYzNTYwOTYzLC0xMzI3NjUyOTAxLC0zMjQ3
 MDY1MiwtMjAyMjUxNjM1MywyMTA0NTgxMTUxLC0xMzE4MDE3MT
 Q4LC03MDA5Mzg1OTcsMTEzODU0MjIwLC0xODUzOTY1MDgwLC0x
