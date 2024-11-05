@@ -262,10 +262,12 @@ int substring(char src[], char dest[], int d, int f){
 
 int verifie_expression_1(char chaine[]){
 	int n=0;
+	int comp=;
 	while( chaine[n]=!'\0'){
-		if(chaine[comp]=='(') comp++;
-		if(chaine[comp]==')') comp--;
+		if(chaine[n]=='(') comp++;
+		if(chaine[n]==')') comp--;
 	}
+	if(comp!=0){
 }
 ```
 
@@ -631,11 +633,11 @@ Malgré ces lois, le comportement varie en fonction de la situation dans laquell
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQxMjE0MTQsMjA4NTc2Njc2NiwxNTk4Mj
-A4OTk3LDE4NTUyNDUyNDksLTExMjg4MjI0NDEsLTE3NTcyMjY1
-NTIsLTEzMjc2NTI5MDEsLTEwNjM1NjA5NjMsLTEzMjc2NTI5MD
-EsLTMyNDcwNjUyLC0yMDIyNTE2MzUzLDIxMDQ1ODExNTEsLTEz
-MTgwMTcxNDgsLTcwMDkzODU5NywxMTM4NTQyMjAsLTE4NTM5Nj
-UwODAsLTEyODI2NDQ1ODYsMzYwNjg3NzIwLDYxMjE0MTc4Niwx
-NzE2ODE1NTI0XX0=
+eyJoaXN0b3J5IjpbLTE4MjkzODQyMCwyMDg1NzY2NzY2LDE1OT
+gyMDg5OTcsMTg1NTI0NTI0OSwtMTEyODgyMjQ0MSwtMTc1NzIy
+NjU1MiwtMTMyNzY1MjkwMSwtMTA2MzU2MDk2MywtMTMyNzY1Mj
+kwMSwtMzI0NzA2NTIsLTIwMjI1MTYzNTMsMjEwNDU4MTE1MSwt
+MTMxODAxNzE0OCwtNzAwOTM4NTk3LDExMzg1NDIyMCwtMTg1Mz
+k2NTA4MCwtMTI4MjY0NDU4NiwzNjA2ODc3MjAsNjEyMTQxNzg2
+LDE3MTY4MTU1MjRdfQ==
 -->
