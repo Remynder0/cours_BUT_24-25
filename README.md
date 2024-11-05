@@ -262,7 +262,10 @@ int substring(char src[], char dest[], int d, int f){
 
 int verifie_expression_1(char chaine[]){
 	int n=0;
-	while( chaine[n]=!
+	while( chaine[n]=!'\0'){
+		if(chaine[n]=='(') n++;
+		else
+	}
 }
 ```
 
@@ -628,11 +631,11 @@ Malgré ces lois, le comportement varie en fonction de la situation dans laquell
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNTc1NTY1MiwyMDg1NzY2NzY2LDE1OT
-gyMDg5OTcsMTg1NTI0NTI0OSwtMTEyODgyMjQ0MSwtMTc1NzIy
-NjU1MiwtMTMyNzY1MjkwMSwtMTA2MzU2MDk2MywtMTMyNzY1Mj
-kwMSwtMzI0NzA2NTIsLTIwMjI1MTYzNTMsMjEwNDU4MTE1MSwt
-MTMxODAxNzE0OCwtNzAwOTM4NTk3LDExMzg1NDIyMCwtMTg1Mz
-k2NTA4MCwtMTI4MjY0NDU4NiwzNjA2ODc3MjAsNjEyMTQxNzg2
-LDE3MTY4MTU1MjRdfQ==
+eyJoaXN0b3J5IjpbLTEwOTY4OTAyNzksMjA4NTc2Njc2NiwxNT
+k4MjA4OTk3LDE4NTUyNDUyNDksLTExMjg4MjI0NDEsLTE3NTcy
+MjY1NTIsLTEzMjc2NTI5MDEsLTEwNjM1NjA5NjMsLTEzMjc2NT
+I5MDEsLTMyNDcwNjUyLC0yMDIyNTE2MzUzLDIxMDQ1ODExNTEs
+LTEzMTgwMTcxNDgsLTcwMDkzODU5NywxMTM4NTQyMjAsLTE4NT
+M5NjUwODAsLTEyODI2NDQ1ODYsMzYwNjg3NzIwLDYxMjE0MTc4
+NiwxNzE2ODE1NTI0XX0=
 -->
