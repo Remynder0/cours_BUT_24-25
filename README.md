@@ -244,7 +244,7 @@ void invertstring(int chaine[]){
 	while(chaine[taille]=!'\0') taille++;
 	
 	for (int i=0; i<taille/2 ;i++){
-		
+		chaine[i]=chaine[taille-i-1];
 	}
 }
 ```
@@ -611,11 +611,11 @@ Malgré ces lois, le comportement varie en fonction de la situation dans laquell
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk2NjY2NzU3LC0xNzU3MjI2NTUyLC0xMz
-I3NjUyOTAxLC0xMDYzNTYwOTYzLC0xMzI3NjUyOTAxLC0zMjQ3
-MDY1MiwtMjAyMjUxNjM1MywyMTA0NTgxMTUxLC0xMzE4MDE3MT
-Q4LC03MDA5Mzg1OTcsMTEzODU0MjIwLC0xODUzOTY1MDgwLC0x
-MjgyNjQ0NTg2LDM2MDY4NzcyMCw2MTIxNDE3ODYsMTcxNjgxNT
-UyNCwtMTIzMTYxNzI2NCwtNDQ1MTY2MjAwLDEzMTc1Njc3NjMs
-LTExNzM2MDQzOTZdfQ==
+eyJoaXN0b3J5IjpbLTExMjg4MjI0NDEsLTE3NTcyMjY1NTIsLT
+EzMjc2NTI5MDEsLTEwNjM1NjA5NjMsLTEzMjc2NTI5MDEsLTMy
+NDcwNjUyLC0yMDIyNTE2MzUzLDIxMDQ1ODExNTEsLTEzMTgwMT
+cxNDgsLTcwMDkzODU5NywxMTM4NTQyMjAsLTE4NTM5NjUwODAs
+LTEyODI2NDQ1ODYsMzYwNjg3NzIwLDYxMjE0MTc4NiwxNzE2OD
+E1NTI0LC0xMjMxNjE3MjY0LC00NDUxNjYyMDAsMTMxNzU2Nzc2
+MywtMTE3MzYwNDM5Nl19
 -->
