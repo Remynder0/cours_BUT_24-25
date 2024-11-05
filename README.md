@@ -248,7 +248,7 @@ void invertstring(char chaine[]){
 	}
 }
 
-int substring(char chaine[]
+int substring(char chaine[])
 ```
 
 ## Web (R1.02)
@@ -613,11 +613,11 @@ Malgré ces lois, le comportement varie en fonction de la situation dans laquell
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTQ0NDY1MDYsLTExMjg4MjI0NDEsLT
-E3NTcyMjY1NTIsLTEzMjc2NTI5MDEsLTEwNjM1NjA5NjMsLTEz
-Mjc2NTI5MDEsLTMyNDcwNjUyLC0yMDIyNTE2MzUzLDIxMDQ1OD
-ExNTEsLTEzMTgwMTcxNDgsLTcwMDkzODU5NywxMTM4NTQyMjAs
-LTE4NTM5NjUwODAsLTEyODI2NDQ1ODYsMzYwNjg3NzIwLDYxMj
-E0MTc4NiwxNzE2ODE1NTI0LC0xMjMxNjE3MjY0LC00NDUxNjYy
-MDAsMTMxNzU2Nzc2M119
+eyJoaXN0b3J5IjpbLTg5MjE0NzM5OSwtMTEyODgyMjQ0MSwtMT
+c1NzIyNjU1MiwtMTMyNzY1MjkwMSwtMTA2MzU2MDk2MywtMTMy
+NzY1MjkwMSwtMzI0NzA2NTIsLTIwMjI1MTYzNTMsMjEwNDU4MT
+E1MSwtMTMxODAxNzE0OCwtNzAwOTM4NTk3LDExMzg1NDIyMCwt
+MTg1Mzk2NTA4MCwtMTI4MjY0NDU4NiwzNjA2ODc3MjAsNjEyMT
+QxNzg2LDE3MTY4MTU1MjQsLTEyMzE2MTcyNjQsLTQ0NTE2NjIw
+MCwxMzE3NTY3NzYzXX0=
 -->
