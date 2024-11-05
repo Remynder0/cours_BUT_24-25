@@ -259,6 +259,10 @@ int substring(char src[], char dest[], int d, int f){
 	dest[n]='\0';
 	return n;	
 }
+
+int verifie_expression_1(char chaine[]){
+	
+}
 ```
 
 ## Web (R1.02)
@@ -623,11 +627,11 @@ Malgré ces lois, le comportement varie en fonction de la situation dans laquell
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5ODIwODk5NywxODU1MjQ1MjQ5LC0xMT
-I4ODIyNDQxLC0xNzU3MjI2NTUyLC0xMzI3NjUyOTAxLC0xMDYz
-NTYwOTYzLC0xMzI3NjUyOTAxLC0zMjQ3MDY1MiwtMjAyMjUxNj
-M1MywyMTA0NTgxMTUxLC0xMzE4MDE3MTQ4LC03MDA5Mzg1OTcs
-MTEzODU0MjIwLC0xODUzOTY1MDgwLC0xMjgyNjQ0NTg2LDM2MD
-Y4NzcyMCw2MTIxNDE3ODYsMTcxNjgxNTUyNCwtMTIzMTYxNzI2
-NCwtNDQ1MTY2MjAwXX0=
+eyJoaXN0b3J5IjpbMjA4NTc2Njc2NiwxNTk4MjA4OTk3LDE4NT
+UyNDUyNDksLTExMjg4MjI0NDEsLTE3NTcyMjY1NTIsLTEzMjc2
+NTI5MDEsLTEwNjM1NjA5NjMsLTEzMjc2NTI5MDEsLTMyNDcwNj
+UyLC0yMDIyNTE2MzUzLDIxMDQ1ODExNTEsLTEzMTgwMTcxNDgs
+LTcwMDkzODU5NywxMTM4NTQyMjAsLTE4NTM5NjUwODAsLTEyOD
+I2NDQ1ODYsMzYwNjg3NzIwLDYxMjE0MTc4NiwxNzE2ODE1NTI0
+LC0xMjMxNjE3MjY0XX0=
 -->
