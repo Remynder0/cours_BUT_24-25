@@ -196,6 +196,81 @@ void passage_bulle(int tab[], int n) {
 
 ```
 
+----
+### TD [22/10/24]
+```c
+
+void fusion_2tableaux_tries(int tab1[], int taille1, int tab2[], int taille2, int tab3[], int taille){
+	int n=1;
+	tab3[0]=0;
+	for(int i=0; i<taille1 ;i++){
+		for(int j=0; j<taille2 ;j++){
+		    
+		    printf("%d %d %d\n",tab1[i],tab2[j],tab3[n-1]);
+			if(tab1[i]>tab2[j] && tab3[n-1]<tab2[j]){
+				tab3[n]=tab2[j];
+				n++;
+			}
+			else if(tab3[n-1]<tab1[i]){
+				tab3[n]=tab1[i];
+				n++;
+				//break;
+			}
+		}
+	}
+}
+
+```
+**on cherche 6**
+| 0 |1 | 2| 3 | 4 | 5| 6 | 7 | 8 | 9 
+|--|--|--|--|--|--|--|--|--|--|
+| 3 | 4 | 6 | 8 | ==10== | 11 | 12 | 15 | 17 | 19
+
+->
+| 0 |1 | 2 | 3 | 4  
+|--|--|--|--|--|--|--|--|--|--|
+| 3 | ==4== | 6 | 8 | 10 
+
+->
+| 1 | 2 | 3 | 4  
+|--|--|--|--|--|--|--|--|--|--|
+| 1 | ==6== | 8 | 10 
+
+-----
+### TD [05/11/24]
+```c
+void invertstring(char chaine[]){
+	int taille=0;
+	while(chaine[taille]=!'\0') taille++;
+	
+	for (int i=0; i<taille/2 ;i++){
+		int temp =chaine[i];
+		chaine[i]=chaine[taille-i-1];
+		chaine[taille-i-1]=temp;
+	}
+}
+
+int substring(char src[], char dest[], int d, int f){
+	int n=0;
+	for ( int i=d; i<f ;i++){
+		dest[n]=src[i];
+		n++;
+	}
+	dest[n]='\0';
+	return n;	
+}
+
+int verifie_expression_1(char chaine[]){
+	int n=0;
+	int comp=;
+	while( chaine[n]=!'\0'){
+		if(chaine[n]=='(') comp++;
+		if(chaine[n]==')') comp--;
+		n++;
+	}
+	return comp==0;
+}
+```
 
 ## Web (R1.02)
 
@@ -426,9 +501,35 @@ I --1,1--> F
 
 ```
 
-### CM 2 [10/09/24]
 
+### CM 2 [10/09/24]
  - **Super clé** : contient/ donne accès à plusieurs clé
+
+### TD4 [21/10/24]
+
+EX1_Ligne(==numLigne==, nomLigne, longueur, #CodeTreseau)
+EX1_Type_reseau(==codeTreseau==, LibTreseau)
+EX1_classe(==numClasse==)
+EX1_station(==NumStation==, nomSattion ,Houverture, Hfermeture, #numZone)
+EX1_type_coupon(==CodeTCoupon==, LibCoupon)
+EX1_zone(==numZone==)
+
+EX1 Deservir(==#numLigne, #NumStation==)
+EX1_tarifier(==#numClasse, #CodeTCoupon, #numZone==, Prix)
+
+----------
+
+EX2_magasin(==numMagasin==, nomMagasin, adr1, adr2, cpMag, VilleMag, #codeTcoupon)
+EX2_Categorie(==CodeCateg==, nomCateg)
+EX2_Rouleau(==Numrouleau==, designation, #NumMatiere)
+EX2_Matiere(==numMatiere==, nomMatiere)
+
+EX2_Vendre(==#NumMagasin, #NumRouleau==)
+EX2_Tarifer(==#codeCategorie, #NumRouleau==, prixvente)
+
+-----
+
+
  
 ## ~~Math discrète (R1.06)~~
 *sur feuille*
@@ -533,11 +634,11 @@ Malgré ces lois, le comportement varie en fonction de la situation dans laquell
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNDU4MTE1MSwtMTMxODAxNzE0OCwtNz
-AwOTM4NTk3LDExMzg1NDIyMCwtMTg1Mzk2NTA4MCwtMTI4MjY0
-NDU4NiwzNjA2ODc3MjAsNjEyMTQxNzg2LDE3MTY4MTU1MjQsLT
-EyMzE2MTcyNjQsLTQ0NTE2NjIwMCwxMzE3NTY3NzYzLC0xMTcz
-NjA0Mzk2LDU3NDEwNTU5LDE2MDkxNTMxMTYsMTk2OTE1NzIyNi
-wtNjUzMTk3NjUzLC0xMDczMjc5OTU5LDc3NTY4MjI3NSwtMTY1
-ODYwMzAxOF19
+eyJoaXN0b3J5IjpbMTYzNzg4MDYwMywtMjAyNzMyMjM2MiwyMD
+g1NzY2NzY2LDE1OTgyMDg5OTcsMTg1NTI0NTI0OSwtMTEyODgy
+MjQ0MSwtMTc1NzIyNjU1MiwtMTMyNzY1MjkwMSwtMTA2MzU2MD
+k2MywtMTMyNzY1MjkwMSwtMzI0NzA2NTIsLTIwMjI1MTYzNTMs
+MjEwNDU4MTE1MSwtMTMxODAxNzE0OCwtNzAwOTM4NTk3LDExMz
+g1NDIyMCwtMTg1Mzk2NTA4MCwtMTI4MjY0NDU4NiwzNjA2ODc3
+MjAsNjEyMTQxNzg2XX0=
 -->
