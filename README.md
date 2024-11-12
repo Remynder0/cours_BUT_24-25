@@ -271,6 +271,18 @@ int verifie_expression_1(char chaine[]){
 	return comp==0;
 }
 ```
+### TD [12/11/24]
+```c
+int selection(int T[], int debut, int fin){
+	int min=T[debut];
+	for(int i=debut; i<fin ;i++){
+		if(T[i] <= min) min = T[i];
+	}	
+	return min;
+}
+
+int 
+```
 
 ## Web (R1.02)
 
@@ -634,11 +646,11 @@ Malgré ces lois, le comportement varie en fonction de la situation dans laquell
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNzg4MDYwMywtMjAyNzMyMjM2MiwyMD
-g1NzY2NzY2LDE1OTgyMDg5OTcsMTg1NTI0NTI0OSwtMTEyODgy
-MjQ0MSwtMTc1NzIyNjU1MiwtMTMyNzY1MjkwMSwtMTA2MzU2MD
-k2MywtMTMyNzY1MjkwMSwtMzI0NzA2NTIsLTIwMjI1MTYzNTMs
-MjEwNDU4MTE1MSwtMTMxODAxNzE0OCwtNzAwOTM4NTk3LDExMz
-g1NDIyMCwtMTg1Mzk2NTA4MCwtMTI4MjY0NDU4NiwzNjA2ODc3
-MjAsNjEyMTQxNzg2XX0=
+eyJoaXN0b3J5IjpbLTIwMjY2NzcwODgsMTYzNzg4MDYwMywtMj
+AyNzMyMjM2MiwyMDg1NzY2NzY2LDE1OTgyMDg5OTcsMTg1NTI0
+NTI0OSwtMTEyODgyMjQ0MSwtMTc1NzIyNjU1MiwtMTMyNzY1Mj
+kwMSwtMTA2MzU2MDk2MywtMTMyNzY1MjkwMSwtMzI0NzA2NTIs
+LTIwMjI1MTYzNTMsMjEwNDU4MTE1MSwtMTMxODAxNzE0OCwtNz
+AwOTM4NTk3LDExMzg1NDIyMCwtMTg1Mzk2NTA4MCwtMTI4MjY0
+NDU4NiwzNjA2ODc3MjBdfQ==
 -->
