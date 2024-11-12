@@ -287,7 +287,10 @@ void tri_selection( int T[], int n){
 	}
 	
 }
-void tri_insertion
+void tri_insertion(int tab[], int n){
+	for(int i=1; i<j
+
+}
 ```
 
 ## Web (R1.02)
@@ -652,11 +655,11 @@ Malgré ces lois, le comportement varie en fonction de la situation dans laquell
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MjIzMTE2LDE5ODQ2NjI5MjUsLTIwMj
-Y2NzcwODgsMTYzNzg4MDYwMywtMjAyNzMyMjM2MiwyMDg1NzY2
-NzY2LDE1OTgyMDg5OTcsMTg1NTI0NTI0OSwtMTEyODgyMjQ0MS
-wtMTc1NzIyNjU1MiwtMTMyNzY1MjkwMSwtMTA2MzU2MDk2Mywt
-MTMyNzY1MjkwMSwtMzI0NzA2NTIsLTIwMjI1MTYzNTMsMjEwND
-U4MTE1MSwtMTMxODAxNzE0OCwtNzAwOTM4NTk3LDExMzg1NDIy
-MCwtMTg1Mzk2NTA4MF19
+eyJoaXN0b3J5IjpbMTg0ODkxOTk5OSwxNTYyMjMxMTYsMTk4ND
+Y2MjkyNSwtMjAyNjY3NzA4OCwxNjM3ODgwNjAzLC0yMDI3MzIy
+MzYyLDIwODU3NjY3NjYsMTU5ODIwODk5NywxODU1MjQ1MjQ5LC
+0xMTI4ODIyNDQxLC0xNzU3MjI2NTUyLC0xMzI3NjUyOTAxLC0x
+MDYzNTYwOTYzLC0xMzI3NjUyOTAxLC0zMjQ3MDY1MiwtMjAyMj
+UxNjM1MywyMTA0NTgxMTUxLC0xMzE4MDE3MTQ4LC03MDA5Mzg1
+OTcsMTEzODU0MjIwXX0=
 -->
