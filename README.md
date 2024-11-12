@@ -271,6 +271,27 @@ int verifie_expression_1(char chaine[]){
 	return comp==0;
 }
 ```
+### TD [12/11/24]
+```c
+int selection(int T[], int debut, int fin){
+	int min=T[debut];
+	for(int i=debut; i<fin ;i++){
+		if(T[i] <= min) min = T[i];
+	}	
+	return min;
+}
+
+void tri_selection( int T[], int n){
+	for( int i=0; i<n-1 ;i++){
+		
+	}
+	
+}
+void tri_insertion(int tab[], int n){
+	for(int i=1; i<j
+
+}
+```
 
 ## Web (R1.02)
 
@@ -634,11 +655,11 @@ Malgré ces lois, le comportement varie en fonction de la situation dans laquell
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNzg4MDYwMywtMjAyNzMyMjM2MiwyMD
-g1NzY2NzY2LDE1OTgyMDg5OTcsMTg1NTI0NTI0OSwtMTEyODgy
-MjQ0MSwtMTc1NzIyNjU1MiwtMTMyNzY1MjkwMSwtMTA2MzU2MD
-k2MywtMTMyNzY1MjkwMSwtMzI0NzA2NTIsLTIwMjI1MTYzNTMs
-MjEwNDU4MTE1MSwtMTMxODAxNzE0OCwtNzAwOTM4NTk3LDExMz
-g1NDIyMCwtMTg1Mzk2NTA4MCwtMTI4MjY0NDU4NiwzNjA2ODc3
-MjAsNjEyMTQxNzg2XX0=
+eyJoaXN0b3J5IjpbMTg0ODkxOTk5OSwxNTYyMjMxMTYsMTk4ND
+Y2MjkyNSwtMjAyNjY3NzA4OCwxNjM3ODgwNjAzLC0yMDI3MzIy
+MzYyLDIwODU3NjY3NjYsMTU5ODIwODk5NywxODU1MjQ1MjQ5LC
+0xMTI4ODIyNDQxLC0xNzU3MjI2NTUyLC0xMzI3NjUyOTAxLC0x
+MDYzNTYwOTYzLC0xMzI3NjUyOTAxLC0zMjQ3MDY1MiwtMjAyMj
+UxNjM1MywyMTA0NTgxMTUxLC0xMzE4MDE3MTQ4LC03MDA5Mzg1
+OTcsMTEzODU0MjIwXX0=
 -->
