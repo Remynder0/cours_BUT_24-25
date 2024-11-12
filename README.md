@@ -281,7 +281,7 @@ int selection(int T[], int debut, int fin){
 	return min;
 }
 
-int 
+int tri_selection
 ```
 
 ## Web (R1.02)
@@ -646,11 +646,11 @@ Malgré ces lois, le comportement varie en fonction de la situation dans laquell
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjY2NzcwODgsMTYzNzg4MDYwMywtMj
-AyNzMyMjM2MiwyMDg1NzY2NzY2LDE1OTgyMDg5OTcsMTg1NTI0
-NTI0OSwtMTEyODgyMjQ0MSwtMTc1NzIyNjU1MiwtMTMyNzY1Mj
-kwMSwtMTA2MzU2MDk2MywtMTMyNzY1MjkwMSwtMzI0NzA2NTIs
-LTIwMjI1MTYzNTMsMjEwNDU4MTE1MSwtMTMxODAxNzE0OCwtNz
-AwOTM4NTk3LDExMzg1NDIyMCwtMTg1Mzk2NTA4MCwtMTI4MjY0
-NDU4NiwzNjA2ODc3MjBdfQ==
+eyJoaXN0b3J5IjpbLTY5OTUyODg5NiwtMjAyNjY3NzA4OCwxNj
+M3ODgwNjAzLC0yMDI3MzIyMzYyLDIwODU3NjY3NjYsMTU5ODIw
+ODk5NywxODU1MjQ1MjQ5LC0xMTI4ODIyNDQxLC0xNzU3MjI2NT
+UyLC0xMzI3NjUyOTAxLC0xMDYzNTYwOTYzLC0xMzI3NjUyOTAx
+LC0zMjQ3MDY1MiwtMjAyMjUxNjM1MywyMTA0NTgxMTUxLC0xMz
+E4MDE3MTQ4LC03MDA5Mzg1OTcsMTEzODU0MjIwLC0xODUzOTY1
+MDgwLC0xMjgyNjQ0NTg2XX0=
 -->
