@@ -281,7 +281,12 @@ int selection(int T[], int debut, int fin){
 	return min;
 }
 
-int tri_selection
+void tri_selection( int T[], int n){
+	for( int i=0; i<n-1 ;i++){
+		
+	}
+	
+}
 ```
 
 ## Web (R1.02)
@@ -646,7 +651,7 @@ Malgré ces lois, le comportement varie en fonction de la situation dans laquell
 
 ## PPP (R1.12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5OTUyODg5NiwtMjAyNjY3NzA4OCwxNj
+eyJoaXN0b3J5IjpbMTk4NDY2MjkyNSwtMjAyNjY3NzA4OCwxNj
 M3ODgwNjAzLC0yMDI3MzIyMzYyLDIwODU3NjY3NjYsMTU5ODIw
 ODk5NywxODU1MjQ1MjQ5LC0xMTI4ODIyNDQxLC0xNzU3MjI2NT
 UyLC0xMzI3NjUyOTAxLC0xMDYzNTYwOTYzLC0xMzI3NjUyOTAx
