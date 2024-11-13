@@ -654,12 +654,31 @@ Malgré ces lois, le comportement varie en fonction de la situation dans laquell
 
 
 ## PPP (R1.12)
+
+
+
+
+```bash
+#!/bin/bash
+
+# Liste des paquets à installer
+packages=( "p7zip-full p7zip-rar" "filezilla" "firefox" "keepass2" "vlc" "--classic code" "libreoffice" "nodejs" "avast" "audacity" "k-lite codecs" "putty" "eclipse" "git" "google-chrome-stable" )
+
+# Mise à jour des paquets disponibles
+sudo apt update
+
+# Installation des paquets
+for package in "${packages[@]}"; do
+    sudo apt install -y "$package"
+done
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0ODkxOTk5OSwxNTYyMjMxMTYsMTk4ND
-Y2MjkyNSwtMjAyNjY3NzA4OCwxNjM3ODgwNjAzLC0yMDI3MzIy
-MzYyLDIwODU3NjY3NjYsMTU5ODIwODk5NywxODU1MjQ1MjQ5LC
-0xMTI4ODIyNDQxLC0xNzU3MjI2NTUyLC0xMzI3NjUyOTAxLC0x
-MDYzNTYwOTYzLC0xMzI3NjUyOTAxLC0zMjQ3MDY1MiwtMjAyMj
-UxNjM1MywyMTA0NTgxMTUxLC0xMzE4MDE3MTQ4LC03MDA5Mzg1
-OTcsMTEzODU0MjIwXX0=
+eyJoaXN0b3J5IjpbLTE3MTM3NzczNjIsMTg0ODkxOTk5OSwxNT
+YyMjMxMTYsMTk4NDY2MjkyNSwtMjAyNjY3NzA4OCwxNjM3ODgw
+NjAzLC0yMDI3MzIyMzYyLDIwODU3NjY3NjYsMTU5ODIwODk5Ny
+wxODU1MjQ1MjQ5LC0xMTI4ODIyNDQxLC0xNzU3MjI2NTUyLC0x
+MzI3NjUyOTAxLC0xMDYzNTYwOTYzLC0xMzI3NjUyOTAxLC0zMj
+Q3MDY1MiwtMjAyMjUxNjM1MywyMTA0NTgxMTUxLC0xMzE4MDE3
+MTQ4LC03MDA5Mzg1OTddfQ==
 -->
