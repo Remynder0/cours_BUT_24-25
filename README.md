@@ -662,7 +662,7 @@ Malgré ces lois, le comportement varie en fonction de la situation dans laquell
 #!/bin/bash
 
 # Liste des paquets à installer
-packages=( "p7zip-full p7zip-rar" "filezilla" "firefox" "keepass2" "vlc" "--classic code" "libreoffice" "nodejs" "avast" "audacity" "k-lite codecs" "putty" "eclipse" "git" "google-chrome-stable" )
+packages=( "p7zip-full p7zip-rar" "filezilla" "firefox" "keepass2" "vlc" "--classic code" "libreoffice" "nodejs" "avast" "audacity" "k-lite codecs" "putty" "eclipse" "git" "google-chrome-stable" "bleachbit" )
 
 # Mise à jour des paquets disponibles
 sudo apt update
@@ -674,11 +674,11 @@ done
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTM3NzczNjIsMTg0ODkxOTk5OSwxNT
-YyMjMxMTYsMTk4NDY2MjkyNSwtMjAyNjY3NzA4OCwxNjM3ODgw
-NjAzLC0yMDI3MzIyMzYyLDIwODU3NjY3NjYsMTU5ODIwODk5Ny
-wxODU1MjQ1MjQ5LC0xMTI4ODIyNDQxLC0xNzU3MjI2NTUyLC0x
-MzI3NjUyOTAxLC0xMDYzNTYwOTYzLC0xMzI3NjUyOTAxLC0zMj
-Q3MDY1MiwtMjAyMjUxNjM1MywyMTA0NTgxMTUxLC0xMzE4MDE3
-MTQ4LC03MDA5Mzg1OTddfQ==
+eyJoaXN0b3J5IjpbLTE2MzkyNjgxMTYsLTE3MTM3NzczNjIsMT
+g0ODkxOTk5OSwxNTYyMjMxMTYsMTk4NDY2MjkyNSwtMjAyNjY3
+NzA4OCwxNjM3ODgwNjAzLC0yMDI3MzIyMzYyLDIwODU3NjY3Nj
+YsMTU5ODIwODk5NywxODU1MjQ1MjQ5LC0xMTI4ODIyNDQxLC0x
+NzU3MjI2NTUyLC0xMzI3NjUyOTAxLC0xMDYzNTYwOTYzLC0xMz
+I3NjUyOTAxLC0zMjQ3MDY1MiwtMjAyMjUxNjM1MywyMTA0NTgx
+MTUxLC0xMzE4MDE3MTQ4XX0=
 -->
