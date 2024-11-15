@@ -299,7 +299,11 @@ struct feuille{
 	int nb_lignes;
 	int nb_colonnes;
 }
-
+struct feuille exemple(){
+	struct feuille ex;
+	for(;;)
+		for(;;)
+	return ex;
 ```
 
 ## Web (R1.02)
@@ -683,7 +687,7 @@ done
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjM4MjM5MTIsMTY1MjM1ODExMSwxND
+eyJoaXN0b3J5IjpbLTIxNDI2NDc0NDIsMTY1MjM1ODExMSwxND
 M1MzY0NzkxLC0xNjM5MjY4MTE2LC0xNzEzNzc3MzYyLDE4NDg5
 MTk5OTksMTU2MjIzMTE2LDE5ODQ2NjI5MjUsLTIwMjY2NzcwOD
 gsMTYzNzg4MDYwMywtMjAyNzMyMjM2MiwyMDg1NzY2NzY2LDE1
