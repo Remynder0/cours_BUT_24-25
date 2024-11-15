@@ -318,7 +318,9 @@ void afficher(struct feuille f){
 	}
 }
 void afficher_somme(struct feuille f){
-	
+	int tab[f.nb_colonnes];
+	for(int i=0; i<nb_colonnes ;i++){
+		for(int
 }
 
 
@@ -705,7 +707,7 @@ done
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0Mjc0NzgwOSwxODM1OTkxOTY3LDM4NT
+eyJoaXN0b3J5IjpbMTU1NTk0MjEzOCwxODM1OTkxOTY3LDM4NT
 IxNjA5MSwxNjUyMzU4MTExLDE0MzUzNjQ3OTEsLTE2MzkyNjgx
 MTYsLTE3MTM3NzczNjIsMTg0ODkxOTk5OSwxNTYyMjMxMTYsMT
 k4NDY2MjkyNSwtMjAyNjY3NzA4OCwxNjM3ODgwNjAzLC0yMDI3
