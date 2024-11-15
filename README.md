@@ -295,8 +295,10 @@ void tri_insertion(int tab[], int n){
 ### TD [12/11/24]
 ```c
 struct feuille{
-	double tab[100][100]
-};
+	double tab[100][100];
+	int nb_lignes;
+	int nb_colonnes;
+}
 
 ```
 
@@ -681,11 +683,11 @@ done
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MjM1ODExMSwxNDM1MzY0NzkxLC0xNj
-M5MjY4MTE2LC0xNzEzNzc3MzYyLDE4NDg5MTk5OTksMTU2MjIz
-MTE2LDE5ODQ2NjI5MjUsLTIwMjY2NzcwODgsMTYzNzg4MDYwMy
-wtMjAyNzMyMjM2MiwyMDg1NzY2NzY2LDE1OTgyMDg5OTcsMTg1
-NTI0NTI0OSwtMTEyODgyMjQ0MSwtMTc1NzIyNjU1MiwtMTMyNz
-Y1MjkwMSwtMTA2MzU2MDk2MywtMTMyNzY1MjkwMSwtMzI0NzA2
-NTIsLTIwMjI1MTYzNTNdfQ==
+eyJoaXN0b3J5IjpbLTE0MjM4MjM5MTIsMTY1MjM1ODExMSwxND
+M1MzY0NzkxLC0xNjM5MjY4MTE2LC0xNzEzNzc3MzYyLDE4NDg5
+MTk5OTksMTU2MjIzMTE2LDE5ODQ2NjI5MjUsLTIwMjY2NzcwOD
+gsMTYzNzg4MDYwMywtMjAyNzMyMjM2MiwyMDg1NzY2NzY2LDE1
+OTgyMDg5OTcsMTg1NTI0NTI0OSwtMTEyODgyMjQ0MSwtMTc1Nz
+IyNjU1MiwtMTMyNzY1MjkwMSwtMTA2MzU2MDk2MywtMTMyNzY1
+MjkwMSwtMzI0NzA2NTJdfQ==
 -->
