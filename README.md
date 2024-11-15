@@ -301,8 +301,11 @@ struct feuille{
 }
 struct feuille exemple(){
 	struct feuille ex;
-	for(int l = 0; l<ex.nb_lignes ;l++)
-		for(;;)
+	for(int l = 0; l<ex.nb_lignes ;l++){
+		for(int c=0; c<ex.nb_colonne ;c++){
+			ex.tab[l][c];
+		}
+	}
 	return ex;
 }
 ```
@@ -688,11 +691,11 @@ done
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzOTg2NDI2NSwzODUyMTYwOTEsMTY1Mj
-M1ODExMSwxNDM1MzY0NzkxLC0xNjM5MjY4MTE2LC0xNzEzNzc3
-MzYyLDE4NDg5MTk5OTksMTU2MjIzMTE2LDE5ODQ2NjI5MjUsLT
-IwMjY2NzcwODgsMTYzNzg4MDYwMywtMjAyNzMyMjM2MiwyMDg1
-NzY2NzY2LDE1OTgyMDg5OTcsMTg1NTI0NTI0OSwtMTEyODgyMj
-Q0MSwtMTc1NzIyNjU1MiwtMTMyNzY1MjkwMSwtMTA2MzU2MDk2
-MywtMTMyNzY1MjkwMV19
+eyJoaXN0b3J5IjpbLTE2NzQ0MDE1MTQsMzg1MjE2MDkxLDE2NT
+IzNTgxMTEsMTQzNTM2NDc5MSwtMTYzOTI2ODExNiwtMTcxMzc3
+NzM2MiwxODQ4OTE5OTk5LDE1NjIyMzExNiwxOTg0NjYyOTI1LC
+0yMDI2Njc3MDg4LDE2Mzc4ODA2MDMsLTIwMjczMjIzNjIsMjA4
+NTc2Njc2NiwxNTk4MjA4OTk3LDE4NTUyNDUyNDksLTExMjg4Mj
+I0NDEsLTE3NTcyMjY1NTIsLTEzMjc2NTI5MDEsLTEwNjM1NjA5
+NjMsLTEzMjc2NTI5MDFdfQ==
 -->
