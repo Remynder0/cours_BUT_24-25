@@ -318,10 +318,10 @@ void afficher(struct feuille f){
 	}
 }
 void afficher_somme(struct feuille f){
-	int tab[f.nb_colonnes];
+	int tab_somme[f.nb_colonnes];
 	for(int i=0; i<nb_colonnes ;i++){
 		for(int j=0; j<nb_ligne ;j++){
-			f.tab[j][i]
+			tab_somme[j] +=f.tab[j][i];
 }
 
 
@@ -708,11 +708,11 @@ done
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ0MzQ3NzgsMTcxOTkyNTM3MywxNTU3ND
-UxODU3LDE4MzU5OTE5NjcsMzg1MjE2MDkxLDE2NTIzNTgxMTEs
-MTQzNTM2NDc5MSwtMTYzOTI2ODExNiwtMTcxMzc3NzM2MiwxOD
-Q4OTE5OTk5LDE1NjIyMzExNiwxOTg0NjYyOTI1LC0yMDI2Njc3
-MDg4LDE2Mzc4ODA2MDMsLTIwMjczMjIzNjIsMjA4NTc2Njc2Ni
-wxNTk4MjA4OTk3LDE4NTUyNDUyNDksLTExMjg4MjI0NDEsLTE3
-NTcyMjY1NTJdfQ==
+eyJoaXN0b3J5IjpbLTE0Mjg0MDEyMDIsMTcxOTkyNTM3MywxNT
+U3NDUxODU3LDE4MzU5OTE5NjcsMzg1MjE2MDkxLDE2NTIzNTgx
+MTEsMTQzNTM2NDc5MSwtMTYzOTI2ODExNiwtMTcxMzc3NzM2Mi
+wxODQ4OTE5OTk5LDE1NjIyMzExNiwxOTg0NjYyOTI1LC0yMDI2
+Njc3MDg4LDE2Mzc4ODA2MDMsLTIwMjczMjIzNjIsMjA4NTc2Nj
+c2NiwxNTk4MjA4OTk3LDE4NTUyNDUyNDksLTExMjg4MjI0NDEs
+LTE3NTcyMjY1NTJdfQ==
 -->
