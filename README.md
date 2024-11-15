@@ -331,7 +331,7 @@ void afficher_somme(struct feuille f){
 void echanger(struct feuille *f, int  l1, int l2){
 	int tmb[nb_colonnes];
 	for(int j=0; j<&f.nb_colonnes ;j++){
-			tmp[j] = &f.[l1][j]
+		tmp[j] = &f.[l1][j]
 	}
 
 
@@ -721,7 +721,7 @@ done
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTQ1NDcwNDksMTcxOTkyNTM3MywxNT
+eyJoaXN0b3J5IjpbLTExODc2MjI1NDUsMTcxOTkyNTM3MywxNT
 U3NDUxODU3LDE4MzU5OTE5NjcsMzg1MjE2MDkxLDE2NTIzNTgx
 MTEsMTQzNTM2NDc5MSwtMTYzOTI2ODExNiwtMTcxMzc3NzM2Mi
 wxODQ4OTE5OTk5LDE1NjIyMzExNiwxOTg0NjYyOTI1LC0yMDI2
