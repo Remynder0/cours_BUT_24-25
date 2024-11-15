@@ -311,7 +311,11 @@ struct feuille exemple(){
 
 void afficher(struct feuille f){
 	printf("tableau\n");
-	
+	for(int l = 0; l<f.nb_lignes ;l++){
+		for(int c=0; c<f.nb_colonne ;c++){
+			printf("%2lf ",f.tab[l][c]);
+		}
+	}
 }
 
 
@@ -698,7 +702,7 @@ done
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MDQ5NTE4OCwzODUyMTYwOTEsMTY1Mj
+eyJoaXN0b3J5IjpbMTgzNTk5MTk2NywzODUyMTYwOTEsMTY1Mj
 M1ODExMSwxNDM1MzY0NzkxLC0xNjM5MjY4MTE2LC0xNzEzNzc3
 MzYyLDE4NDg5MTk5OTksMTU2MjIzMTE2LDE5ODQ2NjI5MjUsLT
 IwMjY2NzcwODgsMTYzNzg4MDYwMywtMjAyNzMyMjM2MiwyMDg1
