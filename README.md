@@ -328,7 +328,11 @@ void afficher_somme(struct feuille f){
 	}
 }
 
-void echanger(struct feuille *f, int 
+void echanger(struct feuille *f, int  l1, int l2){
+	
+
+
+}
 
 
 ```
@@ -714,7 +718,7 @@ done
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE1NzIxMDQ0LDE3MTk5MjUzNzMsMTU1Nz
+eyJoaXN0b3J5IjpbMzg5Njk2MjcxLDE3MTk5MjUzNzMsMTU1Nz
 Q1MTg1NywxODM1OTkxOTY3LDM4NTIxNjA5MSwxNjUyMzU4MTEx
 LDE0MzUzNjQ3OTEsLTE2MzkyNjgxMTYsLTE3MTM3NzczNjIsMT
 g0ODkxOTk5OSwxNTYyMjMxMTYsMTk4NDY2MjkyNSwtMjAyNjY3
