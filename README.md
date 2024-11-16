@@ -331,7 +331,8 @@ void afficher_somme(struct feuille f){
 void echanger(struct feuille *f, int  l1, int l2){
 	int tmb[nb_colonnes];
 	for(int j=0; j<&f.nb_colonnes ;j++){
-		tmp[j] = &f.[l1][j]
+		tmp[j] = &f.[l1][j];
+		
 	}
 
 
@@ -721,11 +722,11 @@ done
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODc2MjI1NDUsMTcxOTkyNTM3MywxNT
-U3NDUxODU3LDE4MzU5OTE5NjcsMzg1MjE2MDkxLDE2NTIzNTgx
-MTEsMTQzNTM2NDc5MSwtMTYzOTI2ODExNiwtMTcxMzc3NzM2Mi
-wxODQ4OTE5OTk5LDE1NjIyMzExNiwxOTg0NjYyOTI1LC0yMDI2
-Njc3MDg4LDE2Mzc4ODA2MDMsLTIwMjczMjIzNjIsMjA4NTc2Nj
-c2NiwxNTk4MjA4OTk3LDE4NTUyNDUyNDksLTExMjg4MjI0NDEs
-LTE3NTcyMjY1NTJdfQ==
+eyJoaXN0b3J5IjpbMjc5MjAyMTA4LC0xMTg3NjIyNTQ1LDE3MT
+k5MjUzNzMsMTU1NzQ1MTg1NywxODM1OTkxOTY3LDM4NTIxNjA5
+MSwxNjUyMzU4MTExLDE0MzUzNjQ3OTEsLTE2MzkyNjgxMTYsLT
+E3MTM3NzczNjIsMTg0ODkxOTk5OSwxNTYyMjMxMTYsMTk4NDY2
+MjkyNSwtMjAyNjY3NzA4OCwxNjM3ODgwNjAzLC0yMDI3MzIyMz
+YyLDIwODU3NjY3NjYsMTU5ODIwODk5NywxODU1MjQ1MjQ5LC0x
+MTI4ODIyNDQxXX0=
 -->
