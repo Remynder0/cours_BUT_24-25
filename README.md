@@ -292,6 +292,54 @@ void tri_insertion(int tab[], int n){
 
 }
 ```
+### TD [15/11/24]
+```c
+struct feuille{
+	double tab[100][100];
+	int nb_lignes;
+	int nb_colonnes;
+}
+struct feuille exemple(){
+	struct feuille ex;
+	for(int l = 0; l<ex.nb_lignes ;l++){
+		for(int c=0; c<ex.nb_colonne ;c++){
+			ex.tab[l][c]= ;
+		}
+	}
+	return ex;
+}
+
+void afficher(struct feuille f){
+	printf("tableau\n");
+	for(int l = 0; l<f.nb_lignes ;l++){
+		for(int c=0; c<f.nb_colonne ;c++){
+			printf("%2lf ",f.tab[l][c]);
+		}
+	}
+}
+void afficher_somme(struct feuille f){
+	int tab_somme[f.nb_colonnes];
+	int somme=0;
+	for(int i=0; i<nb_colonnes ;i++){
+		for(int j=0; j<nb_ligne ;j++){
+			somme +=f.tab[j][i];
+		}
+		tab_somme[i]=somme;
+	}
+}
+
+void echanger(struct feuille *f, int  l1, int l2){
+	int tmb[nb_colonnes];
+	for(int j=0; j<&f.nb_colonnes ;j++){
+		tmp[j] = &f.[l1][j];
+		
+	}
+
+
+}
+
+
+```
 
 ## Web (R1.02)
 
@@ -654,12 +702,31 @@ Malgré ces lois, le comportement varie en fonction de la situation dans laquell
 
 
 ## PPP (R1.12)
+
+
+
+
+```bash
+#!/bin/bash
+
+# Liste des paquets à installer
+packages=( "p7zip-full p7zip-rar" "filezilla" "firefox" "keepass2" "vlc" "--classic code" "libreoffice" "nodejs" "avast" "audacity" "k-lite codecs" "putty" "eclipse" "git" "google-chrome-stable" "bleachbit" )
+
+# Mise à jour des paquets disponibles
+sudo apt update
+
+# Installation des paquets
+for package in "${packages[@]}"; do
+    sudo apt install -y "$package"
+done
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0ODkxOTk5OSwxNTYyMjMxMTYsMTk4ND
-Y2MjkyNSwtMjAyNjY3NzA4OCwxNjM3ODgwNjAzLC0yMDI3MzIy
-MzYyLDIwODU3NjY3NjYsMTU5ODIwODk5NywxODU1MjQ1MjQ5LC
-0xMTI4ODIyNDQxLC0xNzU3MjI2NTUyLC0xMzI3NjUyOTAxLC0x
-MDYzNTYwOTYzLC0xMzI3NjUyOTAxLC0zMjQ3MDY1MiwtMjAyMj
-UxNjM1MywyMTA0NTgxMTUxLC0xMzE4MDE3MTQ4LC03MDA5Mzg1
-OTcsMTEzODU0MjIwXX0=
+eyJoaXN0b3J5IjpbMjc5MjAyMTA4LC0xMTg3NjIyNTQ1LDE3MT
+k5MjUzNzMsMTU1NzQ1MTg1NywxODM1OTkxOTY3LDM4NTIxNjA5
+MSwxNjUyMzU4MTExLDE0MzUzNjQ3OTEsLTE2MzkyNjgxMTYsLT
+E3MTM3NzczNjIsMTg0ODkxOTk5OSwxNTYyMjMxMTYsMTk4NDY2
+MjkyNSwtMjAyNjY3NzA4OCwxNjM3ODgwNjAzLC0yMDI3MzIyMz
+YyLDIwODU3NjY3NjYsMTU5ODIwODk5NywxODU1MjQ1MjQ5LC0x
+MTI4ODIyNDQxXX0=
 -->
