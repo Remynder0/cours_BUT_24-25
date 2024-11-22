@@ -1,0 +1,382 @@
+@import url("chrome://pencil/skin/pCanvas.css");
+@import url("chrome://pencil/skin/miniToolbar.css");
+@import url("chrome://pencil/content/bindings/collectionPane.css");
+@import url("chrome://pencil/content/bindings/privateCollectionPane.css");
+@import url("chrome://pencil/content/bindings/colorPickerButton.css");
+@import url("chrome://pencil/content/bindings/commonEditors.css");
+
+@namespace p url(http://www.evolus.vn/Namespace/Pencil);
+@namespace svg url(http://www.w3.org/2000/svg);
+@namespace html url(http://www.w3.org/1999/xhtml);
+
+toolbox {
+
+}
+toolbar {
+    -moz-box-align: center;
+	padding-bottom: .3em;
+}
+toolbar toolbarbutton label {
+	xdisplay: none;
+}
+toolbar toolbarbutton[disabled],
+button[disabled].AttachedAction {
+    opacity: .3;
+}
+toolbarbutton.AttachedAction {
+    color: highlight;
+    font-size: .9em;
+    font-weight: bold;
+}
+#mainBox {
+    margin-top: 5px;
+}
+#mainBox splitter {
+    opacity: 0;
+}
+#sideBox,
+#sideBox tabs {
+    min-width: 100px;
+}
+
+tabbox.Main #mainViewHeader > tab {
+    padding-left: .5em;
+    padding-right: .5em;
+}
+tabbox.Main #mainViewHeader > tab[selected="true"] {
+    font-weight: bold;
+}
+
+tabbox.Main > tabpanels {
+}
+tabbox.Main > * > tabpanel {
+    background: #ccc;
+}
+tabbox > tabs#sideBoxTabs,
+tabbox.Main > tabs > tab,
+#pencilPropertyEditorDialog tabbox > tabs > tab {
+    /*min-height: 2.2em;*/
+}
+tabbox > tabs#sideBoxTabs,
+tabbox.Main > tabs > tab label,
+#pencilPropertyEditorDialog tabbox > tabs > tab label {
+    padding-left: .7em;
+    padding-right: .7em;
+}
+
+.colorpickertile[selected="true"] {
+    border-style: solid;
+    border-color: highlight;
+}
+
+toolbar[mode='icons'] toolbarbutton label {
+}
+toolbar[mode='icons'] toolbarbutton image {
+    /*margin-right: 0px;*/
+}
+
+dialog#propertyEditorDialog > *,
+dialog#propertyEditorDialog > .dialog-button-box button {
+    font-size: .9em;
+}
+
+toolbar *.ToolbarSection {
+    margin-left: .3em;
+    margin-right: .3em;
+}
+toolbar *.ToolbarSection textbox,
+toolbar *.ToolbarSection label {
+    margin: 0px;
+}
+toolbar *.ToolbarSection * + label {
+    margin-left: 1em;
+}
+toolbar *.ToolbarSection textbox {
+    font-size: .85em;
+}
+toolbar *.ToolbarSection > hbox > label {
+    margin: 0px;
+    margin-right: .5em;
+    font-size: .9em;
+    font-weight: bold;
+}
+toolbar *[disabled='true'].ToolbarSection {
+    display: none;
+}
+
+toolbar#nav-bar {
+	display: block;
+	margin-top: 1px;
+}
+
+toolbar pfonteditor > * > * > label {
+    display: none;
+}
+toolbar pfonteditor *[aid="fontList"] {
+    width: 15em;
+}
+toolbar pfonteditor > hbox > vbox + vbox {
+    margin-left: 0em;
+}
+
+toolbar pfonteditor menulist,
+toolbar pfonteditor textbox,
+toolbar pfonteditor button {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+html|a {
+    color: rgb(0, 0, 208);
+    text-decoration: underline;
+}
+
+
+toolbar * {
+    -moz-user-focus: ignore !important;
+}
+toolbar label {
+    /*font-weight: bold;
+    font-size: .9em;*/
+}
+treechildren::-moz-tree-row {
+    height: 1.8em;
+}
+window[p|probing],
+window[p|probing] *,
+dialog[p|probing],
+dialog[p|probing] * {
+    cursor: url(moz-icon://stock/stock_3d-color-picker?size=16) 0 16, default !important;
+}
+tabpanels#mainViewPanel > tabpanel > vbox {
+    -moz-box-flex: 1;
+    overflow: auto;
+}
+tabpanels#mainViewPanel[p|resizing] > tabpanel > vbox {
+    overflow: hidden;
+}
+
+#pageTabContextMenu #pagePropertiesMenuItem {
+    font-weight: bold;
+}
+#tabScrollBox autorepeatbutton {
+    min-width: 20px;
+}
+#mainView > hbox {
+    margin-bottom: -1px;
+}
+#mainView > hbox #mainViewHeader tab {
+    margin-bottom: 1px;
+}
+#mainView > hbox #mainViewHeader tab[selected='true'] {
+    /*margin-bottom: 0px;*/
+}
+
+#pencil-menu {
+    font-weight: bold;
+    list-style-image: url(images/pencil-22.png);
+
+	-moz-appearance: none;
+	background: -moz-linear-gradient(rgb(247,182,82), rgb(215,98,10) 95%);
+	background-clip: padding-box;
+	border-radius: 4px;
+	border: 1px solid rgba(83,42,6,.9);
+	/*border-top: none;*/
+	box-shadow: 0 1px 0 rgba(255,255,255,.25) inset,
+			  0 0 0 1px rgba(255,255,255,.25) inset;
+	color: white;
+	text-shadow: 0 0 1px rgba(0,0,0,.7),
+			   0 1px 1.5px rgba(0,0,0,.5);
+	font-weight: bold;
+	padding: 0 1.5em .05em;
+	margin: 0 0 2px;
+}
+#pencil-menu:hover:not(:active):not([open]) {
+  background-image: -moz-radial-gradient(center bottom, farthest-side, rgba(252,240,89,.5) 10%, rgba(252,240,89,0) 70%),
+                    -moz-radial-gradient(center bottom, farthest-side, rgb(236,133,0), rgba(255,229,172,0)),
+                    -moz-linear-gradient(rgb(246,170,69), rgb(209,74,0) 95%);
+  border-color: rgba(83,42,6,.9);
+  box-shadow: 0 1px 0 rgba(255,255,255,.1) inset,
+              0 0 1.5px 1px rgba(250,234,169,.7) inset,
+              0 -1px 0 rgba(250,234,169,.5) inset;
+}
+
+#pencil-menu:hover:active,
+#pencil-menu[open] {
+  background-image: -moz-linear-gradient(rgb(246,170,69), rgb(209,74,0) 95%);
+  /*border-radius: 0;*/
+  box-shadow: 0 2px 3px rgba(0,0,0,.4) inset,
+              0 1px 1px rgba(0,0,0,.2) inset;
+}
+
+#toolbar-menubar {
+    -moz-appearance: none;
+    padding: 0px !important;
+}
+
+#toolbar-menubar button[type="panel"],
+#toolbar-menubar #geometryToolbar,
+#richTextEditorToolbar menulist,
+#richTextEditorToolbar menulist menuitem {
+    font-size: .9em;
+}
+#toolbarExtra > toolbar {
+    -moz-appearance: none;
+    padding: 0px !important;
+}
+
+#navigator-toolbox toolbar {
+    -moz-appearance: none;
+    border: none;
+}
+
+#richTextEditorToolbar menulist {
+    padding: 0px;
+}
+
+#toolbar-menubar toolbarseparator {
+    -moz-appearance: none !important;
+    width: 2px;
+    height: 20px;
+    margin: 0px 7px;
+    border: outset 1px;
+    opacity: .3;
+}
+#toolbar-menubar toolbarseparator + toolbarseparator:first-child {
+    display: none;
+}
+#toolbar-menubar .PanelContent > hbox {
+    background: rgba(255, 255, 255, .8);
+    padding: 2px;
+    border-radius: 5px;
+    margin: 0px 3px;
+    -moz-box-align: center;
+}
+#toolbar-menubar button panel hbox {
+    -moz-box-align: center;
+}
+#toolbar-menubar button panel > hbox.PanelContent {
+    background: threedface;
+    padding: 3px;
+    /*border: outset 1px;*/
+}
+
+#pencilPropertyEditorDialog {
+	min-width: 470px;
+	width: 470xp;
+}
+
+#toolbar-locsize-panel, #geometryToolbar {
+}
+
+#mainBox {
+	background-color: -moz-Dialog;
+	padding: 5px;
+
+	border-radius: 1px;
+}
+
+#primaryToolbar .Section {
+    padding: 0px 3px;
+    margin: 0px 2px;
+}
+#primaryToolbar vbox.Visible ~ .Section {
+    border-left: solid 2px !important;
+    -moz-border-left-colors: rgba(0, 0, 0, .2) rgba(255, 255, 255, .5) !important;
+}
+
+#primaryToolbar .Section:first-child {
+    border-left: none !important;
+}
+#primaryToolbar .Section > label {
+    font-size: .8em;
+    margin: 0px;
+    line-height: 1em;
+    margin-left: 5px;
+    xdisplay: none;
+    text-transform: lowercase;
+    font-weight: bold;
+    color: rgba(0, 0, 0, .5);
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.4);
+}
+#primaryToolbar toolbarbutton label {
+    display: none;
+}
+#primaryToolbar toolbarbutton + toolbarbutton {
+    margin-left: 2px;
+}
+#primaryToolbar menulist,
+#primaryToolbar textbox {
+    margin: 0px 2px !important;
+    font-size: 1em;
+}
+#primaryToolbar .Section > hbox {
+    font-size: .8em;
+}
+#primaryToolbar #textFormatToolbar textbox {
+    width: 4em;
+}
+#primaryToolbar #geometryToolbar textbox {
+    width: 4.5em;
+}
+#primaryToolbar separator {
+    -moz-appearance: none !important;
+    display: none;
+}
+#primaryToolbar {
+    -moz-box-align: stretch;
+    box-align: stretch;
+}
+#primaryToolbar vbox.Hidden {
+    display: none;
+}
+#primaryToolbar vbox.Hidden + separator {
+    display: none;
+}
+
+#primaryToolbar menulist menuitem {
+    font-size: 1em;
+}
+#primaryToolbar #textFormatToolbar menulist {
+    width: 15m;
+}
+#primaryToolbar #strokeStyleEditor > hbox > label {
+    display: none;
+}
+#primaryToolbar #strokeStyleEditor > hbox > menulist {
+    width: 14em;
+}
+#primaryToolbar #strokeStyleEditor > hbox {
+    -moz-box-align: stretch !important;
+    box-align: stretch !important;
+}
+
+window.Fullscreen toolbox,
+window.Fullscreen #sideBox,
+window.Fullscreen #mainBox spacer,
+window.Fullscreen #mainBoxStack splitter,
+window.Fullscreen #mainView > hbox {
+    display: none;
+}
+window.Fullscreen #mainBox {
+    padding: 0px;
+    margin: 0px;
+}
+window.Fullscreen tabpanels,
+window.Fullscreen tabpannel,
+window.Fullscreen tabbox {
+    -moz-appearance: none !important;
+    border: none !important;
+}
+window.Fullscreen tabpanels,
+window.Fullscreen tabpanel,
+window.Fullscreen pcanvas {
+    -moz-appearance: none;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+window.Fullscreen > box {
+    height: 0px !important;
+    display: none;
+}
+
+
