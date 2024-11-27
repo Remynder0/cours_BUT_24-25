@@ -341,9 +341,10 @@ void echanger(struct feuille *f, int  l1, int l2){
 ### TD [27/11/24]
 ```c
 #include <stdio.h>
-void lit
-FILE * fichier = fopen ( " un_fichier_test . txt " , " r " );
-
+void compte_fichier(FILE * fichier){
+	fichier = fopen ( " un_fichier_test . txt " , " r " );
+	
+}
 
 ```
 
@@ -729,11 +730,11 @@ done
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTY0NTczMzAsMjc5MjAyMTA4LC0xMT
-g3NjIyNTQ1LDE3MTk5MjUzNzMsMTU1NzQ1MTg1NywxODM1OTkx
-OTY3LDM4NTIxNjA5MSwxNjUyMzU4MTExLDE0MzUzNjQ3OTEsLT
-E2MzkyNjgxMTYsLTE3MTM3NzczNjIsMTg0ODkxOTk5OSwxNTYy
-MjMxMTYsMTk4NDY2MjkyNSwtMjAyNjY3NzA4OCwxNjM3ODgwNj
-AzLC0yMDI3MzIyMzYyLDIwODU3NjY3NjYsMTU5ODIwODk5Nywx
-ODU1MjQ1MjQ5XX0=
+eyJoaXN0b3J5IjpbLTYzOTUzNjQzNywyNzkyMDIxMDgsLTExOD
+c2MjI1NDUsMTcxOTkyNTM3MywxNTU3NDUxODU3LDE4MzU5OTE5
+NjcsMzg1MjE2MDkxLDE2NTIzNTgxMTEsMTQzNTM2NDc5MSwtMT
+YzOTI2ODExNiwtMTcxMzc3NzM2MiwxODQ4OTE5OTk5LDE1NjIy
+MzExNiwxOTg0NjYyOTI1LC0yMDI2Njc3MDg4LDE2Mzc4ODA2MD
+MsLTIwMjczMjIzNjIsMjA4NTc2Njc2NiwxNTk4MjA4OTk3LDE4
+NTUyNDUyNDldfQ==
 -->
