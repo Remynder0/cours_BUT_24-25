@@ -347,12 +347,21 @@ void compte_fichier(char * fichier){
 	int nbcar=0;
 	int ligne = 0;
 
-	while ( fscanf ( flux , " % c " , & car ) != EOF ){
+	while ( fscanf ( file , " % c " , & car ) != EOF ){
 		car++;
 		if(car == '\n') ligne++;
-	} fclose(flux );
+	} fclose(file );
 	
 	printf("%d car et %d ligne",nbcar,ligne);
+}
+
+void recopie(char * fichier){
+	FILE * fichier = fopen ( " un_fichier_test . txt " , " r " );
+	char car;
+
+	while ( fscanf ( file , " % c " , & car ) != EOF ){
+	} fclose(file );
+	
 }
 
 ```
@@ -739,7 +748,7 @@ done
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDQyOTkyNTYsLTIwMzg3NDQ2MjAsMj
+eyJoaXN0b3J5IjpbLTE2MjkwNzExODEsLTIwMzg3NDQ2MjAsMj
 c5MjAyMTA4LC0xMTg3NjIyNTQ1LDE3MTk5MjUzNzMsMTU1NzQ1
 MTg1NywxODM1OTkxOTY3LDM4NTIxNjA5MSwxNjUyMzU4MTExLD
 E0MzUzNjQ3OTEsLTE2MzkyNjgxMTYsLTE3MTM3NzczNjIsMTg0
