@@ -362,7 +362,9 @@ void recopie(char * fichier){
 
 	while ( fscanf ( fichier , " % c " , & car ) != EOF ){
 		fprintf(fichier2,car);
-	} fclose(fichier);
+	}
+	fclose(fichier);
+	fclose(fichier2);
 	
 }
 
@@ -750,11 +752,11 @@ done
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1OTM2NzA1MSwtNjM1MzEwMzg0LC0yMD
-M4NzQ0NjIwLDI3OTIwMjEwOCwtMTE4NzYyMjU0NSwxNzE5OTI1
-MzczLDE1NTc0NTE4NTcsMTgzNTk5MTk2NywzODUyMTYwOTEsMT
-Y1MjM1ODExMSwxNDM1MzY0NzkxLC0xNjM5MjY4MTE2LC0xNzEz
-Nzc3MzYyLDE4NDg5MTk5OTksMTU2MjIzMTE2LDE5ODQ2NjI5Mj
-UsLTIwMjY2NzcwODgsMTYzNzg4MDYwMywtMjAyNzMyMjM2Miwy
-MDg1NzY2NzY2XX0=
+eyJoaXN0b3J5IjpbLTIwMDA4MzcxMzUsLTI1OTM2NzA1MSwtNj
+M1MzEwMzg0LC0yMDM4NzQ0NjIwLDI3OTIwMjEwOCwtMTE4NzYy
+MjU0NSwxNzE5OTI1MzczLDE1NTc0NTE4NTcsMTgzNTk5MTk2Ny
+wzODUyMTYwOTEsMTY1MjM1ODExMSwxNDM1MzY0NzkxLC0xNjM5
+MjY4MTE2LC0xNzEzNzc3MzYyLDE4NDg5MTk5OTksMTU2MjIzMT
+E2LDE5ODQ2NjI5MjUsLTIwMjY2NzcwODgsMTYzNzg4MDYwMywt
+MjAyNzMyMjM2Ml19
 -->
