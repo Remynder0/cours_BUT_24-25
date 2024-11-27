@@ -337,9 +337,16 @@ void echanger(struct feuille *f, int  l1, int l2){
 
 
 }
+```
+### TD [27/11/24]
+```c
+#include <stdio.h>
+
+FILE * fichier = fopen ( " un_fichier_test . txt " , " w " );
 
 
 ```
+
 
 ## Web (R1.02)
 
@@ -722,11 +729,11 @@ done
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc5MjAyMTA4LC0xMTg3NjIyNTQ1LDE3MT
-k5MjUzNzMsMTU1NzQ1MTg1NywxODM1OTkxOTY3LDM4NTIxNjA5
-MSwxNjUyMzU4MTExLDE0MzUzNjQ3OTEsLTE2MzkyNjgxMTYsLT
-E3MTM3NzczNjIsMTg0ODkxOTk5OSwxNTYyMjMxMTYsMTk4NDY2
-MjkyNSwtMjAyNjY3NzA4OCwxNjM3ODgwNjAzLC0yMDI3MzIyMz
-YyLDIwODU3NjY3NjYsMTU5ODIwODk5NywxODU1MjQ1MjQ5LC0x
-MTI4ODIyNDQxXX0=
+eyJoaXN0b3J5IjpbMjI1MjUyMjg2LDI3OTIwMjEwOCwtMTE4Nz
+YyMjU0NSwxNzE5OTI1MzczLDE1NTc0NTE4NTcsMTgzNTk5MTk2
+NywzODUyMTYwOTEsMTY1MjM1ODExMSwxNDM1MzY0NzkxLC0xNj
+M5MjY4MTE2LC0xNzEzNzc3MzYyLDE4NDg5MTk5OTksMTU2MjIz
+MTE2LDE5ODQ2NjI5MjUsLTIwMjY2NzcwODgsMTYzNzg4MDYwMy
+wtMjAyNzMyMjM2MiwyMDg1NzY2NzY2LDE1OTgyMDg5OTcsMTg1
+NTI0NTI0OV19
 -->
