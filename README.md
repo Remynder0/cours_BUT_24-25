@@ -347,20 +347,21 @@ void compte_fichier(char * fichier){
 	int nbcar=0;
 	int ligne = 0;
 
-	while ( fscanf ( file , " % c " , & car ) != EOF ){
+	while ( fscanf ( fichier , " % c " , & car ) != EOF ){
 		car++;
 		if(car == '\n') ligne++;
-	} fclose(file );
+	} fclose(fichier);
 	
 	printf("%d car et %d ligne",nbcar,ligne);
 }
 
 void recopie(char * fichier){
 	FILE * fichier = fopen ( " un_fichier_test . txt " , " r " );
+	FILE * fichier2 = fopen ( " un_fichier_test . txt " , " w " );
 	char car;
 
 	while ( fscanf ( file , " % c " , & car ) != EOF ){
-	} fclose(file );
+	} fclose(fichier);
 	
 }
 
@@ -748,11 +749,11 @@ done
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjkwNzExODEsLTIwMzg3NDQ2MjAsMj
-c5MjAyMTA4LC0xMTg3NjIyNTQ1LDE3MTk5MjUzNzMsMTU1NzQ1
-MTg1NywxODM1OTkxOTY3LDM4NTIxNjA5MSwxNjUyMzU4MTExLD
-E0MzUzNjQ3OTEsLTE2MzkyNjgxMTYsLTE3MTM3NzczNjIsMTg0
-ODkxOTk5OSwxNTYyMjMxMTYsMTk4NDY2MjkyNSwtMjAyNjY3Nz
-A4OCwxNjM3ODgwNjAzLC0yMDI3MzIyMzYyLDIwODU3NjY3NjYs
-MTU5ODIwODk5N119
+eyJoaXN0b3J5IjpbLTYzNTMxMDM4NCwtMjAzODc0NDYyMCwyNz
+kyMDIxMDgsLTExODc2MjI1NDUsMTcxOTkyNTM3MywxNTU3NDUx
+ODU3LDE4MzU5OTE5NjcsMzg1MjE2MDkxLDE2NTIzNTgxMTEsMT
+QzNTM2NDc5MSwtMTYzOTI2ODExNiwtMTcxMzc3NzM2MiwxODQ4
+OTE5OTk5LDE1NjIyMzExNiwxOTg0NjYyOTI1LC0yMDI2Njc3MD
+g4LDE2Mzc4ODA2MDMsLTIwMjczMjIzNjIsMjA4NTc2Njc2Niwx
+NTk4MjA4OTk3XX0=
 -->
