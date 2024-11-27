@@ -347,10 +347,11 @@ void compte_fichier(char * fichier){
 	int ligne = 0;
 
 	while ( fscanf ( flux , " % c " , & car ) != EOF ){
-		
+		car++;
 		
 	} fclose(flux );
 	
+	printf("%d car et 
 }
 
 ```
@@ -737,11 +738,11 @@ done
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzg3NDQ2MjAsMjc5MjAyMTA4LC0xMT
-g3NjIyNTQ1LDE3MTk5MjUzNzMsMTU1NzQ1MTg1NywxODM1OTkx
-OTY3LDM4NTIxNjA5MSwxNjUyMzU4MTExLDE0MzUzNjQ3OTEsLT
-E2MzkyNjgxMTYsLTE3MTM3NzczNjIsMTg0ODkxOTk5OSwxNTYy
-MjMxMTYsMTk4NDY2MjkyNSwtMjAyNjY3NzA4OCwxNjM3ODgwNj
-AzLC0yMDI3MzIyMzYyLDIwODU3NjY3NjYsMTU5ODIwODk5Nywx
-ODU1MjQ1MjQ5XX0=
+eyJoaXN0b3J5IjpbLTk0NDEyMDA4LC0yMDM4NzQ0NjIwLDI3OT
+IwMjEwOCwtMTE4NzYyMjU0NSwxNzE5OTI1MzczLDE1NTc0NTE4
+NTcsMTgzNTk5MTk2NywzODUyMTYwOTEsMTY1MjM1ODExMSwxND
+M1MzY0NzkxLC0xNjM5MjY4MTE2LC0xNzEzNzc3MzYyLDE4NDg5
+MTk5OTksMTU2MjIzMTE2LDE5ODQ2NjI5MjUsLTIwMjY2NzcwOD
+gsMTYzNzg4MDYwMywtMjAyNzMyMjM2MiwyMDg1NzY2NzY2LDE1
+OTgyMDg5OTddfQ==
 -->
