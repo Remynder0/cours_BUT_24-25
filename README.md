@@ -360,7 +360,8 @@ void recopie(char * fichier){
 	FILE * fichier2 = fopen ( " un_fichier_test . txt " , " w " );
 	char car;
 
-	while ( fscanf ( file , " % c " , & car ) != EOF ){
+	while ( fscanf ( fichier , " % c " , & car ) != EOF ){
+		fprintf(fichier2,car);
 	} fclose(fichier);
 	
 }
@@ -749,11 +750,11 @@ done
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNTMxMDM4NCwtMjAzODc0NDYyMCwyNz
-kyMDIxMDgsLTExODc2MjI1NDUsMTcxOTkyNTM3MywxNTU3NDUx
-ODU3LDE4MzU5OTE5NjcsMzg1MjE2MDkxLDE2NTIzNTgxMTEsMT
-QzNTM2NDc5MSwtMTYzOTI2ODExNiwtMTcxMzc3NzM2MiwxODQ4
-OTE5OTk5LDE1NjIyMzExNiwxOTg0NjYyOTI1LC0yMDI2Njc3MD
-g4LDE2Mzc4ODA2MDMsLTIwMjczMjIzNjIsMjA4NTc2Njc2Niwx
-NTk4MjA4OTk3XX0=
+eyJoaXN0b3J5IjpbLTI1OTM2NzA1MSwtNjM1MzEwMzg0LC0yMD
+M4NzQ0NjIwLDI3OTIwMjEwOCwtMTE4NzYyMjU0NSwxNzE5OTI1
+MzczLDE1NTc0NTE4NTcsMTgzNTk5MTk2NywzODUyMTYwOTEsMT
+Y1MjM1ODExMSwxNDM1MzY0NzkxLC0xNjM5MjY4MTE2LC0xNzEz
+Nzc3MzYyLDE4NDg5MTk5OTksMTU2MjIzMTE2LDE5ODQ2NjI5Mj
+UsLTIwMjY2NzcwODgsMTYzNzg4MDYwMywtMjAyNzMyMjM2Miwy
+MDg1NzY2NzY2XX0=
 -->
