@@ -343,15 +343,16 @@ void echanger(struct feuille *f, int  l1, int l2){
 #include <stdio.h>
 void compte_fichier(char * fichier){
 	FILE * fichier = fopen ( " un_fichier_test . txt " , " r " );
-	int car = 0;
+	char car;
+	int nbcar=0;
 	int ligne = 0;
 
 	while ( fscanf ( flux , " % c " , & car ) != EOF ){
 		car++;
-		if(
+		if(car == '\n') ligne++;
 	} fclose(flux );
 	
-	printf("%d car et %d ligne",car,ligne);
+	printf("%d car et %d ligne",nbcar,ligne);
 }
 
 ```
@@ -738,7 +739,7 @@ done
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODQ4Nzg4MDgsLTIwMzg3NDQ2MjAsMj
+eyJoaXN0b3J5IjpbLTE0MDQyOTkyNTYsLTIwMzg3NDQ2MjAsMj
 c5MjAyMTA4LC0xMTg3NjIyNTQ1LDE3MTk5MjUzNzMsMTU1NzQ1
 MTg1NywxODM1OTkxOTY3LDM4NTIxNjA5MSwxNjUyMzU4MTExLD
 E0MzUzNjQ3OTEsLTE2MzkyNjgxMTYsLTE3MTM3NzczNjIsMTg0
