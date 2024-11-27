@@ -341,8 +341,9 @@ void echanger(struct feuille *f, int  l1, int l2){
 ### TD [27/11/24]
 ```c
 #include <stdio.h>
-void compte_fichier(FILE * fichier){
-	fichier = fopen ( " un_fichier_test . txt " , " r " );
+void compte_fichier(char * fichier){
+	FILE * fichier = fopen ( " un_fichier_test . txt " , " r " );
+	while ( fscanf ( flux , " % c " , & car ) != EOF ){ } fclose(flux );
 	
 }
 
@@ -730,7 +731,7 @@ done
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzOTUzNjQzNywyNzkyMDIxMDgsLTExOD
+eyJoaXN0b3J5IjpbLTQ4MTQzMjcwMywyNzkyMDIxMDgsLTExOD
 c2MjI1NDUsMTcxOTkyNTM3MywxNTU3NDUxODU3LDE4MzU5OTE5
 NjcsMzg1MjE2MDkxLDE2NTIzNTgxMTEsMTQzNTM2NDc5MSwtMT
 YzOTI2ODExNiwtMTcxMzc3NzM2MiwxODQ4OTE5OTk5LDE1NjIy
