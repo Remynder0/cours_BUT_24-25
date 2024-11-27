@@ -343,7 +343,13 @@ void echanger(struct feuille *f, int  l1, int l2){
 #include <stdio.h>
 void compte_fichier(char * fichier){
 	FILE * fichier = fopen ( " un_fichier_test . txt " , " r " );
-	while ( fscanf ( flux , " % c " , & car ) != EOF ){ } fclose(flux );
+	int car = 0;
+	int ligne = 0;
+
+	while ( fscanf ( flux , " % c " , & car ) != EOF ){
+		
+		
+	} fclose(flux );
 	
 }
 
@@ -731,11 +737,11 @@ done
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MTQzMjcwMywyNzkyMDIxMDgsLTExOD
-c2MjI1NDUsMTcxOTkyNTM3MywxNTU3NDUxODU3LDE4MzU5OTE5
-NjcsMzg1MjE2MDkxLDE2NTIzNTgxMTEsMTQzNTM2NDc5MSwtMT
-YzOTI2ODExNiwtMTcxMzc3NzM2MiwxODQ4OTE5OTk5LDE1NjIy
-MzExNiwxOTg0NjYyOTI1LC0yMDI2Njc3MDg4LDE2Mzc4ODA2MD
-MsLTIwMjczMjIzNjIsMjA4NTc2Njc2NiwxNTk4MjA4OTk3LDE4
-NTUyNDUyNDldfQ==
+eyJoaXN0b3J5IjpbLTIwMzg3NDQ2MjAsMjc5MjAyMTA4LC0xMT
+g3NjIyNTQ1LDE3MTk5MjUzNzMsMTU1NzQ1MTg1NywxODM1OTkx
+OTY3LDM4NTIxNjA5MSwxNjUyMzU4MTExLDE0MzUzNjQ3OTEsLT
+E2MzkyNjgxMTYsLTE3MTM3NzczNjIsMTg0ODkxOTk5OSwxNTYy
+MjMxMTYsMTk4NDY2MjkyNSwtMjAyNjY3NzA4OCwxNjM3ODgwNj
+AzLC0yMDI3MzIyMzYyLDIwODU3NjY3NjYsMTU5ODIwODk5Nywx
+ODU1MjQ1MjQ5XX0=
 -->
