@@ -337,9 +337,39 @@ void echanger(struct feuille *f, int  l1, int l2){
 
 
 }
+```
+### TD [27/11/24]
+```c
+#include <stdio.h>
+void compte_fichier(char * fichier){
+	FILE * fichier = fopen ( " un_fichier_test . txt " , " r " );
+	char car;
+	int nbcar=0;
+	int ligne = 0;
 
+	while ( fscanf ( fichier , " % c " , & car ) != EOF ){
+		car++;
+		if(car == '\n') ligne++;
+	} fclose(fichier);
+	
+	printf("%d car et %d ligne",nbcar,ligne);
+}
+
+void recopie(char * fichier){
+	FILE * fichier = fopen ( " un_fichier_test . txt " , " r " );
+	FILE * fichier2 = fopen ( " un_fichier_test . txt " , " w " );
+	char car;
+
+	while ( fscanf ( fichier , " % c " , & car ) != EOF ){
+		fprintf(fichier2,car);
+	}
+	fclose(fichier);
+	fclose(fichier2);
+	
+}
 
 ```
+
 
 ## Web (R1.02)
 
@@ -722,11 +752,11 @@ done
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc5MjAyMTA4LC0xMTg3NjIyNTQ1LDE3MT
-k5MjUzNzMsMTU1NzQ1MTg1NywxODM1OTkxOTY3LDM4NTIxNjA5
-MSwxNjUyMzU4MTExLDE0MzUzNjQ3OTEsLTE2MzkyNjgxMTYsLT
-E3MTM3NzczNjIsMTg0ODkxOTk5OSwxNTYyMjMxMTYsMTk4NDY2
-MjkyNSwtMjAyNjY3NzA4OCwxNjM3ODgwNjAzLC0yMDI3MzIyMz
-YyLDIwODU3NjY3NjYsMTU5ODIwODk5NywxODU1MjQ1MjQ5LC0x
-MTI4ODIyNDQxXX0=
+eyJoaXN0b3J5IjpbLTIwMDA4MzcxMzUsLTI1OTM2NzA1MSwtNj
+M1MzEwMzg0LC0yMDM4NzQ0NjIwLDI3OTIwMjEwOCwtMTE4NzYy
+MjU0NSwxNzE5OTI1MzczLDE1NTc0NTE4NTcsMTgzNTk5MTk2Ny
+wzODUyMTYwOTEsMTY1MjM1ODExMSwxNDM1MzY0NzkxLC0xNjM5
+MjY4MTE2LC0xNzEzNzc3MzYyLDE4NDg5MTk5OTksMTU2MjIzMT
+E2LDE5ODQ2NjI5MjUsLTIwMjY2NzcwODgsMTYzNzg4MDYwMywt
+MjAyNzMyMjM2Ml19
 -->
