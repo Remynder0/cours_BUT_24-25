@@ -60,7 +60,14 @@ void lire_personne(struct personne p){
     
 }
 
-
+char* lire_nom(FILE *f){
+    int n=0;
+    int tab[100];
+    while(f[n] != '\n' || f[n] != '\n'){
+        tab[n] = f[n];
+        n++;
+    }
+}
 
 int main()
 {
