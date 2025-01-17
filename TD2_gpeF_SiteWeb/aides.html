@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Aides</title>
+    <link rel="stylesheet" href="styles/aides.css">
+    <script src="scripts/aides.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="images/icon.png"/>
+</head>
+<body>
+    <header>
+    
+    
+        <!--Bannière-->
+        <div class="p-0 bg-warning-subtle text-center">
+         <img class="img-fluid" src="imageslogo.png" alt="logo" >
+        </div>
+        <hr class="bg-dark border-2 border-top border-dark" style="margin: 0;"/>
+        
+        <!--Menu-->
+        <nav class="navbar navbar-expand-sm bg-warning">
+         <div class="container-fluid">
+         <ul class="navbar-nav">
+          <li class="nav-item">
+          <a class="nav-link " href="index.html">Accueil</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="presentation.html">Présentation études</a>
+          </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Information handicap</a>
+          <ul class="dropdown-menu">
+           <li><a class="dropdown-item" href="type.html">Type de handicap</a></li>
+           <li><a class="dropdown-item" href="situation.html">Situation de handicap</a></li>
+          </ul>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link active" href="Aides.html">Aides</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="legislation.html">Législation</a>
+          </li>
+        
+          <li class="nav-item dropdown">
+           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Questionnaire</a>
+           <ul class="dropdown-menu">
+           <li><a class="dropdown-item" href="administre.html">Administré</a></li>
+           <li><a class="dropdown-item" href="etablissement.html">Etablissement</a></li>
+           </ul>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="source.html">Source</a>
+          </li>
+         </ul>
+         </div>
+        </nav>
+    
+       
+    </header>
+    <main>
+          
+        <div class="container-fluid" id="contenu-principal">
+          <!-- Sommaire -->
+          <aside class="col-md-4" id="sommaire">
+            <nav class="navbar navbar-light bg-light border rounded position-fixed">
+                 
+              <div class="container">
+                <h2>Sommaire</h2>
+                <ul class="navbar-nav flex-column navbar-css">
+                    
+                        
+                    
+                  <!--Premier type d'aide (sommaire)-->
+                  <li class="nav-item">
+                    <a class="nav-link" href="#section1"><h3>Aides de la région Normandie</h3></a>
+                    <a class="nav-link" href="#section1p1"><small>Stratégie Norm'Handicap</small></a>
+                    <a class="nav-link" href="#section1p2"><small>Détails</small></a>
+                  </li>
+                  <!--Deuxième type d'aide (sommaire)-->
+                  <li class="nav-item">
+                    <a class="nav-link" href="#section2"><h3>Aides pour les établissements</h3></a>
+                    <a class="nav-link" href="#section2p1"><small>Intégration du handicap dans la politique de ressources humaines</small></a>
+                    <a class="nav-link" href="#section2p2"><small>Rencontre entre employeurs sur le sujet du handicap</small></a>
+                    <a class="nav-link" href="#section2p3"><small>Financement d'un conseiller expert du handicap en entreprise</small></a>
+                    <a class="nav-link" href="#section2p4"><small>Aides pour le recrutement et l'intégration dans l'emploi</small></a>
+                    <a class="nav-link" href="#section2p5"><small>Aides au diagnostic numérique</small></a>
+                  </li>
+                  <!--Troisième type d'aide (sommaire)-->
+                  <li class="nav-item">
+                    <a class="nav-link" href="#section3"><h3>Aides pour les particuliers</h3></a>
+                    <a class="nav-link" href="#section3p1"><small>Aides générales</small></a>
+                    <a class="nav-link" href="#section3p2"><small>Déplacements et transport</small></a>
+                    <a class="nav-link" href="#section3p3"><small>Enfants de 0 à 20 ans</small></a>
+                    <a class="nav-link" href="#section3p4"><small>Formation professionnelle</small></a>
+                    <a class="nav-link" href="#section3p5"><small>Aidants</small></a>
+                    <a class="nav-link" href="#section3p6"><small>Retraite</small></a>
+                    <a class="nav-link" href="#section3p7"><small>Santé et soins</small></a>
+                    <a class="nav-link" href="#section3p8"><small>Travail</small></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#section4"><h3>Pourquoi souscrire à une aide?</h3></a>
+                    <a class="nav-link" href="#section4"><small>Les difficultés</small></a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </aside>
+              <!--Contenu-->
+              <div class="col-mt-5" id="contenu">
+                <!--Aide numéro 1-->
+                <h2 id="section1">Aides de la Région Normandie</h2>
+               
+                <h5 id="section1p1">Stratégie Norm'Handicap</h5>
+                <p class="text-justify">La stratégie Norm'Handicap est une stratégie issue d'un Appel à manifestation d'intérêt portée par l'ARS Normandie. Une cinquantaine de projet ont été retenus.</p>
+                <p class="text-justify">Parmis ces projets, il y a le renforcement de l'inclusion scolaire qui se traduit par: </p>
+                <ul>
+                    <li>
+                        <p>Création de dispositif Ulis.</p>
+                    </li>
+                    <li>
+                        <p>Mise en place d'unité d'enseignement autisme en maternelle.</p>
+                    </li>
+                    <li>
+                        <p>Mise en place d'unité d'enseignement autisme en élémentaire.</p>
+                    </li>
+                    <li>
+                        <p>Mise en place de dispositif d'autorégulation.</p>
+                    </li>
+                    <li>
+                        <p>La prise en charge des besoins de tous les élèves à travers les SESSAD (Service d'éducation spéciale et de soins à domicile), les EMAS (Equipes mobiles d'appui à la scolarisation) et la scolarisation en ESMS(Etablissement ou service social ou médico-social).</p>
+                    </li>
+                  
+                   
+                </ul>
+                <p class="text-justify">La Conférence Nationale du Handicap a également proposé des éléments pour faciliter l'inclusion: </p>
+                <ul>
+
+                    <li>
+                        <p> Un numéro INE ( identifiant nationale élève) est attribué à tous les enfants dès la rentrée 2024.</p> 
+                    </li>
+                    <li>
+                        <p> L'installation des pôles d'appui à la scolarité (PAS), à partir de 2025.</p> 
+                    </li>
+                    <li>
+                        <p> L’amélioration de la délivrance du matériel pédagogique adapté sur l’ensemble du territoire normand.</p> 
+                    </li>
+                    <li>
+                        <p> La création d’« IME dans les écoles », c’est-à-dire la localisation de certains IME au sein des structures scolaires pour développer l’inclusion des enfants qui fréquentent ces structures. Un IME dans l’école sera créé dans chacun des départements d’ici 2027.</p> 
+                    </li>
+                </ul>
+                <h5 id="section1p2">Détails en fonction des départements</h5>
+                <div class="container-fluid mt-4 ">
+                    <div class="row">
+                      <!-- Liste des boutons des départements  -->
+                      <div class="col-md-3">
+                        <div class="list-group">
+                          <button class="list-group-item list-group-item-action" onclick="afficher('calvados')">Calvados</button>
+                          <button class="list-group-item list-group-item-action" onclick="afficher('eure')">Eure</button>
+                          <button class="list-group-item list-group-item-action" onclick="afficher('seine-maritime')">Seine-Maritime</button>
+                          <button class="list-group-item list-group-item-action" onclick="afficher('orne')">Orne</button>
+                          <button class="list-group-item list-group-item-action" onclick="afficher('manche')">Manche</button>
+                        </div>
+                      </div>
+                
+                      <!-- Contenu lorsque l'on clique sur un bouton -->
+                      <div class="col-md-9">
+                        <div id="calvados" class="content-section">
+                          <h3>Dans le Calvados</h3>
+                          <p class="text_justify">Création de 20 places à destination des enfants: </p>
+                            <ul>
+                                 <li>
+                                    <p> IME Dives-sur-mer: 5 places AJ.</p> 
+                                </li>
+                                <li>
+                                    <p> APAEI PAPF DAME Lisieux : 5 places IME TSA AJ.</p> 
+                                </li>
+                                <li>
+                                    <p>  AAJB DME Pays de Bayeux : 2 places IME TSA AJ.</p> 
+                                </li>
+                                <li>
+                                    <p> Ligue de l’enseignement DARe : 5 places en dispositif.</p> 
+                                </li>
+                                <li>
+                                    <p>  APAEI Caen : 3 places SESSAD TSA.</p> 
+                                </li>
+                             </ul>
+                             <p class="text_justify">Création de 6 places à destination des adultes: </p>
+                             <ul>
+                                <li>
+                                   <p> EPSM MAS les platanes : 3 places TSA AJ situations complexes.</p> 
+                               </li>
+                               <li>
+                                   <p>APEI Bocage virois MAS : 1 place internat séquentiel et 2 places AJ.</p> 
+                               </li>
+                            </ul>
+                        </div>
+                        <div id="eure" class="content-section">
+                          <h3>Dans l'Eure</h3>
+                          <p class="text_justify">Création de 34 places à destination des enfants: </p>
+                            <ul>
+                                 <li>
+                                    <p> IME BEAUMESNIL TSA semi-internat : 6 places.</p> 
+                                </li>
+                                <li>
+                                    <p> IME BEAUMESNIL TSA accueil 365 : 7 places.</p> 
+                                </li>
+                                <li>
+                                    <p>  SESSAD la MUSSE TSA : 6 places .</p> 
+                                </li>
+                                <li>
+                                    <p>  IME ECOUIS TSA : extension de 8 places SESSAD + offre de répit file active 5 jeunes .</p> 
+                                </li>
+                                <li>
+                                    <p>  SESSAD association Marie-Hélène TSA : 3 places .</p> 
+                                </li>
+                                <li>
+                                    <p>  SESSAD BEAUMESNIL TSA : 4 places .</p> 
+                                </li>
+                            </ul>
+                          <p class="text_justify">Création de 15 places à destination des adultes :</p>
+                             <ul>
+                                <li>
+                                   <p>MAS TSA Home Nicolas association Marie Hélène : 2 places </p> 
+                                </li>
+                                <li>
+                                   <p>FAM hors les murs APEER : 5 places.</p> 
+                                </li>
+                                <li>
+                                    <p>SAMSAH TSA IDEFHI : 4 places.</p> 
+                                 </li>
+                                 <li>
+                                    <p>SAMSAH la Ronce : 4 places.</p> 
+                                 </li>
+                             </ul>
+                          <p class="text_justify">Création de 12 places + relai des aidants par le Conseil départemental: </p>
+                             <ul>
+                                <li>
+                                   <p>AMS Saint Martin Foyer de Vie Etrepagny : 2 places SAJAIS : 3 places FV ;  2 places d'HT. </p> 
+                                </li>
+                                <li>
+                                   <p>Association l'Arche Foyer de Vie Verneuil d'Avre et d'Iton : 3 places d’HT.</p> 
+                                </li>
+                                <li>
+                                    <p>Association Le Grand Lieu Création d'un relais des aidants : 75 personnes concernées.</p> 
+                                 </li>
+                                 <li>
+                                    <p>Association Trisomie 21 : 2 places de répit rattachées au SAVS.</p> 
+                                 </li>
+                             </ul>
+                        </div>
+                        <div id="seine-maritime" class="content-section">
+                          <h3>Dans la Seine-Maritime</h3>
+                          <p class="text_justify">Création de 44 places et une UEMA à destination des enfants: </p>
+                          <ul>
+                               <li>
+                                  <p> IME : 23 places TSA/TND dont 9 au Havre et 14 à Rouen.</p> 
+                              </li>
+                              <li>
+                                  <p> SESSAD : 21 places TSA/TND dont 12 à Rouen, 6 au Havre et 3 à Dieppe</p> 
+                              </li>
+                          </ul>
+                          <p class="text_justify">Création de 89 places adultes:</p>
+                          <ul>
+                            <li>
+                               <p> MAS : 4 places en 2024 et 3 places en 2025.</p> 
+                           </li>
+                           <li>
+                               <p> SAVS : 38 places dont 20 au Havre et 18 à Dieppe</p> 
+                           </li>
+                           <li>
+                            <p> AJ : 12 places dont 8 à Dieppe et 4 sur l'UTAS Boucles de Seine</p> 
+                           </li>
+                           <li>
+                            <p> FH : 4 places au Havre</p> 
+                           </li>
+                           <li>
+                            <p> FV : 2 places au Havre</p> 
+                           </li>
+                           <li>
+                            <p> FAM : 12 places, dont 1 place de répit</p> 
+                           </li>
+                           <li>
+                            <p> SAMSAH : 14 places dont 4 places psy à Dieppe, 6 places psy et 4 TSA au Havre</p> 
+                           </li>
+                       </ul>
+                        </div>
+                        <div id="orne" class="content-section">
+                          <h3>Dans l'Orne</h3>
+                          <p>A destination des enfants:</p>
+                          <ul>
+                            <li>
+                               <p> TSA/SESSAD TSA ANAIS : opération de transformation de l’offre par redéploiement de places internat IME vers une augmentation de places IME AJ, de places de SESSAD TSA s’accompagnant d’un élargissement de l’âge.</p> 
+                           </li>
+                          </ul>
+                          <p>A destination des adultes:</p>
+                            <ul>
+                                 <li>
+                                     <p>Plateforme portée par IME la Garenne UGECAM public 16-25 ans : évaluation et préparation à la vie professionnelle avec 15 places dont 8 avec hébergement .</p> 
+                                 </li>
+                                <li>
+                                     <p>EAM TSA ANAIS : création d’une place accueil modulaire.</p> 
+                                </li>
+                                <li>
+                                    <p> Renfort PCPE du RSVA sur 16 places en file active .</p> 
+                                 </li>
+                            </ul>
+                        </div>
+                        <div id="manche" class="content-section">
+                            <h3>Dans la Manche</h3>
+                            <p>Créations de 9 places à destination des enfants:</p>
+                            <ul>
+                                 <li>
+                                     <p>IME ACAIS : 7 places AJ.</p> 
+                                 </li>
+                                <li>
+                                     <p>IME la Mondrée – FBS : 2 places AJ.</p> 
+                                </li>
+                                <li>
+                                    <p>DAR APEI Centre Manche.</p> 
+                                </li>
+                                <li>
+                                    <p>ITEP AAJD : développement d’interventions directes dans les écoles avec installations de professionnels du secteur médicosocial dans les écoles.</p> 
+                                </li>
+                           
+                            </ul>
+                            <p>Créations de 12 places à destination des adultes:</p>
+                            <ul>
+                                <li>
+                                    <p>PRSA AAJD : 6 places en file active.</p> 
+                                </li>
+                               <li>
+                                    <p>EANM ACAIS : extension de 6 places d’AJ.</p> 
+                               </li>
+                             
+                           </ul>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                <!--Aide numéro 2-->
+                <h2 id="section2">Aides pour les établissements</h2>
+                <p> En tant qu'établissement, vous avez accès à certains types d'aides.</p>
+                <h5 id="section2p1">Intégration du handicap dans la politique de ressources humaines</h5>
+                <p>Pour qui?</p>
+                <ul>
+                    <li>
+                        <p> Pour toute les entreprises privées. </p>
+                    </li>
+                </ul>
+                <p>Comment?</p>
+                <ul>
+                    <li>
+                        <p> Si l'entreprise compte plus de 2000 salariés, elle doit prendre contact avec la Direction des entreprises et des grands comptes de l’Agefiph. </p>
+                    </li>
+                    <li>
+                        <p> Les entreprises comptant moins de 2000 salariés peuvent prendre contact avec l’Agefiph dans leur région. </p>
+                    </li>
+                </ul>
+                <h5 id="section2p2">Rencontre entre employeurs sur le sujet du handicap</h5>
+                <p>Pourquoi?</p>
+                <ul>
+                    <li>
+                        <p> Organiser des échanges entre personnes en charge du sujet emploi handicap dans l’entreprise.. </p>
+                    </li>
+                </ul>
+                <p>Pour qui?</p>
+                <ul>
+                    <li>
+                        <p> Pour les personnes en charge du sujet emploi handicap. </p>
+                    </li>
+                </ul>
+                <p>Comment?</p>
+                <ul>
+                    <li>
+                        <p> En contactant le RRH (Réseau référents handicap). </p>
+                    </li>
+                   
+                </ul>
+                <h5 id="section2p3">Financement d'un conseiller expert du handicap en entreprise</h5>
+                <p>Pourquoi?</p>
+                <ul>
+                    <li>
+                        <p>Faire monter en compétence l’employeur, conseiller à l’emploi sur les conséquences du handicap de la personne accompagnée. </p>
+                    </li>
+                    <li>
+                        <p>Le prestataire apporte son expertise pour répondre à des besoins en lien avec </p>
+                        <ul>
+                            <li>
+                                <p>un handicap visuel</p>
+                            </li>
+                            <li>
+                                <p>un handicap auditif</p>
+                            </li>
+                            <li>
+                                <p>un handicap psychique</p>
+                            </li>
+                            <li>
+                                <p>un handicap moteur / maladie chronique invalidante</p>
+                            </li>
+                            <li>
+                                <p>des troubles du neurodéveloppement (incluant les conséquences des troubles cognitifs, des troubles du spectre autistique, du handicap mental et de l’épilepsie).</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <p>Pour qui?</p>
+                <ul>
+                    <li>
+                        <p> Pour les employeurs ou les demandeurs d'emplois en situation de handicap. </p>
+                    </li>
+                </ul>
+                <p>Comment?</p>
+                <ul>
+                    <li>
+                        <p>Demande en ligne sur le site internet de l'Agefiph par l'employeur ou le conseiller du demandeur d'emploi. </p>
+                    </li>
+                   
+                </ul>
+
+        
+                <h5 id="section2p4">Aides pour le recrutement et l'intégration dans l'emploi</h5>
+                <p>Pourquoi?</p>
+                <ul>
+                    <li>
+                        <p> Faciliter le recrutement et l’intégration dans l’emploi. 
+                            Soutenir la personne en situation de handicap dans la construction de son parcours professionnel à l’intégration durable en entreprise. </p>
+                    </li>
+                </ul>
+                <p>Pour qui?</p>
+                <ul>
+                    <li>
+                        <p> Tout employeur du secteur privé et public, soumis ou non à l’obligation d’emploi (y compris sous accord agréé), ainsi que les travailleurs indépendants en situation de handicap.</p>
+                    </li>
+                    <li>
+                        <p>Tout demandeur d’emploi bénéficiaire de l’article L5212-13 du code du travail ou en voie de l’être.</p>
+                    </li>
+                </ul>
+                <p>Comment?</p>
+                <ul>
+                    <li>
+                        <p> En s'inscrivant à France Travail ou en contactant votre conseiller Cap emploi. </p>
+                    </li>
+                   
+                </ul>
+                <h5 id="section2p5">Aides au diagnostic numérique</h5>
+                <p>Pourquoi?</p>
+                <ol>
+                    <li>
+                        <p> Identifier le ou les projets informatiques et numériques susceptibles d’intégrer directement ou indirectement des personnes handicapées. </p>
+                    </li>
+                    <li>
+                        <p>Recenser les besoins métiers du projet, prendre en compte vos contraintes organisationnelles et identifier les ressources externes mobilisables.</p>
+                    </li>
+                    <li>
+                        <p> Définir et mettre en route un plan d’action.. </p>
+                    </li>
+
+                </ol>
+                <p>Pour qui?</p>
+                <ul>
+                    <li>
+                        <p> Pour les DSI des entreprises. </p>
+                    </li>
+                </ul>
+                <p>Comment?</p>
+                <ul>
+                    <li>
+                        <p> En Contactant votre interlocuteur Agefiph dans votre région ou par mail: entreprises@agefiph.asso.fr ou par téléphone 0800 11 10 09. </p>
+                    </li>
+                   
+                </ul>
+                <!--Aide numéro 3-->
+                <h2 id="section3">Aide pour les particuliers</h2>
+                <p> Voici une liste non-exhaustive des différentes aides qui sont disponibles classées par thème.</p>
+                <h5 id="section3p1">Aides générales</h5>
+                <ul>
+                    <li>
+                        <p>AAH: Allocation aux adultes handicapés</p>
+                    </li>
+                    <li>
+                        <p>CMI: Carte mobilité inclusion</p>
+                    </li>
+                    <li>
+                        <p>Majoration pour la vie autonome</p>
+                    </li>
+                    <li>
+                        <p>La pension d'invalidité</p>
+                    </li>
+                    <li>
+                        <p>PCH:La prestation de compensation du handicap </p>
+                    </li>
+                    <li>
+                        <p>La prime d'activité</p>
+                    </li>
+                </ul>
+                <h5 id="section3p2">Déplacements et transport</h5>
+                <ul>
+                    <li>
+                        <p>Aide en compensation du handicap</p>
+                    </li>
+                   
+                </ul>
+                <h5 id="section3p3">Enfant de 0 à 20 ans</h5>
+                <ul>
+                    <li>
+                        <p>AEEH:Allocation d'éducation de l'enfant handicapé</p>
+                    </li>
+                    <li>
+                        <p>Complément de l'allocation d'éducation de l'enfant handicapé</p>
+                    </li>
+                    <li>
+                        <p>AJPP: Allocation journalière de présence parentale</p>
+                    </li>
+                    <li>
+                        <p>La prestation de compensation du handicap parentalité</p>
+                    </li>
+                   
+                </ul>
+                <h5 id="section3p4">Formation professionelle</h5>
+                <ul>
+                    <li>
+                        <p>Aide à la formation dans le cadre du parcours vers l'emploi</p>
+                    </li>
+                    <li>
+                        <p>Aide à la formation dans le cadre du maintien dans l'emploi</p>
+                    </li>
+                   
+                </ul>
+                <h5 id="section3p5">Aidants</h5>
+                <ul>
+                    <li>
+                        <p>AJPA:Le congé de proche aidant et allocation journalière de proche aidant</p>
+                    </li>
+                    <li>
+                        <p>AJAP: Allocation journalière d'accompagnement d'une personne en fin de vie</p>
+                    </li>
+                    <li>
+                        <p>AJPP: Allocation journalière de présence parentale</p>
+                    </li>
+                    <li>
+                        <p>Personnes en situation de précarité</p>
+                    </li>
+                    <li>
+                        <p>AVFS: Aide à la vie familiale et sociale </p>
+                    </li>
+                   
+                </ul>
+
+                <h5 id="section3p6">Retraite</h5>
+                <ul>
+                    <li>
+                        <p>Départ anticipé à la retraite</p>
+                    </li>
+                   
+                </ul>
+                <h5 id="section3p7">Santé et soins</h5>
+                <ul>
+                    <li>
+                        <p>Aide aux frais d'achat et de réglage des prothèses auditives</p>
+                    </li>
+                    <li>
+                        <p>Complémentaire santé solidaire</p>
+                    </li>
+                   
+                </ul>
+                <h5 id="section3p8">Travail</h5>
+                <ul>
+                    <li>
+                        <p>Aide humaine à la compensation du handicap</p>
+                    </li>
+                    <li>
+                        <p>Aide technique à la compensation du handicap</p>
+                    </li>
+                    <li>
+                        <p>Aide liée à la reconnaissance de la lourdeur du handicap</p>
+                    </li>
+                   
+                </ul>
+                <!--Aide numéro 4-->
+                <h2 id="section4">Pourquoi souscrire à une aide  ?</h2>
+                <a href="aides_extention.html">Les difficultés financières rencontrées</a>
+              </div>
+        </div>
+        
+    </main>
+          
+     <footer>
+             <!--Footer-->
+             <div class="mt-5 p-1 bg-dark text-white text-center position-relative d-block">
+                <p>Auteur:</p>
+                <p>Matter Antoine</p>
+            </div>
+     </footer>
+           
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

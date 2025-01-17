@@ -1,0 +1,34 @@
+
+
+#contenu-principal{
+    display: flex;
+    flex-direction: row-reverse;
+}
+p{
+    text-align: justify;
+}
+.content-section {
+    display: none; 
+  }
+
+#section2{
+    margin-top: 5%;
+}
+
+#sommaire{
+    align-items: center;
+    width: 25%;
+}
+
+.navbar-css{
+    overflow-y:auto;
+    height: 70vh;
+}
+
+
+#contenu{
+    padding-top:5% ;
+    padding-left:5%;
+    justify-content: center;
+}
+
