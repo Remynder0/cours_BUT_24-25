@@ -8,5 +8,6 @@
         "Administré",
         "Etablissement",
         "Nomr'handi"
-    ]
+    ],
+    "C_Cpp.default.compilerPath": "c:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe"
 }

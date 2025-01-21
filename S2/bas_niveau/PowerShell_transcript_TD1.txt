@@ -1,0 +1,105 @@
+﻿**********************
+Début de la transcription Windows PowerShell
+Heure de début : 20250120155740
+Nom d'utilisateur : FLIPPYFLOP\remyl
+Utilisateur runAs :  FLIPPYFLOP\remyl
+Nom de la configuration : 
+Ordinateur : FLIPPYFLOP (Microsoft Windows NT 10.0.26100.0)
+Application hôte : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ID de processus : 24864
+PSVersion: 5.1.26100.2161
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.2161
+BuildVersion: 10.0.26100.2161
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcription démarrée, le fichier de sortie est C:\Users\remyl\Documents\PowerShell_transcript.FLIPPYFLOP.Qo8v1emf.20250120155740.txt
+PS C:\Users\remyl\Documents\cours_BUT_24-25\S2\bas_niveau> gcc .\TD1.c
+
+PS C:\Users\remyl\Documents\cours_BUT_24-25\S2\bas_niveau> .\a.exe
+28 : PSModulePath=C:\Users\remyl\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\Windo
+ws\system32\WindowsPowerShell\v1.0\Modules
+29 : PUBLIC=C:\Users\Public
+30 : SESSIONNAME=Console
+31 : SystemDrive=C:
+32 : SystemRoot=C:\Windows
+33 : TEMP=C:\Users\remyl\AppData\Local\Temp
+34 : TMP=C:\Users\remyl\AppData\Local\Temp
+35 : USERDOMAIN=FLIPPYFLOP
+36 : USERDOMAIN_ROAMINGPROFILE=FLIPPYFLOP
+37 : USERNAME=remyl
+38 : USERPROFILE=C:\Users\remyl
+39 : windir=C:\Windows
+40 : WSLENV=WT_SESSION:WT_PROFILE_ID:
+41 : WT_PROFILE_ID={61c54bbd-c2c6-5271-96e7-009a87ff44bf}
+42 : WT_SESSION=c7b2f5cd-03d1-4523-b714-3401aa108c22
+ entrez un nom de variable d'environnement, FIN pour sortir : FIN
+mon PID =18468, le PID du SHELL =24864
+PS C:\Users\remyl\Documents\cours_BUT_24-25\S2\bas_niveau> gcc .\TD1.c -S
+
+PS C:\Users\remyl\Documents\cours_BUT_24-25\S2\bas_niveau> dir
+
+
+    Répertoire : C:\Users\remyl\Documents\cours_BUT_24-25\S2\bas_niveau
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        20/01/2025     15:58          59399 a.exe
+-a----        20/01/2025     15:46           1937 TD1.c
+-a----        20/01/2025     15:50           2314 TD1.o
+-a----        20/01/2025     15:58           4067 TD1.s
+
+
+PS C:\Users\remyl\Documents\cours_BUT_24-25\S2\bas_niveau> gcc .\TD1.c -c
+
+PS C:\Users\remyl\Documents\cours_BUT_24-25\S2\bas_niveau> gcc .\TD1.o -o a
+
+PS C:\Users\remyl\Documents\cours_BUT_24-25\S2\bas_niveau> gcc .\TD1.c -o a
+
+PS C:\Users\remyl\Documents\cours_BUT_24-25\S2\bas_niveau> nm .\TD1.o
+
+PS C:\Users\remyl\Documents\cours_BUT_24-25\S2\bas_niveau> nm .\a.exe | findstr 'T'
+
+PS C:\Users\remyl\Documents\cours_BUT_24-25\S2\bas_niveau> nm .\a.exe | findstr U
+
+PS C:\Users\remyl\Documents\cours_BUT_24-25\S2\bas_niveau> gcc -Wall .\TD1.c -o a
+
+PS C:\Users\remyl\Documents\cours_BUT_24-25\S2\bas_niveau> gcc -Wall .\TD1.c
+
+PS C:\Users\remyl\Documents\cours_BUT_24-25\S2\bas_niveau> gcc -Wall .\TD1.c
+
+PS C:\Users\remyl\Documents\cours_BUT_24-25\S2\bas_niveau> .\a.exe
+
+PS C:\Users\remyl\Documents\cours_BUT_24-25\S2\bas_niveau> gcc -Wall .\TD1.c
+
+PS C:\Users\remyl\Documents\cours_BUT_24-25\S2\bas_niveau> gcc .\TD1_2.c -o b
+
+PS C:\Users\remyl\Documents\cours_BUT_24-25\S2\bas_niveau> gcc .\TD1_2.c -o b
+
+PS C:\Users\remyl\Documents\cours_BUT_24-25\S2\bas_niveau> gcc .\TD1_2.c -o b
+
+PS C:\Users\remyl\Documents\cours_BUT_24-25\S2\bas_niveau> dir
+
+
+    Répertoire : C:\Users\remyl\Documents\cours_BUT_24-25\S2\bas_niveau
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        20/01/2025     16:03          59399 a.exe
+-a----        20/01/2025     16:18          60251 b.exe
+-a----        20/01/2025     16:07           1937 TD1.c
+-a----        20/01/2025     15:59           2314 TD1.o
+-a----        20/01/2025     15:58           4067 TD1.s
+-a----        20/01/2025     16:18           2506 TD1_2.c
+
+
+PS C:\Users\remyl\Documents\cours_BUT_24-25\S2\bas_niveau> .\b.exe
+
+PS C:\Users\remyl\Documents\cours_BUT_24-25\S2\bas_niveau> Erreur de terminaison (TabExpansion2) : « Impossible de lier l'argument au paramètre « inputScript », car il s'agit d'une chaîne vide. »
+PS C:\Users\remyl\Documents\cours_BUT_24-25\S2\bas_niveau> .\b.exe
+
