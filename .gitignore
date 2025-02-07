@@ -37,7 +37,7 @@ tasks.json
 # Dossiers spécifiques à votre projet
 bataille_doc/
 OneNote_RecycleBin/
-S2/qualite_dev/TP3_git/depot/
+**/TP3_git/depot/
 
 # Fichiers de dépendances
 /node_modules/
