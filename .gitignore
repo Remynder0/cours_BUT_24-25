@@ -1,13 +1,52 @@
 # Ignorer les répertoires et fichiers générés par des IDEs et outils
-*.idea/
-*.vscode/
+.idea/
+*.iml
+.vscode/
+*.code-workspace
+.project
+.classpath
+.settings/
+
+# Fichiers de configuration VS Code
 launch.json
 settings.json
 tasks.json
 
-# Ignorer les dossiers spécifiques
+# Fichiers compilés et binaires
+*.class
+*.jar
+*.war
+*.ear
+*.dll
+*.so
+*.dylib
+
+# Logs et fichiers temporaires
+*.log
+*.tmp
+*.temp
+*.swp
+*~
+
+# Dossiers de build
+/build/
+/bin/
+/target/
+/out/
+
+# Dossiers spécifiques à votre projet
 bataille_doc/
-out/
 OneNote_RecycleBin/
-TP3_git/depot/
-TP3_git/depot
+S2/qualite_dev/TP3_git/depot/
+
+# Fichiers de dépendances
+/node_modules/
+/vendor/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers de configuration personnels
+*.env
+*.config
