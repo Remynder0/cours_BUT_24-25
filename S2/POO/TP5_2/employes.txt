@@ -1,0 +1,4 @@
+EmployeHoraire, Employe [nom=Jean]
+EmployeHoraire, Employe [nom=Pierre]
+Commercial, Employe [nom=Marie]
+Commercial, Employe [nom=Paul]

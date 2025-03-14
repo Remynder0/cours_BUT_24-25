@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
-public class Expression {
+interface Exp {
+    abstract double evaluer();
 }
+
+
