@@ -1,3 +1,5 @@
+package exp_arithmetiques;
+
 public class Variable implements Exp{
     double x;
 

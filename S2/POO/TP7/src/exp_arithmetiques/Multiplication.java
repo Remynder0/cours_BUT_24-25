@@ -1,3 +1,5 @@
+package exp_arithmetiques;
+
 public class Multiplication implements Exp{
     private Exp exp1;
     private Exp exp2;

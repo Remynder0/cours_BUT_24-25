@@ -1,3 +1,5 @@
+package exp_arithmetiques;
+
 public class Sqrt implements Exp{
     private Exp exp;
     

@@ -1,3 +1,5 @@
+package exp_arithmetiques;
+
 public class Soustraction implements Exp {
     private Exp exp1;
     private Exp exp2;
